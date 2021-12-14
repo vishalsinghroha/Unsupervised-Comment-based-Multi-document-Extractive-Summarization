@@ -1,6 +1,4 @@
 # Unsupervised-Comment-based-Multi-document-Extractive-Summarization
-
-# Microblog_Summ_two_objectives
  
 This work proposes a novel multi-objective optimization-based framework for  Unsupervised-Comment-based-Multi-document-Extractive-Summarization. A subset of relevant news sentences will be automatically selected from an available set of sentences by utilizing the user-comments. Different statistical quality functions measuring various aspects of summary, namely, diversity, user attention score, density based score and, user-attention with syntactic score, are optimized simultaneously using the search capability of a multi-objective binary differential evolution technique. 
 
