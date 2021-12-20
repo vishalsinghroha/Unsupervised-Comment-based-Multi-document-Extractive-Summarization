@@ -1,0 +1,60 @@
+#from metrics.problems.zdt import ZDT3Metrics ##comment it
+from SMEA.evolution import Evolution
+from SMEA.problems.zdt import ZDT
+from SMEA.problems.zdt.zdt3_definitions import ZDT3Definitions
+from plotter import Plotter
+import numpy as np
+import pandas as pd
+
+def print_generation(population, generation_num):
+    print("Generation: {}".format(generation_num))
+
+from numpy import genfromtxt, asarray, unique
+EMD_matrix=genfromtxt('/home/saini/PycharmProjects/Microblog_Text_summ/preprocessing/T2T_WMD_matrices/Hangup_T2T_WMD_matrix.txt', skip_header=0) #load EMD matrix for sentences
+EMD_matrix=EMD_matrix[ :, 1:]
+print(EMD_matrix[0])
+print("MATRIX SHAPE : ", EMD_matrix.shape)
+
+
+MAX_TFIDF_matrix = genfromtxt('/home/saini/PycharmProjects/Microblog_Text_summ/preprocessing/MAX_tfidf_SCORE/hangup_max_tfidf_score.txt', skip_header=0) #load EMD matrix for sentences
+print((MAX_TFIDF_matrix))
+MAX_TFIDF_matrix= MAX_TFIDF_matrix[ :, 1:]
+print(MAX_TFIDF_matrix[0])
+print("MAX TFIDF MATRIX SHAPE : ", MAX_TFIDF_matrix.shape)
+
+
+MAX_TWEET_length_matrix=genfromtxt('/home/saini/PycharmProjects/Microblog_Text_summ/preprocessing/MAX_TWEET_LENGTH/hangup_max_tweet_length.txt', skip_header=0) #load EMD matrix for sentences
+print((MAX_TWEET_length_matrix))
+MAX_TWEET_length_matrix= MAX_TWEET_length_matrix[ :, 1:]
+print(MAX_TWEET_length_matrix[0])
+print("MAX Tweet Length MATRIX SHAPE : ", MAX_TWEET_length_matrix.shape)
+
+
+pop_size=input("Enter size of population : ")
+H=input("Enter mating pool size : ")
+smin = int(input("Enter the minimum number of tweets in the summary: "))
+smax = int(input("Enter the maximum number of tweets in the summary: "))
+T=input("Enter maximum no. of generation : ")
+
+
+clean_text_data=[]
+filepath = '/home/saini/PycharmProjects/Microblog_Text_summ/data_set/ensemble-summarization-intellisys-2018-dataset/input_datasets/clean_tweets/clean_hangupit_tweets.txt'
+with open(filepath) as fp:
+   for cnt, line in enumerate(fp):
+       clean_text_data.append(line)  ##load the actual tweets from file
+
+print(clean_text_data[0])
+
+
+max_len_solution = len(clean_text_data)
+print "maximum length of solution : ", max_len_solution
+print("no. of sentence in the article : ", len(clean_text_data))
+
+
+SMEA_clustering = ZDT3Definitions(max_len_solution, clean_text_data,  EMD_matrix, MAX_TWEET_length_matrix, MAX_TFIDF_matrix)        #n=30   ===>is for no. of features
+problem = ZDT(SMEA_clustering, max_len_solution)
+evolution = Evolution(problem, T, pop_size, H)
+evolution.register_on_new_generation(print_generation)
+final_population = evolution.evolve(EMD_matrix,smin, smax, max_len_solution )
+# # #print("final population length : ", len(final_population))
+
