@@ -1,0 +1,26 @@
+b'\nAn Antarctic blizzard has halted an Australian icebreaker\'s attempt to reach a Russian ship trapped for a week with 74 people onboard, rescuers said on Monday.\nNow another attempt, by the Aurora Australis, has been hampered by the weather.\nThe Snow Dragon is 6.7 nautical miles from the Akademik Shokalskiy and a helicopter on board will be used to rescue all 52 passengers and some crew if weather conditions permit, the Russian Foreign Ministry said Monday.\nThe Chinese vessel will wait for better weather and visibility before launching the evacuation. On Tuesday morning conditions were not yet suitable, with rain, heavy winds and clouds.\n  We\'re not going to be flying today, possibly not even tomorrow,   said Chris Turney, a climate scientist at the University of New South Wales and a leader of the AAE.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nThe twin-rotor helicopter, based on a Chinese icebreaker, the Xue Long, or Snow Dragon, flew several sorties across miles of packed ice to pluck scientists, tourists and journalists from a landing zone next to the marooned vessel, the Akademik Shokalskiy.\nAs the rescue got underway with the arrival of the Chinese helicopter, Chris Turney, a leader of the research expedition and a professor of climate change at the University of New South Wales in Australia, said in a message on Twitter that the Chinese helicopter had arrived.   It  s 100% we  re off!   he wrote.   A huge thanks to all.  \nThe Australian Maritime Safety Authority said the passengers were evacuated from the Akademik Shokalskiy, which has been stranded since Christmas Eve.\nThe BBC\'s Andrew Luck-Baker, who was on board the Akademik Shokalskiy, says the 15-minute one-way flight was a "white-knuckle ride".\nThe passengers are not expected back in Tasmania until mid-January.\nOne of the aims was to track how quickly the Antarctic\'s sea ice was disappearing.\nA helicopter carried the passengers a dozen at a time in an operation that lasted for around five hours.\nThe Aurora will take them to Tasmania, arriving around mid-January. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7368421052631579, 'p': 0.1545253863134658, 'f': 0.25547445255474455}, 'rouge-2': {'r': 0.2127659574468085, 'p': 0.04424778761061947, 'f': 0.07326007326007326}, 'rouge-su4': {'r': 0.29061371841155237, 'p': 0.05958549222797927, 'f': 0.09889434889434891}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.63, 'p': 0.1390728476821192, 'f': 0.22784810126582278}, 'rouge-2': {'r': 0.1717171717171717, 'p': 0.03761061946902655, 'f': 0.06170598911070781}, 'rouge-su4': {'r': 0.2345890410958904, 'p': 0.05070318282753516, 'f': 0.08338405356055995}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.7070707070707071, 'p': 0.1545253863134658, 'f': 0.2536231884057971}, 'rouge-2': {'r': 0.21428571428571427, 'p': 0.046460176991150445, 'f': 0.07636363636363637}, 'rouge-su4': {'r': 0.27854671280276816, 'p': 0.05958549222797927, 'f': 0.09817073170731708}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.69, 'p': 0.152317880794702, 'f': 0.24954792043399637}, 'rouge-2': {'r': 0.1919191919191919, 'p': 0.0420353982300885, 'f': 0.06896551724137932}, 'rouge-su4': {'r': 0.2654109589041096, 'p': 0.057364914877868246, 'f': 0.09433962264150943}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.29061371841155237, 'f': 0.09889434889434891, 'p': 0.05958549222797927}, 'rouge-2': {'r': 0.21428571428571427, 'f': 0.07636363636363637, 'p': 0.046460176991150445}, 'rouge-1': {'r': 0.7368421052631579, 'f': 0.25547445255474455, 'p': 0.1545253863134658}}
+
+
+Anti-redundancy objective value :	0.8074745584419124
+Average Reader attention score objective value :	0.001335245379935704
+Average Density based score objective value :	75.25228788946619
+Average Reader attention with tf-idf (RAWT) score objective value :	0.37084946832484783

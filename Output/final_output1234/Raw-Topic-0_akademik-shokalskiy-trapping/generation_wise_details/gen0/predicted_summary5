@@ -1,0 +1,26 @@
+b"\nTurney said the expedition team was disappointed that the Shokalskiy had been unable to break free from the ice with help from the icebreakers and get home under its own steam.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nThe event is likely to be a result of long-term climate change that is happening in this part of the world. When the 120km-long iceberg, B09B, came through the area a few years ago it knocked the tongue off the nearby Mertz glacier, which itself is 120km long. The iceberg grounded on the sea bed in Commonwealth Bay causing the sea around it to lock up with ice attached to the continent.\nThe ship had set sail from Bluff, New Zealand, on Dec. 8, embarking on a planned monthlong voyage known as the Australasian Antarctic Expedition to study changes to the environment of East Antarctica since an Australian geologist, Douglas Mawson, surveyed the region a century ago.\nThe Xue Long failed in a similar attempt on Saturday but remained in the area. The Chinese ship was about two months into a five-month Antarctic expedition.\nThe vessel was being used by the Australasian Antarctic Expedition to follow the route explorer Douglas Mawson travelled a century ago.\nSeveral attempts to break through to the ship by sea - by the Xue Long, Aurora Australis and French-flagged L'Astrolabe - failed because of the thickness of the ice.\nAndrew Luck-Baker says the Aurora Australis, although big, was simply not up to the task and there is speculation two larger vessels may be coming to the area in the weeks to come. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.4842105263157895, 'p': 0.1503267973856209, 'f': 0.22942643391521197}, 'rouge-2': {'r': 0.1276595744680851, 'p': 0.03934426229508197, 'f': 0.06015037593984962}, 'rouge-su4': {'r': 0.148014440433213, 'p': 0.045054945054945054, 'f': 0.06908171861836562}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.39, 'p': 0.12745098039215685, 'f': 0.1921182266009852}, 'rouge-2': {'r': 0.06060606060606061, 'p': 0.019672131147540985, 'f': 0.029702970297029705}, 'rouge-su4': {'r': 0.1232876712328767, 'p': 0.03956043956043956, 'f': 0.05990016638935108}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5151515151515151, 'p': 0.16666666666666666, 'f': 0.2518518518518519}, 'rouge-2': {'r': 0.1326530612244898, 'p': 0.04262295081967213, 'f': 0.06451612903225806}, 'rouge-su4': {'r': 0.18685121107266436, 'p': 0.05934065934065934, 'f': 0.09007506255212677}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.61, 'p': 0.19934640522875818, 'f': 0.3004926108374384}, 'rouge-2': {'r': 0.26262626262626265, 'p': 0.08524590163934426, 'f': 0.12871287128712872}, 'rouge-su4': {'r': 0.2808219178082192, 'p': 0.09010989010989011, 'f': 0.13643926788685523}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2808219178082192, 'f': 0.13643926788685523, 'p': 0.09010989010989011}, 'rouge-2': {'r': 0.26262626262626265, 'f': 0.12871287128712872, 'p': 0.08524590163934426}, 'rouge-1': {'r': 0.61, 'f': 0.3004926108374384, 'p': 0.19934640522875818}}
+
+
+Anti-redundancy objective value :	0.6942685276265755
+Average Reader attention score objective value :	1.7002999586533113e-09
+Average Density based score objective value :	96.82429841627892
+Average Reader attention with tf-idf (RAWT) score objective value :	0.48180526304190285
