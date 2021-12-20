@@ -1,0 +1,16 @@
+b'Fire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents. \nAfter the Friday night earthquake, authorities said police and local fire departments assessed affected areas and found no damage or significant injuries. One minor injury was reported in Orange County, emergency officials said. \nA 6.7-magnitude earthquake in Los Angeles left at least 60 people dead and did an estimated $10 billion damage in 1994, while a 6.9 quake in San Francisco in 1989 claimed the lives of 67 people.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.35353535353535354, 'p': 0.28225806451612906, 'f': 0.31390134529147984}, 'rouge-2': {'r': 0.061224489795918366, 'p': 0.04878048780487805, 'f': 0.05429864253393665}, 'rouge-su4': {'r': 0.10380622837370242, 'p': 0.08241758241758242, 'f': 0.09188361408882081}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.33, 'p': 0.2661290322580645, 'f': 0.2946428571428571}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.04065040650406504, 'f': 0.04504504504504504}, 'rouge-su4': {'r': 0.08047945205479452, 'p': 0.06456043956043957, 'f': 0.07164634146341464}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3838383838383838, 'p': 0.3064516129032258, 'f': 0.34080717488789236}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.032520325203252036, 'f': 0.03619909502262444}, 'rouge-su4': {'r': 0.09169550173010381, 'p': 0.07280219780219781, 'f': 0.08116385911179173}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.41414141414141414, 'p': 0.33064516129032256, 'f': 0.367713004484305}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.056910569105691054, 'f': 0.06334841628959276}, 'rouge-su4': {'r': 0.13321799307958476, 'p': 0.10576923076923077, 'f': 0.11791730474732004}}

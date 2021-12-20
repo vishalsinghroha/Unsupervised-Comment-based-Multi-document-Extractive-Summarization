@@ -1,0 +1,16 @@
+b'Fire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents. \nBusiness owners in Orange County spent the aftermath sweeping up shattered glass and restocking shelves. Utility crews worked to restore power and shut off gas leaks and water-main breaks. A rock slide in the Carbon Canyon area of nearby Brea also caused a car to overturn. The occupants had minor injuries, and the road remained closed to traffic.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26262626262626265, 'p': 0.23008849557522124, 'f': 0.24528301886792453}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.03571428571428571, 'f': 0.038095238095238085}, 'rouge-su4': {'r': 0.07439446366782007, 'p': 0.0649546827794562, 'f': 0.06935483870967742}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.3, 'p': 0.26548672566371684, 'f': 0.28169014084507044}, 'rouge-2': {'r': 0.030303030303030304, 'p': 0.026785714285714284, 'f': 0.028436018957345967}, 'rouge-su4': {'r': 0.07705479452054795, 'p': 0.06797583081570997, 'f': 0.07223113964686999}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.2920353982300885, 'f': 0.3113207547169812}, 'rouge-2': {'r': 0.02040816326530612, 'p': 0.017857142857142856, 'f': 0.019047619047619042}, 'rouge-su4': {'r': 0.09169550173010381, 'p': 0.08006042296072508, 'f': 0.08548387096774193}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.2920353982300885, 'f': 0.3113207547169812}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.08928571428571429, 'f': 0.09523809523809523}, 'rouge-su4': {'r': 0.11418685121107267, 'p': 0.09969788519637462, 'f': 0.10645161290322581}}

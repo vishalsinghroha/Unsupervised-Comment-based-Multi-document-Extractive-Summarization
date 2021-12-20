@@ -1,0 +1,16 @@
+b"Another 14 residential structures around the city suffered lesser damage, including collapsed fireplaces. Shortly after the main earthquake, the city dealt with a dozen water-main breaks and multiple natural-gas leaks, Stokes said. \nIt was not immediately clear if City Hall would reopen Monday. An email to the mayor was not immediately returned. \nThe Los Angeles Times reported that residents in La Habra posted pictures on social media showing broken vases, topped furniture and other items scattered in their homes. \n(Reuters) - Residents of southern California were rattled by a 4.1 magnitude earthquake Saturday afternoon, the largest of more than 100 aftershocks following Friday's 5.1 rumbler that caused light scattered damage around the Los Angeles area."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32323232323232326, 'p': 0.2782608695652174, 'f': 0.2990654205607477}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.03508771929824561, 'f': 0.03773584905660378}, 'rouge-su4': {'r': 0.07439446366782007, 'p': 0.06379821958456973, 'f': 0.06869009584664536}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.45, 'p': 0.391304347826087, 'f': 0.4186046511627907}, 'rouge-2': {'r': 0.1717171717171717, 'p': 0.14912280701754385, 'f': 0.1596244131455399}, 'rouge-su4': {'r': 0.1541095890410959, 'p': 0.13353115727002968, 'f': 0.14308426073131958}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.31313131313131315, 'p': 0.26956521739130435, 'f': 0.28971962616822433}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.03508771929824561, 'f': 0.03773584905660378}, 'rouge-su4': {'r': 0.07612456747404844, 'p': 0.06528189910979229, 'f': 0.07028753993610223}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.2727272727272727, 'p': 0.23478260869565218, 'f': 0.2523364485981308}, 'rouge-2': {'r': 0.01020408163265306, 'p': 0.008771929824561403, 'f': 0.009433962264150945}, 'rouge-su4': {'r': 0.06055363321799308, 'p': 0.05192878338278932, 'f': 0.05591054313099042}}

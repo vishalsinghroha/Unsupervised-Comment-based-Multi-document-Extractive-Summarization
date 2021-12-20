@@ -1,0 +1,16 @@
+b'Residents were inconvenienced and some lost valuables, but "thankfully the damage wasn\'t greater," said Chi-Chung Keung, a spokesman for the city of Fullerton. \nAftershocks can go on for days and sometimes weeks as the ground settles back into a stable position. \n"But it\'s a nice reminder in these two relatively tame earthquakes that something bigger could happen at any moment," he added. \n"Tonight\'s earthquake is the second in two weeks, and reminds us to be prepared," Los Angeles Mayor Eric Garcetti said. \nAn hour earlier, a magnitude-3.6 tremor struck the same area, according to the U.S. Geological Survey. \nBroken glass, gas leaks, a water main break and a rockslide were reported near the epicenter, according to Twitter updates from local authorities.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3434343434343434, 'p': 0.2809917355371901, 'f': 0.30909090909090914}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.06666666666666667, 'f': 0.07339449541284404}, 'rouge-su4': {'r': 0.09515570934256055, 'p': 0.07746478873239436, 'f': 0.08540372670807453}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.26, 'p': 0.21487603305785125, 'f': 0.23529411764705885}, 'rouge-2': {'r': 0.020202020202020204, 'p': 0.016666666666666666, 'f': 0.0182648401826484}, 'rouge-su4': {'r': 0.059931506849315065, 'p': 0.04929577464788732, 'f': 0.05409582689335394}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3838383838383838, 'p': 0.3140495867768595, 'f': 0.34545454545454546}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.06666666666666667, 'f': 0.07339449541284404}, 'rouge-su4': {'r': 0.12802768166089964, 'p': 0.10422535211267606, 'f': 0.11490683229813664}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.36363636363636365, 'p': 0.2975206611570248, 'f': 0.32727272727272727}, 'rouge-2': {'r': 0.061224489795918366, 'p': 0.05, 'f': 0.05504587155963303}, 'rouge-su4': {'r': 0.10726643598615918, 'p': 0.08732394366197183, 'f': 0.09627329192546584}}

@@ -1,0 +1,16 @@
+b"Despite the evacuations and scattered damage, Friday night's magnitude-5.1 earthquake centered about 25 miles south of downtown Los Angeles mostly frayed nerves. \nThe latest quake hit a week after a magnitude-4.4 temblor centered in the San Fernando Valley shook buildings and rattled nerves. \nAftershocks can go on for days and sometimes weeks as the ground settles back into a stable position. \nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes including broken chimneys and leaning were uncovered in half a dozen single-family houses, which were also deemed as unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.36363636363636365, 'p': 0.3076923076923077, 'f': 0.33333333333333337}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.0603448275862069, 'f': 0.06542056074766354}, 'rouge-su4': {'r': 0.11591695501730104, 'p': 0.09766763848396501, 'f': 0.1060126582278481}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.37, 'p': 0.3162393162393162, 'f': 0.3410138248847926}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.04310344827586207, 'f': 0.04651162790697675}, 'rouge-su4': {'r': 0.08904109589041095, 'p': 0.07580174927113703, 'f': 0.08188976377952756}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3838383838383838, 'p': 0.3247863247863248, 'f': 0.35185185185185186}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.034482758620689655, 'f': 0.03738317757009345}, 'rouge-su4': {'r': 0.09342560553633218, 'p': 0.07871720116618076, 'f': 0.08544303797468354}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3838383838383838, 'p': 0.3247863247863248, 'f': 0.35185185185185186}, 'rouge-2': {'r': 0.09183673469387756, 'p': 0.07758620689655173, 'f': 0.08411214953271028}, 'rouge-su4': {'r': 0.11418685121107267, 'p': 0.09620991253644315, 'f': 0.10443037974683544}}

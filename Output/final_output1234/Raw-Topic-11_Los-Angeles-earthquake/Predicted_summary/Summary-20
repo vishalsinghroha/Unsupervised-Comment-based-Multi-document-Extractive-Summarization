@@ -1,0 +1,16 @@
+b'Fire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents. \nDespite the evacuations and scattered damage, Friday night\'s magnitude-5.1 earthquake centered about 25 miles south of downtown Los Angeles mostly frayed nerves. \nAnother 14 residential structures around the city suffered lesser damage, including collapsed fireplaces. Shortly after the main earthquake, the city dealt with a dozen water-main breaks and multiple natural-gas leaks, Stokes said. \n"The L.A. Philharmonic should get combat pay," audience member Michael Healy told the newspaper.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.2682926829268293, 'f': 0.2972972972972973}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.05737704918032787, 'f': 0.06363636363636364}, 'rouge-su4': {'r': 0.11418685121107267, 'p': 0.09141274238227147, 'f': 0.10153846153846154}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.37, 'p': 0.3008130081300813, 'f': 0.33183856502242154}, 'rouge-2': {'r': 0.1111111111111111, 'p': 0.09016393442622951, 'f': 0.0995475113122172}, 'rouge-su4': {'r': 0.12157534246575342, 'p': 0.09833795013850416, 'f': 0.108728943338438}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.35353535353535354, 'p': 0.2845528455284553, 'f': 0.31531531531531537}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.040983606557377046, 'f': 0.045454545454545456}, 'rouge-su4': {'r': 0.08823529411764706, 'p': 0.07063711911357341, 'f': 0.07846153846153847}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.2682926829268293, 'f': 0.2972972972972973}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.06557377049180328, 'f': 0.07272727272727272}, 'rouge-su4': {'r': 0.10726643598615918, 'p': 0.08587257617728532, 'f': 0.0953846153846154}}

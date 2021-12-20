@@ -1,0 +1,16 @@
+b'In Fullerton, some residents will have to stay elsewhere until building inspectors can check out the red-tagged apartments and houses and give an all-clear, Fire Battalion Chief John Stokes said. \nThe latest quake hit a week after a magnitude-4.4 temblor centered in the San Fernando Valley shook buildings and rattled nerves. \nAn hour earlier, a magnitude-3.6 tremor struck the same area, according to the U.S. Geological Survey. \nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported. \nSouthern California has not experienced a damaging earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32323232323232326, 'p': 0.2601626016260163, 'f': 0.2882882882882883}, 'rouge-2': {'r': 0.030612244897959183, 'p': 0.02459016393442623, 'f': 0.02727272727272727}, 'rouge-su4': {'r': 0.08304498269896193, 'p': 0.0664819944598338, 'f': 0.07384615384615384}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.4, 'p': 0.3252032520325203, 'f': 0.3587443946188341}, 'rouge-2': {'r': 0.13131313131313133, 'p': 0.10655737704918032, 'f': 0.11764705882352941}, 'rouge-su4': {'r': 0.14554794520547945, 'p': 0.11772853185595568, 'f': 0.13016845329249616}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.37373737373737376, 'p': 0.3008130081300813, 'f': 0.33333333333333337}, 'rouge-2': {'r': 0.12244897959183673, 'p': 0.09836065573770492, 'f': 0.10909090909090909}, 'rouge-su4': {'r': 0.1314878892733564, 'p': 0.10526315789473684, 'f': 0.11692307692307692}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.36363636363636365, 'p': 0.2926829268292683, 'f': 0.32432432432432434}, 'rouge-2': {'r': 0.061224489795918366, 'p': 0.04918032786885246, 'f': 0.05454545454545454}, 'rouge-su4': {'r': 0.09688581314878893, 'p': 0.07756232686980609, 'f': 0.08615384615384615}}
