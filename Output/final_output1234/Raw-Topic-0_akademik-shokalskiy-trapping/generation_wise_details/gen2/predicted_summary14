@@ -1,0 +1,26 @@
+b"\nFifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News.\nThe Russian-operated Akademik Shokalskiy, an ice-strengthened vessel built in 1984 for oceanographic research, became stuck in the ice about 1,500 nautical miles from Hobart, Tasmania, and issued a satellite distress call early this morning,  Andrea Hayward-Maher of the Australian Maritime Safety Authority said.\nThe Russian ship, carrying 74 people and chartered by a team of scientists, first sent out a distress call on Christmas Day after getting stuck in ice about 1,500 nautical miles south of Hobart, the capital of Australia's Tasmania state.\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nPassengers aboard the MV Akademik Shokalskiy, the scientific research vessel that has been stuck in sea ice off the coast of Antarctica since Christmas Day, will be evacuated from the ship by helicopter as soon as the weather has cleared.\nThe Australian icebreaker, the Aurora Australis, arrived at the edge of the sea ice surrounding the Shokalskiy  C about 20 nautical miles away  C in the early hours of 30 December, local time. It made several attempts to cut through the ice over the next day but was thwarted each time. On Tuesday morning its captain confirmed that the vessel would move to join the Xue Long, which itself unsuccessfully tried to break through the ice on Friday last week, to co-ordinate the air evacuation.\nThe event is likely to be a result of long-term climate change that is happening in this part of the world. When the 120km-long iceberg, B09B, came through the area a few years ago it knocked the tongue off the nearby Mertz glacier, which itself is 120km long. The iceberg grounded on the sea bed in Commonwealth Bay causing the sea around it to lock up with ice attached to the continent.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6842105263157895, 'p': 0.11904761904761904, 'f': 0.20280811232449295}, 'rouge-2': {'r': 0.18085106382978725, 'p': 0.031192660550458717, 'f': 0.05320813771517997}, 'rouge-su4': {'r': 0.2581227436823105, 'p': 0.04386503067484662, 'f': 0.07498689040377556}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.69, 'p': 0.12637362637362637, 'f': 0.2136222910216718}, 'rouge-2': {'r': 0.21212121212121213, 'p': 0.03853211009174312, 'f': 0.06521739130434784}, 'rouge-su4': {'r': 0.2945205479452055, 'p': 0.05276073619631902, 'f': 0.0894901144640999}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.7474747474747475, 'p': 0.13553113553113552, 'f': 0.22945736434108527}, 'rouge-2': {'r': 0.3163265306122449, 'p': 0.05688073394495413, 'f': 0.0964230171073095}, 'rouge-su4': {'r': 0.3460207612456747, 'p': 0.06134969325153374, 'f': 0.10422094841063054}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.73, 'p': 0.1336996336996337, 'f': 0.2260061919504644}, 'rouge-2': {'r': 0.32323232323232326, 'p': 0.05871559633027523, 'f': 0.09937888198757765}, 'rouge-su4': {'r': 0.3595890410958904, 'p': 0.06441717791411043, 'f': 0.10926118626430802}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3595890410958904, 'f': 0.10926118626430802, 'p': 0.06441717791411043}, 'rouge-2': {'r': 0.32323232323232326, 'f': 0.09937888198757765, 'p': 0.05871559633027523}, 'rouge-1': {'r': 0.7474747474747475, 'f': 0.22945736434108527, 'p': 0.13553113553113552}}
+
+
+Anti-redundancy objective value :	0.5579524692546746
+Average Reader attention score objective value :	0.00222402657276845
+Average Density based score objective value :	170.75777730805862
+Average Reader attention with tf-idf (RAWT) score objective value :	0.791295271036468

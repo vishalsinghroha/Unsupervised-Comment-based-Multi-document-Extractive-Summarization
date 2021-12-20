@@ -1,0 +1,26 @@
+b'\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nIcebreakers were trying to free the ship but the dense ice floes have proved too difficult to get through for both Chinese and Australian vessels that were sent to help.\nAt about 2pm local time on Tuesday, Greg Mortimer, co-leader of the Australasian Antarctic Expedition (AAE), gave notice of an evacuation to everyone on board the Shokalskiy. Expedition leaders then asked for volunteers among the AAE members to help prepare a landing area for the helicopter from the Chinese icebreaker Xue Long on a suitable ice floe next to the Russian-operated ship.\nThe Australian icebreaker, the Aurora Australis, arrived at the edge of the sea ice surrounding the Shokalskiy  C about 20 nautical miles away  C in the early hours of 30 December, local time. It made several attempts to cut through the ice over the next day but was thwarted each time. On Tuesday morning its captain confirmed that the vessel would move to join the Xue Long, which itself unsuccessfully tried to break through the ice on Friday last week, to co-ordinate the air evacuation.\n  We must be patient and wait until the adverse weather improves, as poor visibility could lead to tragedy under the current conditions of limited navigation,   he said before the first flight.\nThe Russian ship, which left New Zealand on November 28, was trying to recreate Australian explorer Douglas Mawson\'s century-old voyage to Antarctica.\nThe BBC\'s Andrew Luck-Baker, who was on board the Akademik Shokalskiy, says the 15-minute one-way flight was a "white-knuckle ride".\nOur correspondent says the Russian crew staying behind could be on the Akademik Shokalskiy for weeks before the pack ice clears.\nSeveral attempts to break through to the ship by sea - by the Xue Long, Aurora Australis and French-flagged L\'Astrolabe - failed because of the thickness of the ice.\nAndrew Luck-Baker says the Aurora Australis, although big, was simply not up to the task and there is speculation two larger vessels may be coming to the area in the weeks to come.\nOne of the aims was to track how quickly the Antarctic\'s sea ice was disappearing.\nThe Aurora will take them to Tasmania, arriving around mid-January.\nAnd because the Aurora is not built to handle a helicopter landing, the rescue was postponed. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6210526315789474, 'p': 0.12291666666666666, 'f': 0.20521739130434782}, 'rouge-2': {'r': 0.14893617021276595, 'p': 0.029227557411273485, 'f': 0.048865619546247824}, 'rouge-su4': {'r': 0.20938628158844766, 'p': 0.040502793296089384, 'f': 0.06787595084844938}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.51, 'p': 0.10625, 'f': 0.17586206896551726}, 'rouge-2': {'r': 0.12121212121212122, 'p': 0.025052192066805846, 'f': 0.041522491349480974}, 'rouge-su4': {'r': 0.1678082191780822, 'p': 0.034217877094972066, 'f': 0.0568445475638051}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6060606060606061, 'p': 0.125, 'f': 0.2072538860103627}, 'rouge-2': {'r': 0.16326530612244897, 'p': 0.033402922755741124, 'f': 0.05545927209705372}, 'rouge-su4': {'r': 0.19550173010380623, 'p': 0.03945530726256983, 'f': 0.06565950029052876}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.59, 'p': 0.12291666666666666, 'f': 0.20344827586206896}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.031315240083507306, 'f': 0.05190311418685121}, 'rouge-su4': {'r': 0.2191780821917808, 'p': 0.0446927374301676, 'f': 0.07424593967517401}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2191780821917808, 'f': 0.07424593967517401, 'p': 0.0446927374301676}, 'rouge-2': {'r': 0.16326530612244897, 'f': 0.05545927209705372, 'p': 0.033402922755741124}, 'rouge-1': {'r': 0.6210526315789474, 'f': 0.2072538860103627, 'p': 0.125}}
+
+
+Anti-redundancy objective value :	0.8319338112046398
+Average Reader attention score objective value :	0.00038801693207826535
+Average Density based score objective value :	92.98750993134787
+Average Reader attention with tf-idf (RAWT) score objective value :	0.45794816300163604

@@ -1,0 +1,26 @@
+b"\n  We  re in the ice like the explorers of old! All are well and spirits are high. Happy Christmas,   Australian professor Chris Turney tweeted.The ship is too far from land to send aircraft or normal rescue vessels, Hayward-Maher said. Three ships with ice-breaking capabilities in the region have   been tasked with helping,   but they are all a two-day sail from the stuck vessel,   she added.\nThe Australian icebreaker, the Aurora Australis, arrived at the edge of the sea ice surrounding the Shokalskiy  C about 20 nautical miles away  C in the early hours of 30 December, local time. It made several attempts to cut through the ice over the next day but was thwarted each time. On Tuesday morning its captain confirmed that the vessel would move to join the Xue Long, which itself unsuccessfully tried to break through the ice on Friday last week, to co-ordinate the air evacuation.\nAAE members will be picked up on the ice next to the Shokalskiy and dropped off on a similar landing pad next to the Aurora Australis. The Chinese helicopter that will be used is too heavy to land on the Australian vessel's deck. The Aurora Australis will then sail to the nearest Australian Antarctic base, Casey, before heading back to Hobart in Australia in late January.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\n  There's a misconception here  C we are not trapped in new ice that's been created because its cold,   said Turney.   This is very old, thick ice that's been re-mobilised. It was attached to another part of the continent and has broken out and, with the south-easterly winds we've had, has pushed it up against the coast    and pinned us in.  \nThe event is likely to be a result of long-term climate change that is happening in this part of the world. When the 120km-long iceberg, B09B, came through the area a few years ago it knocked the tongue off the nearby Mertz glacier, which itself is 120km long. The iceberg grounded on the sea bed in Commonwealth Bay causing the sea around it to lock up with ice attached to the continent.\nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage.\nThe Australian Maritime Safety Authority's (Amsa) Rescue Co-ordination Centre, which was overseeing the operation, had earlier said it was unlikely the rescue would go ahead on Thursday as hoped because of the sea-ice conditions. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6105263157894737, 'p': 0.09863945578231292, 'f': 0.1698389458272328}, 'rouge-2': {'r': 0.14893617021276595, 'p': 0.02385008517887564, 'f': 0.041116005873715125}, 'rouge-su4': {'r': 0.2148014440433213, 'p': 0.03388382687927107, 'f': 0.05853418593212002}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.53, 'p': 0.09013605442176871, 'f': 0.15406976744186046}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.015332197614991482, 'f': 0.026239067055393587}, 'rouge-su4': {'r': 0.1797945205479452, 'p': 0.02989749430523918, 'f': 0.05126953125}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5656565656565656, 'p': 0.09523809523809523, 'f': 0.16302765647743814}, 'rouge-2': {'r': 0.1326530612244898, 'p': 0.022146507666098807, 'f': 0.03795620437956205}, 'rouge-su4': {'r': 0.22664359861591696, 'p': 0.0373006833712984, 'f': 0.06405867970660147}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.69, 'p': 0.11734693877551021, 'f': 0.20058139534883723}, 'rouge-2': {'r': 0.29292929292929293, 'p': 0.049403747870528106, 'f': 0.08454810495626822}, 'rouge-su4': {'r': 0.3167808219178082, 'p': 0.052676537585421415, 'f': 0.09033203125}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3167808219178082, 'f': 0.09033203125, 'p': 0.052676537585421415}, 'rouge-2': {'r': 0.29292929292929293, 'f': 0.08454810495626822, 'p': 0.049403747870528106}, 'rouge-1': {'r': 0.69, 'f': 0.20058139534883723, 'p': 0.11734693877551021}}
+
+
+Anti-redundancy objective value :	0.5737256258685743
+Average Reader attention score objective value :	6.968987887156546e-07
+Average Density based score objective value :	178.9075677928961
+Average Reader attention with tf-idf (RAWT) score objective value :	0.8023740563374948
