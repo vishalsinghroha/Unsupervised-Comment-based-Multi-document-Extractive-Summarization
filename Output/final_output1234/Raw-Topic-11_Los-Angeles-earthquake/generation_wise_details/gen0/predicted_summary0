@@ -1,0 +1,26 @@
+b'\nAnother 14 residential structures around the city suffered lesser damage, including collapsed fireplaces. Shortly after the main earthquake, the city dealt with a dozen water-main breaks and multiple natural-gas leaks, Stokes said.\nFriday\'s jolt was the strongest to strike the greater Los Angeles region since 2008. Southern California has been in a seismic lull since the deadly 1994 Northridge earthquake killed several dozen people and caused $25 billion in damage.\nU.S. Geological Survey seismologist Lucy Jones said it\'s unclear whether Southern California is entering a more active seismic period. "We have been in a really quiet time. It can\'t stay that way," Jones said.\nLos Angeles (CNN) -- A magnitude-5.1 earthquake struck the Los Angeles area Friday night, jolting nearby communities and breaking water mains in some neighborhoods.\nA magnitude-4.1 shake rattled the area Saturday afternoon, centered about a mile and a quarter southeast of the Los Angeles County community of Rowland Heights, the geological agency said.\nThe LA County Fire Department received some reports of gas leaks and scattered damage, said spokesman Ed Pickett, while police in Fullerton, about fives miles from La Habra, reported several water main breaks, spokesman Jeff Stuart told KCAL 9 television.\nA magnitude-5.1 earthquake centered south of Los Angeles on Friday shook residents throughout Southern California and sent bottles and cans tumbling off shelves in stores, produced a rock slide that closed a road and forced a brief shutdown of rides at Disneyland. There were no reports of major damage or injuries.\nThe tremor struck at 9.09pm and was centered near Brea in Orange County, about 20 miles southeast of downtown Los Angeles, at a depth of 5 miles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the US Geological Survey (USGS).\n"We felt a really good jolt. It was a long rumble and it just didn\'t feel like it would end," he told the Associated Press by phone. "Right in the beginning it shook really hard, so it was a little unnerving. People got quiet and started bracing themselves by holding on to each other. It was a little scary."\nA Red Cross shelter was set up in La Habra for residents forced out of their homes or who voluntarily chose to stay there. About 38 people including several families stayed overnight, Red Cross spokeswoman Meredith Mills said.\nFridays largest temblor struck near the cities of Brea and La Habra, southeast of Los Angeles, shortly after 9 p.m. Pacific time and was preceded by a foreshock. A fire battalion chief, John Stokes, said that no one had been killed and that only minor injuries had been reported. The area, however, did not emerge unscathed: Fifty Fullerton residents were displaced from their homes because of property damage, and five water mains ruptured. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6262626262626263, 'p': 0.13107822410147993, 'f': 0.2167832167832168}, 'rouge-2': {'r': 0.19387755102040816, 'p': 0.04025423728813559, 'f': 0.06666666666666665}, 'rouge-su4': {'r': 0.2231833910034602, 'p': 0.04571226080793763, 'f': 0.07588235294117647}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.77, 'p': 0.16279069767441862, 'f': 0.268760907504363}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.06991525423728813, 'f': 0.11558669001751314}, 'rouge-su4': {'r': 0.3544520547945205, 'p': 0.07335223245924875, 'f': 0.12155020551967115}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6464646464646465, 'p': 0.13530655391120508, 'f': 0.2237762237762238}, 'rouge-2': {'r': 0.23469387755102042, 'p': 0.048728813559322036, 'f': 0.08070175438596491}, 'rouge-su4': {'r': 0.2301038062283737, 'p': 0.04712969525159461, 'f': 0.07823529411764704}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5454545454545454, 'p': 0.11416490486257928, 'f': 0.18881118881118883}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.0211864406779661, 'f': 0.03508771929824561}, 'rouge-su4': {'r': 0.1903114186851211, 'p': 0.03897944720056697, 'f': 0.06470588235294117}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3544520547945205, 'f': 0.12155020551967115, 'p': 0.07335223245924875}, 'rouge-2': {'r': 0.3333333333333333, 'f': 0.11558669001751314, 'p': 0.06991525423728813}, 'rouge-1': {'r': 0.77, 'f': 0.268760907504363, 'p': 0.16279069767441862}}
+
+
+Anti-redundancy objective value :	0.5185707466254282
+Average Reader attention score objective value :	2.30797565834382e-21
+Average Density based score objective value :	142.04384357352728
+Average Reader attention with tf-idf (RAWT) score objective value :	0.5605537598260777

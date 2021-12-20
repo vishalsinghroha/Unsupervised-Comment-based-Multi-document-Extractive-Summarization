@@ -1,0 +1,26 @@
+b'\nIn Fullerton, some residents will have to stay elsewhere until building inspectors can check out the red-tagged apartments and houses and give an all-clear, Fire Battalion Chief John Stokes said.\nThe latest quake hit a week after a magnitude-4.4 temblor centered in the San Fernando Valley shook buildings and rattled nerves.\nAn hour earlier, a magnitude-3.6 tremor struck the same area, according to the U.S. Geological Survey.\nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported.\nThe Los Angeles Times reported that residents in La Habra posted pictures on social media showing broken vases, topped furniture and other items scattered in their homes.\nFriday\'s quake hit a week after a pre-dawn magnitude-4.4 quake centered in the San Fernando Valley rattled a swath of Southern California. That jolt shook buildings and rattled nerves, but did not cause significant damage.\nSouthern California has not experienced a damaging earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage.\n(Reuters) - Residents of southern California were rattled by a 4.1 magnitude earthquake Saturday afternoon, the largest of more than 100 aftershocks following Friday\'s 5.1 rumbler that caused light scattered damage around the Los Angeles area.\nCalifornia has long braced for the "Big One."\nA Red Cross shelter was set up in La Habra for residents forced out of their homes or who voluntarily chose to stay there. About 38 people including several families stayed overnight, Red Cross spokeswoman Meredith Mills said.\nRides were halted at Disneyland in Anaheim, but no damage was found and the theme park was expected to have normal operations Saturday.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\nDisneyland canceled its fireworks show because of the quake, and stopped rides as a precaution, according to local news. Disney DIS +0.65%  said the park wasn\'t closed, but that people were leaving voluntarily.\nThe U.S. Geological Survey first reported a magnitude 5.3 quake, but soon after revised it to 5.1. As with every moderately sized quake, geologists warned there is a 5% chance of a larger quake in the next few days.\nThe recent quakes may indicate a return to more normal seismic activity, geologists said. Emergency service officials urged residents to use the quake as a wake-up call to prepare for "the big one", a large, devastating quake expected to hit southern California. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5454545454545454, 'p': 0.11637931034482758, 'f': 0.19182948490230906}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.02159827213822894, 'f': 0.035650623885918005}, 'rouge-su4': {'r': 0.185121107266436, 'p': 0.03865606936416185, 'f': 0.0639569635385535}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.68, 'p': 0.14655172413793102, 'f': 0.2411347517730496}, 'rouge-2': {'r': 0.23232323232323232, 'p': 0.04967602591792657, 'f': 0.08185053380782917}, 'rouge-su4': {'r': 0.273972602739726, 'p': 0.057803468208092484, 'f': 0.0954653937947494}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5959595959595959, 'p': 0.1271551724137931, 'f': 0.20959147424511546}, 'rouge-2': {'r': 0.14285714285714285, 'p': 0.03023758099352052, 'f': 0.049910873440285206}, 'rouge-su4': {'r': 0.20588235294117646, 'p': 0.04299132947976879, 'f': 0.07112970711297072}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5757575757575758, 'p': 0.12284482758620689, 'f': 0.2024866785079929}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.017278617710583154, 'f': 0.028520499108734405}, 'rouge-su4': {'r': 0.1782006920415225, 'p': 0.037210982658959536, 'f': 0.06156604901374776}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.273972602739726, 'f': 0.0954653937947494, 'p': 0.057803468208092484}, 'rouge-2': {'r': 0.23232323232323232, 'f': 0.08185053380782917, 'p': 0.04967602591792657}, 'rouge-1': {'r': 0.68, 'f': 0.2411347517730496, 'p': 0.14655172413793102}}
+
+
+Anti-redundancy objective value :	0.6938745135796041
+Average Reader attention score objective value :	4.215267932058173e-09
+Average Density based score objective value :	121.19603516612612
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4207900638786816
