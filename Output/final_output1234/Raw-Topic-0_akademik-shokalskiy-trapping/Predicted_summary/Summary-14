@@ -1,0 +1,16 @@
+b"Passengers aboard the MV Akademik Shokalskiy, the scientific research vessel that has been stuck in sea ice off the coast of Antarctica since Christmas Day, will be evacuated from the ship by helicopter as soon as the weather has cleared. \nIcebreakers were trying to free the ship but the dense ice floes have proved too difficult to get through for both Chinese and Australian vessels that were sent to help. \nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer. \n'White-knuckle ride'"
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3894736842105263, 'p': 0.30833333333333335, 'f': 0.34418604651162793}, 'rouge-2': {'r': 0.07446808510638298, 'p': 0.058823529411764705, 'f': 0.06572769953051642}, 'rouge-su4': {'r': 0.13176895306859207, 'p': 0.10369318181818182, 'f': 0.11605723370429254}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.34, 'p': 0.2833333333333333, 'f': 0.30909090909090914}, 'rouge-2': {'r': 0.06060606060606061, 'p': 0.05042016806722689, 'f': 0.055045871559633024}, 'rouge-su4': {'r': 0.10787671232876712, 'p': 0.08948863636363637, 'f': 0.09782608695652174}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.37373737373737376, 'p': 0.30833333333333335, 'f': 0.33789954337899547}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.058823529411764705, 'f': 0.06451612903225808}, 'rouge-su4': {'r': 0.10899653979238755, 'p': 0.08948863636363637, 'f': 0.0982839313572543}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.43, 'p': 0.35833333333333334, 'f': 0.3909090909090909}, 'rouge-2': {'r': 0.0707070707070707, 'p': 0.058823529411764705, 'f': 0.06422018348623854}, 'rouge-su4': {'r': 0.13184931506849315, 'p': 0.109375, 'f': 0.11956521739130434}}

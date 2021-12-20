@@ -1,0 +1,16 @@
+b"Of the 57 souls on board, 22 are crewmen and 35 are passengers. The ship cruised to the site of a 1911-1914 expedition of British explorer Sir Douglas Mawson, according to Expeditions Online, a travel agency that sells tickets for the cruise. \nIt became trapped in the ice on December 24, 100 nautical miles east of the French Antarctic station Dumont D'Urville. The 74 people aboard include scientists and tourists, many of them Australian, and 22 Russian crew. \nIcebreakers were trying to free the ship but the dense ice floes have proved too difficult to get through for both Chinese and Australian vessels that were sent to help. \n'White-knuckle ride' \nThe passengers are not expected back in Tasmania until mid-January."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.4, 'p': 0.31666666666666665, 'f': 0.3534883720930233}, 'rouge-2': {'r': 0.07446808510638298, 'p': 0.058823529411764705, 'f': 0.06572769953051642}, 'rouge-su4': {'r': 0.11552346570397112, 'p': 0.09090909090909091, 'f': 0.10174880763116058}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.41, 'p': 0.3416666666666667, 'f': 0.37272727272727274}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.07563025210084033, 'f': 0.08256880733944955}, 'rouge-su4': {'r': 0.14383561643835616, 'p': 0.11931818181818182, 'f': 0.13043478260869565}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.35353535353535354, 'p': 0.2916666666666667, 'f': 0.319634703196347}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.04201680672268908, 'f': 0.04608294930875576}, 'rouge-su4': {'r': 0.11072664359861592, 'p': 0.09090909090909091, 'f': 0.0998439937597504}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.38, 'p': 0.31666666666666665, 'f': 0.34545454545454546}, 'rouge-2': {'r': 0.0707070707070707, 'p': 0.058823529411764705, 'f': 0.06422018348623854}, 'rouge-su4': {'r': 0.11472602739726027, 'p': 0.09517045454545454, 'f': 0.10403726708074533}}

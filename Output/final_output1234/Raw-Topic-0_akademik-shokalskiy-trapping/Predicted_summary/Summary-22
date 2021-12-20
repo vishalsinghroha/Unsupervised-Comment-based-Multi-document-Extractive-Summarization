@@ -1,0 +1,16 @@
+b'French and Chinese icebreakers have already failed to reach the passengers, who are believed to have several weeks of essential supplies left. The Russian ship is trapped in the Australian search-and-rescue zone of Antarctica, putting the Australian maritime body in charge of the rescue operation. \nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3473684210526316, 'p': 0.2796610169491525, 'f': 0.3098591549295775}, 'rouge-2': {'r': 0.02127659574468085, 'p': 0.017094017094017096, 'f': 0.018957345971563986}, 'rouge-su4': {'r': 0.09747292418772563, 'p': 0.07803468208092486, 'f': 0.08667736757624399}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.29, 'p': 0.2457627118644068, 'f': 0.2660550458715596}, 'rouge-2': {'r': 0.030303030303030304, 'p': 0.02564102564102564, 'f': 0.027777777777777776}, 'rouge-su4': {'r': 0.0702054794520548, 'p': 0.059248554913294796, 'f': 0.06426332288401254}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.30303030303030304, 'p': 0.2542372881355932, 'f': 0.2764976958525346}, 'rouge-2': {'r': 0.01020408163265306, 'p': 0.008547008547008548, 'f': 0.009302325581395347}, 'rouge-su4': {'r': 0.07958477508650519, 'p': 0.06647398843930635, 'f': 0.07244094488188976}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.33, 'p': 0.2796610169491525, 'f': 0.30275229357798167}, 'rouge-2': {'r': 0.06060606060606061, 'p': 0.05128205128205128, 'f': 0.05555555555555555}, 'rouge-su4': {'r': 0.0976027397260274, 'p': 0.08236994219653179, 'f': 0.08934169278996866}}

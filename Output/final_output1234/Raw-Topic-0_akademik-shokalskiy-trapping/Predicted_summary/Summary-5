@@ -1,0 +1,16 @@
+b"Passengers aboard the MV Akademik Shokalskiy, the scientific research vessel that has been stuck in sea ice off the coast of Antarctica since Christmas Day, will be evacuated from the ship by helicopter as soon as the weather has cleared. \nAAE members will be picked up on the ice next to the Shokalskiy and dropped off on a similar landing pad next to the Aurora Australis. The Chinese helicopter that will be used is too heavy to land on the Australian vessel's deck. The Aurora Australis will then sail to the nearest Australian Antarctic base, Casey, before heading back to Hobart in Australia in late January."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.4, 'p': 0.3584905660377358, 'f': 0.37810945273631835}, 'rouge-2': {'r': 0.0851063829787234, 'p': 0.0761904761904762, 'f': 0.08040201005025126}, 'rouge-su4': {'r': 0.13898916967509026, 'p': 0.12419354838709677, 'f': 0.13117546848381603}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.31, 'p': 0.29245283018867924, 'f': 0.30097087378640774}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.047619047619047616, 'f': 0.049019607843137254}, 'rouge-su4': {'r': 0.10102739726027397, 'p': 0.09516129032258064, 'f': 0.09800664451827241}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.32323232323232326, 'p': 0.3018867924528302, 'f': 0.3121951219512195}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.047619047619047616, 'f': 0.04926108374384237}, 'rouge-su4': {'r': 0.08823529411764706, 'p': 0.08225806451612903, 'f': 0.08514190317195326}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.4, 'p': 0.37735849056603776, 'f': 0.38834951456310685}, 'rouge-2': {'r': 0.06060606060606061, 'p': 0.05714285714285714, 'f': 0.05882352941176471}, 'rouge-su4': {'r': 0.1267123287671233, 'p': 0.11935483870967742, 'f': 0.12292358803986711}}

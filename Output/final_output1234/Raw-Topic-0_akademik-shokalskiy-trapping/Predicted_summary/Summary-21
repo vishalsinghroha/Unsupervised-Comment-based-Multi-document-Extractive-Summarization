@@ -1,0 +1,16 @@
+b"Fifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News. \nSnow showers, strong winds and poor visibility are hampering attempts to rescue dozens of researchers, holidaymakers and crew on a ship trapped in Antarctic ice for almost a week. \nAustralia's maritime authority said the Aurora Australis, a vessel designed to break through thick blocks of ice, had come close to the MV Akademik Shokalskiy, a Russian ship that remains stranded after two earlier rescue attempts by other icebreakers failed."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.4, 'p': 0.35185185185185186, 'f': 0.37438423645320196}, 'rouge-2': {'r': 0.07446808510638298, 'p': 0.06542056074766354, 'f': 0.06965174129353233}, 'rouge-su4': {'r': 0.12454873646209386, 'p': 0.10917721518987342, 'f': 0.1163575042158516}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.38, 'p': 0.35185185185185186, 'f': 0.3653846153846154}, 'rouge-2': {'r': 0.08080808080808081, 'p': 0.07476635514018691, 'f': 0.07766990291262137}, 'rouge-su4': {'r': 0.10787671232876712, 'p': 0.09968354430379747, 'f': 0.10361842105263157}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3838383838383838, 'p': 0.35185185185185186, 'f': 0.36714975845410625}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.04672897196261682, 'f': 0.048780487804878044}, 'rouge-su4': {'r': 0.12283737024221453, 'p': 0.11234177215189874, 'f': 0.11735537190082644}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.34, 'p': 0.3148148148148148, 'f': 0.3269230769230769}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.08411214953271028, 'f': 0.08737864077669903}, 'rouge-su4': {'r': 0.10616438356164383, 'p': 0.0981012658227848, 'f': 0.10197368421052631}}

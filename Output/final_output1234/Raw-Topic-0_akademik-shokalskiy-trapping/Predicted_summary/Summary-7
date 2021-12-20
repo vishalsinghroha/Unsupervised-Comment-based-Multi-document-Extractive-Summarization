@@ -1,0 +1,16 @@
+b'The research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit. \nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.28421052631578947, 'p': 0.2231404958677686, 'f': 0.25}, 'rouge-2': {'r': 0.02127659574468085, 'p': 0.016666666666666666, 'f': 0.018691588785046728}, 'rouge-su4': {'r': 0.0812274368231047, 'p': 0.06338028169014084, 'f': 0.07120253164556961}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.27, 'p': 0.2231404958677686, 'f': 0.24434389140271492}, 'rouge-2': {'r': 0.030303030303030304, 'p': 0.025, 'f': 0.027397260273972605}, 'rouge-su4': {'r': 0.06506849315068493, 'p': 0.05352112676056338, 'f': 0.05873261205564142}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.2727272727272727, 'p': 0.2231404958677686, 'f': 0.24545454545454545}, 'rouge-2': {'r': 0.030612244897959183, 'p': 0.025, 'f': 0.027522935779816515}, 'rouge-su4': {'r': 0.07612456747404844, 'p': 0.061971830985915494, 'f': 0.06832298136645963}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3, 'p': 0.24793388429752067, 'f': 0.2714932126696833}, 'rouge-2': {'r': 0.030303030303030304, 'p': 0.025, 'f': 0.027397260273972605}, 'rouge-su4': {'r': 0.0839041095890411, 'p': 0.06901408450704226, 'f': 0.07573415765069552}}
