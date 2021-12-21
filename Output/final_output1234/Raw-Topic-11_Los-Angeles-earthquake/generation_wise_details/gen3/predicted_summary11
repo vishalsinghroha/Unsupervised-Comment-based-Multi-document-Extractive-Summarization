@@ -1,0 +1,26 @@
+b'\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nDespite the evacuations and scattered damage, Friday night\'s magnitude-5.1 earthquake centered about 25 miles south of downtown Los Angeles mostly frayed nerves.\nAnother 14 residential structures around the city suffered lesser damage, including collapsed fireplaces. Shortly after the main earthquake, the city dealt with a dozen water-main breaks and multiple natural-gas leaks, Stokes said.\nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported.\nNo injuries were immediately reported from either Saturday\'s quake or the more significant earthquake that struck Friday evening outside La Habra, California, which is about 20 miles east of downtown Los Angeles.\nFriday\'s quake was felt as far away as Palm Springs in the east, San Diego in the south and Ventura County to the north. While not large, the event "seems unusual, of course, because a lot of people felt it," said Doug Given, a USGS geophysicist.\n"These quakes occur in populated areas and people try to put two and two together and predict that something more is coming, but that\'s simply not the case," he said.\n"The L.A. Philharmonic should get combat pay," audience member Michael Healy told the newspaper.\nThe quake\'s epicentre was near La Habra, about 22 miles (35km) southeast of downtown Los Angeles, and could be felt across the LA metropolitan area, including in Hollywood.\nOn Friday night, the Los Angeles Philharmonic didn\'t miss a note even as the quake rattled downtown Los Angeles\'s Walt Disney Concert Hall, the Los Angeles Times reported.\nA total of 115 aftershocks jolted the Los Angeles area by Saturday morning after a magnitude 5.1 earthquake on Friday night, a federal seismologist said.\nA moderately strong earthquake struck about 20 miles south of Los Angeles Friday just after 9 p.m. local time, sending a strong shake across the region but causing no major damage. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5656565656565656, 'p': 0.14933333333333335, 'f': 0.23628691983122366}, 'rouge-2': {'r': 0.17346938775510204, 'p': 0.045454545454545456, 'f': 0.07203389830508475}, 'rouge-su4': {'r': 0.23875432525951557, 'p': 0.06177260519247986, 'f': 0.09815078236130868}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.59, 'p': 0.15733333333333333, 'f': 0.24842105263157893}, 'rouge-2': {'r': 0.25252525252525254, 'p': 0.06684491978609626, 'f': 0.10570824524312898}, 'rouge-su4': {'r': 0.2534246575342466, 'p': 0.06624888093106536, 'f': 0.10503903477643721}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6565656565656566, 'p': 0.17333333333333334, 'f': 0.27426160337552746}, 'rouge-2': {'r': 0.2755102040816326, 'p': 0.07219251336898395, 'f': 0.11440677966101694}, 'rouge-su4': {'r': 0.2508650519031142, 'p': 0.06490599820948971, 'f': 0.10312944523470839}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5555555555555556, 'p': 0.14666666666666667, 'f': 0.2320675105485232}, 'rouge-2': {'r': 0.12244897959183673, 'p': 0.03208556149732621, 'f': 0.050847457627118654}, 'rouge-su4': {'r': 0.18685121107266436, 'p': 0.048343777976723366, 'f': 0.07681365576102418}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2534246575342466, 'f': 0.10503903477643721, 'p': 0.06624888093106536}, 'rouge-2': {'r': 0.2755102040816326, 'f': 0.11440677966101694, 'p': 0.07219251336898395}, 'rouge-1': {'r': 0.6565656565656566, 'f': 0.27426160337552746, 'p': 0.17333333333333334}}
+
+
+Anti-redundancy objective value :	0.5995094941213359
+Average Reader attention score objective value :	0.005208330268637398
+Average Density based score objective value :	118.35967250756325
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4063414172603354

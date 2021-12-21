@@ -1,0 +1,26 @@
+b'\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported.\nSouthern California has not experienced a damaging earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage.\n(Reuters) - Residents of southern California were rattled by a 4.1 magnitude earthquake Saturday afternoon, the largest of more than 100 aftershocks following Friday\'s 5.1 rumbler that caused light scattered damage around the Los Angeles area.\nFriday\'s temblor displaced at least 50 people in Fullerton, about 5 miles from the epicenter, because of minor damage to homes and apartment dwellings, Fullerton Police Lieutenant Mike Chlebowski said.\nFriday\'s quake was felt as far away as Palm Springs in the east, San Diego in the south and Ventura County to the north. While not large, the event "seems unusual, of course, because a lot of people felt it," said Doug Given, a USGS geophysicist.\n"These quakes occur in populated areas and people try to put two and two together and predict that something more is coming, but that\'s simply not the case," he said.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\nOn Friday night, the Los Angeles Philharmonic didn\'t miss a note even as the quake rattled downtown Los Angeles\'s Walt Disney Concert Hall, the Los Angeles Times reported.\nA total of 115 aftershocks jolted the Los Angeles area by Saturday morning after a magnitude 5.1 earthquake on Friday night, a federal seismologist said. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5353535353535354, 'p': 0.1448087431693989, 'f': 0.22795698924731184}, 'rouge-2': {'r': 0.09183673469387756, 'p': 0.024657534246575342, 'f': 0.038876889848812095}, 'rouge-su4': {'r': 0.17993079584775087, 'p': 0.047706422018348627, 'f': 0.07541696881798404}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.56, 'p': 0.15300546448087432, 'f': 0.240343347639485}, 'rouge-2': {'r': 0.24242424242424243, 'p': 0.06575342465753424, 'f': 0.10344827586206895}, 'rouge-su4': {'r': 0.23116438356164384, 'p': 0.06192660550458716, 'f': 0.09768451519536904}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6464646464646465, 'p': 0.17486338797814208, 'f': 0.2752688172043011}, 'rouge-2': {'r': 0.24489795918367346, 'p': 0.06575342465753424, 'f': 0.1036717062634989}, 'rouge-su4': {'r': 0.2422145328719723, 'p': 0.06422018348623854, 'f': 0.10152284263959391}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5555555555555556, 'p': 0.15027322404371585, 'f': 0.23655913978494622}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.0273972602739726, 'f': 0.04319654427645788}, 'rouge-su4': {'r': 0.18166089965397925, 'p': 0.0481651376146789, 'f': 0.07614213197969544}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2422145328719723, 'f': 0.10152284263959391, 'p': 0.06422018348623854}, 'rouge-2': {'r': 0.24489795918367346, 'f': 0.1036717062634989, 'p': 0.06575342465753424}, 'rouge-1': {'r': 0.6464646464646465, 'f': 0.2752688172043011, 'p': 0.17486338797814208}}
+
+
+Anti-redundancy objective value :	0.5828462421574317
+Average Reader attention score objective value :	0.006249996327573162
+Average Density based score objective value :	125.06394330789047
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4671904946743119

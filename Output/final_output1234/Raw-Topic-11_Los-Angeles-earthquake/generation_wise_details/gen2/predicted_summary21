@@ -1,0 +1,26 @@
+b"\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nBusiness owners in Orange County spent the aftermath sweeping up shattered glass and restocking shelves. Utility crews worked to restore power and shut off gas leaks and water-main breaks. A rock slide in the Carbon Canyon area of nearby Brea also caused a car to overturn. The occupants had minor injuries, and the road remained closed to traffic.\nIt appeared to break a 1-mile segment of the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows quake that killed eight people. The rupture lasted half a second, scientists said.\nA magnitude-5.1 earthquake that shook the Los Angeles area and surrounding counties forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday.\nThe U.S. Geological Survey said the quake struck at about 9:11 p.m. Friday night and was centered near Brea in Orange County -- about 20 miles southeast of downtown Los Angeles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the USGS.\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes including broken chimneys and leaning were uncovered in half a dozen single-family houses, which were also deemed as unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe tremor struck at 9.09pm and was centered near Brea in Orange County, about 20 miles southeast of downtown Los Angeles, at a depth of 5 miles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the US Geological Survey (USGS).\nA Red Cross shelter was set up in La Habra for residents forced out of their homes or who voluntarily chose to stay there. About 38 people including several families stayed overnight, Red Cross spokeswoman Meredith Mills said.\nFridays largest temblor struck near the cities of Brea and La Habra, southeast of Los Angeles, shortly after 9 p.m. Pacific time and was preceded by a foreshock. A fire battalion chief, John Stokes, said that no one had been killed and that only minor injuries had been reported. The area, however, did not emerge unscathed: Fifty Fullerton residents were displaced from their homes because of property damage, and five water mains ruptured.\nA few areas reported minor damage, including a water-main break outside Los Angeles, and goods falling off grocery shelves. In Brea, a community a few miles away from the quake's epicenter, a rock slide believed to be triggered by the quake overturned a vehicle in Carbon Canyon. Police reported minor injuries to passengers. Residents closer to the epicenter of the quake also said some household items and pictures fell off shelves\nThe U.S. Geological Survey first reported a magnitude 5.3 quake, but soon after revised it to 5.1. As with every moderately sized quake, geologists warned there is a 5% chance of a larger quake in the next few days. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6363636363636364, 'p': 0.10824742268041238, 'f': 0.18502202643171808}, 'rouge-2': {'r': 0.21428571428571427, 'p': 0.03614457831325301, 'f': 0.061855670103092786}, 'rouge-su4': {'r': 0.27162629757785467, 'p': 0.0451668584579977, 'f': 0.07745436605821412}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.73, 'p': 0.1254295532646048, 'f': 0.21407624633431085}, 'rouge-2': {'r': 0.32323232323232326, 'p': 0.055077452667814115, 'f': 0.09411764705882354}, 'rouge-su4': {'r': 0.3578767123287671, 'p': 0.060126582278481014, 'f': 0.10295566502463055}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6565656565656566, 'p': 0.11168384879725086, 'f': 0.1908957415565345}, 'rouge-2': {'r': 0.16326530612244897, 'p': 0.027538726333907058, 'f': 0.04712812960235641}, 'rouge-su4': {'r': 0.24048442906574394, 'p': 0.03998849252013809, 'f': 0.06857424765663542}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.6666666666666666, 'p': 0.1134020618556701, 'f': 0.1938325991189427}, 'rouge-2': {'r': 0.23469387755102042, 'p': 0.039586919104991396, 'f': 0.06774668630338733}, 'rouge-su4': {'r': 0.2768166089965398, 'p': 0.04602991944764097, 'f': 0.07893438579181057}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3578767123287671, 'f': 0.10295566502463055, 'p': 0.060126582278481014}, 'rouge-2': {'r': 0.32323232323232326, 'f': 0.09411764705882354, 'p': 0.055077452667814115}, 'rouge-1': {'r': 0.73, 'f': 0.21407624633431085, 'p': 0.1254295532646048}}
+
+
+Anti-redundancy objective value :	0.49481984767017445
+Average Reader attention score objective value :	1.7086519606964165e-09
+Average Density based score objective value :	165.57954332192045
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7020402647460692

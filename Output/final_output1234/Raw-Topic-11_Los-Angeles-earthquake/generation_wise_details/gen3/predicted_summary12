@@ -1,0 +1,26 @@
+b'\nThe U.S. Geological Survey said the quake struck at about 9:11 p.m. Friday night and was centered near Brea in Orange County -- about 20 miles southeast of downtown Los Angeles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the USGS.\n"We felt a really good jolt. It was a long rumble and it just didn\'t feel like it would end," he told The Associated Press by phone. "Right in the beginning it shook really hard, so it was a little unnerving. People got quiet and started bracing themselves by holding on to each other. It was a little scary."\nThe LA County Fire Department received some reports of gas leaks and scattered damage, said spokesman Ed Pickett, while police in Fullerton, about fives miles from La Habra, reported several water main breaks, spokesman Jeff Stuart told KCAL 9 television.\nA magnitude-5.1 earthquake centered south of Los Angeles on Friday shook residents throughout Southern California and sent bottles and cans tumbling off shelves in stores, produced a rock slide that closed a road and forced a brief shutdown of rides at Disneyland. There were no reports of major damage or injuries.\nWhile not large, the event "seems unusual, of course, because a lot of people felt it," said Doug Given, a USGS geophysicist. "These quakes occur in populated areas and people try to put two and two together and predict that something more is coming, but that\'s simply not the case," he said.\nThe quake hit a week after a pre-dawn magnitude-4.4 quake centered in the San Fernando Valley rattled a swath of Southern California. That jolt shook buildings and rattled nerves but did not cause significant damage.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\nFridays largest temblor struck near the cities of Brea and La Habra, southeast of Los Angeles, shortly after 9 p.m. Pacific time and was preceded by a foreshock. A fire battalion chief, John Stokes, said that no one had been killed and that only minor injuries had been reported. The area, however, did not emerge unscathed: Fifty Fullerton residents were displaced from their homes because of property damage, and five water mains ruptured.\nBy 10 p.m., Los Angeles city and county officials had completed checks and found no major damage. No injuries or deaths were reported. A city official in La Habra, where the quake was centered, said one neighborhood was without power.\nA few areas reported minor damage, including a water-main break outside Los Angeles, and goods falling off grocery shelves. In Brea, a community a few miles away from the quake\'s epicenter, a rock slide believed to be triggered by the quake overturned a vehicle in Carbon Canyon. Police reported minor injuries to passengers. Residents closer to the epicenter of the quake also said some household items and pictures fell off shelves\nThe recent quakes may indicate a return to more normal seismic activity, geologists said. Emergency service officials urged residents to use the quake as a wake-up call to prepare for "the big one", a large, devastating quake expected to hit southern California. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6464646464646465, 'p': 0.11053540587219343, 'f': 0.18879056047197637}, 'rouge-2': {'r': 0.20408163265306123, 'p': 0.03460207612456748, 'f': 0.0591715976331361}, 'rouge-su4': {'r': 0.2560553633217993, 'p': 0.042799305957200696, 'f': 0.07333994053518335}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.68, 'p': 0.11744386873920552, 'f': 0.2002945508100147}, 'rouge-2': {'r': 0.2222222222222222, 'p': 0.03806228373702422, 'f': 0.06499261447562776}, 'rouge-su4': {'r': 0.2876712328767123, 'p': 0.048582995951417005, 'f': 0.08312716476991587}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6666666666666666, 'p': 0.11398963730569948, 'f': 0.1946902654867257}, 'rouge-2': {'r': 0.21428571428571427, 'p': 0.03633217993079585, 'f': 0.06213017751479289}, 'rouge-su4': {'r': 0.24567474048442905, 'p': 0.0410641989589358, 'f': 0.07036669970267591}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.6565656565656566, 'p': 0.11226252158894647, 'f': 0.19174041297935107}, 'rouge-2': {'r': 0.15306122448979592, 'p': 0.025951557093425604, 'f': 0.04437869822485207}, 'rouge-su4': {'r': 0.23529411764705882, 'p': 0.03932909196067091, 'f': 0.06739345887016848}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2876712328767123, 'f': 0.08312716476991587, 'p': 0.048582995951417005}, 'rouge-2': {'r': 0.2222222222222222, 'f': 0.06499261447562776, 'p': 0.03806228373702422}, 'rouge-1': {'r': 0.68, 'f': 0.2002945508100147, 'p': 0.11744386873920552}}
+
+
+Anti-redundancy objective value :	0.506508403217142
+Average Reader attention score objective value :	4.727950927673392e-12
+Average Density based score objective value :	193.1422664429291
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6654082484550838

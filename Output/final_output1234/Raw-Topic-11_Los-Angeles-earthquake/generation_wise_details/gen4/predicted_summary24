@@ -1,0 +1,26 @@
+b'\nA moderate earthquake that rattled a swath of Southern California forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday.\nA water-main break flooded several floors of Brea City Hall, and the shaking knocked down computers and ceiling tiles, Stokes said.\nThe Los Angeles Times reported that residents in La Habra posted pictures on social media showing broken vases, topped furniture and other items scattered in their homes.\nFriday\'s quake hit a week after a pre-dawn magnitude-4.4 quake centered in the San Fernando Valley rattled a swath of Southern California. That jolt shook buildings and rattled nerves, but did not cause significant damage.\nSouthern California has not experienced a damaging earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage.\nAs well, a water main break in the city forced the closure of some streets due to flooding, he said.\n"These quakes occur in populated areas and people try to put two and two together and predict that something more is coming, but that\'s simply not the case," he said.\nA 6.7-magnitude earthquake in Los Angeles left at least 60 people dead and did an estimated $10 billion damage in 1994, while a 6.9 quake in San Francisco in 1989 claimed the lives of 67 people.\nA magnitude-5.1 earthquake centered south of Los Angeles on Friday shook residents throughout Southern California and sent bottles and cans tumbling off shelves in stores, produced a rock slide that closed a road and forced a brief shutdown of rides at Disneyland. There were no reports of major damage or injuries.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\n"It\'s a place where we\'ve had a lot of earthquakes in the past," she said.\n"The LA Philharmonic should get combat pay," audience member Michael Healy told the newspaper. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.494949494949495, 'p': 0.13279132791327913, 'f': 0.20940170940170938}, 'rouge-2': {'r': 0.11224489795918367, 'p': 0.029891304347826088, 'f': 0.04721030042918455}, 'rouge-su4': {'r': 0.16089965397923875, 'p': 0.042311191992720654, 'f': 0.0670028818443804}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.55, 'p': 0.14905149051490515, 'f': 0.23454157782515994}, 'rouge-2': {'r': 0.18181818181818182, 'p': 0.04891304347826087, 'f': 0.07708779443254818}, 'rouge-su4': {'r': 0.2363013698630137, 'p': 0.06278434940855324, 'f': 0.09920920201294035}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.4444444444444444, 'p': 0.11924119241192412, 'f': 0.18803418803418803}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.02717391304347826, 'f': 0.04291845493562231}, 'rouge-su4': {'r': 0.12629757785467127, 'p': 0.033212010919017286, 'f': 0.052593659942363105}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.494949494949495, 'p': 0.13279132791327913, 'f': 0.20940170940170938}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.01358695652173913, 'f': 0.021459227467811155}, 'rouge-su4': {'r': 0.15397923875432526, 'p': 0.04049135577797998, 'f': 0.06412103746397693}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2363013698630137, 'f': 0.09920920201294035, 'p': 0.06278434940855324}, 'rouge-2': {'r': 0.18181818181818182, 'f': 0.07708779443254818, 'p': 0.04891304347826087}, 'rouge-1': {'r': 0.55, 'f': 0.23454157782515994, 'p': 0.14905149051490515}}
+
+
+Anti-redundancy objective value :	0.7048031025629178
+Average Reader attention score objective value :	0.00520832342537329
+Average Density based score objective value :	111.83293974213412
+Average Reader attention with tf-idf (RAWT) score objective value :	0.40112690622258257
