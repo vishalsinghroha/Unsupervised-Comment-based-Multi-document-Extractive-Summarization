@@ -1,0 +1,26 @@
+b'\nThe Journal used the words "turn around" and "resuscitate" to describe the strategy.\nIn April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft."\nBoeing\'s twin-engine 777 boasts an excellent safety record and is among the most sophisticated airliners flying today. Its capacity is between 300 and 450 passengers and a range of about 5,700 miles.\nFinancial troubles\nAnalysts said it may take a government rescue to save the company from financial disaster.\nMalaysia Airlines has faced increased competition in recent years from new regional airlines. It tried to boost revenue by selling more tickets, rather than raising prices, while keeping operating costs under control. It has also canceled some longer flight routes.\nBut the strategy never took hold, and the difficult business climate has forced the airline into the red for the past three years, leading to a loss of about $1.3 billion over that period.\nThe Malaysian government has helped the largely unprofitable airline before, though its previous efforts seemed only to provide temporary respite.\nThe biggest clue so far into who may have shot down Malaysia Airlines Flight 17 might be what Ukrainian officials say are intercepted communications between pro-Russian rebels operating in eastern Ukraine.\nThe recordings, translated and distributed by Ukrainian officials, begin with an alleged militant informing others that a plane has been shot down.\n"I was stunned," said 48-year-old shopkeeper Reezal Mohamed. "It\'s unbelievable."\nMalaysia Airlines has been in the red for the last three years. Last year, its losses ballooned to 1.17 billion ringgit ($363 million), nearly three times larger than its 433 million ringgit loss in 2012.\nFor some travelers, the airline\'s poor financial health is more concerning for the future than the two disasters. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.47, 'p': 0.14779874213836477, 'f': 0.2248803827751196}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.028391167192429023, 'f': 0.04326923076923077}, 'rouge-su4': {'r': 0.136986301369863, 'p': 0.042283298097251586, 'f': 0.06462035541195477}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.4387755102040816, 'p': 0.13522012578616352, 'f': 0.20673076923076922}, 'rouge-2': {'r': 0.1134020618556701, 'p': 0.03470031545741325, 'f': 0.05314009661835748}, 'rouge-su4': {'r': 0.12412587412587413, 'p': 0.037526427061310784, 'f': 0.057629870129870135}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.4880952380952381, 'p': 0.1289308176100629, 'f': 0.20398009950248755}, 'rouge-2': {'r': 0.08433734939759036, 'p': 0.022082018927444796, 'f': 0.035}, 'rouge-su4': {'r': 0.15368852459016394, 'p': 0.03964059196617336, 'f': 0.06302521008403361}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.4326923076923077, 'p': 0.14150943396226415, 'f': 0.2132701421800948}, 'rouge-2': {'r': 0.04854368932038835, 'p': 0.015772870662460567, 'f': 0.02380952380952381}, 'rouge-su4': {'r': 0.12335526315789473, 'p': 0.03964059196617336, 'f': 0.060000000000000005}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.15368852459016394, 'f': 0.06462035541195477, 'p': 0.042283298097251586}, 'rouge-2': {'r': 0.1134020618556701, 'f': 0.05314009661835748, 'p': 0.03470031545741325}, 'rouge-1': {'r': 0.4880952380952381, 'f': 0.2248803827751196, 'p': 0.14779874213836477}}
+
+
+Anti-redundancy objective value :	0.7982888624409711
+Average Reader attention score objective value :	0.0040501783220445
+Average Density based score objective value :	77.76383454324788
+Average Reader attention with tf-idf (RAWT) score objective value :	0.19711515468358295

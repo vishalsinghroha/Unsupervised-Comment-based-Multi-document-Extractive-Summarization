@@ -1,0 +1,26 @@
+b'\nIt has emerged that Mr Thomas had been travelling to Australia to attend an international conference on Aids.\nHe said Mr Thomas\' interest in journalism was "only matched by his interest in humanitarian issues" and said former workmates were "reeling" from the news.\n\'Warm and caring\'\n"For all of us who have lost fellow countrymen and women in the tragedy, words cannot do justice to our sense of loss," he said.\nIt added: "Our flights are not using Ukrainian airspace, with the exception of our once a day service between Heathrow and Kiev.\nMalaysia\'s airline workers have reacted with horror and anger at the fate of flight MH17, with officials saying the industry may take years to recover from two such trauamtic incidents in such a short space of time.\n"We\'re trying to encourage people to make a claim because they\'ve lost family members who earned money and maybe they have parents who are ill or young children who will go to college, and who will pay for that?" said one of the lawyers, who spoke anonymously because she was not permitted to speak to the media.\nThe airline said the new flight number replacing MH17 would be MH19. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.35, 'p': 0.17587939698492464, 'f': 0.23411371237458198}, 'rouge-2': {'r': 0.04040404040404041, 'p': 0.020202020202020204, 'f': 0.02693602693602694}, 'rouge-su4': {'r': 0.09417808219178082, 'p': 0.0466893039049236, 'f': 0.06242905788876277}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.30612244897959184, 'p': 0.1507537688442211, 'f': 0.20202020202020202}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07517482517482517, 'p': 0.0365025466893039, 'f': 0.04914285714285714}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.30952380952380953, 'p': 0.1306532663316583, 'f': 0.18374558303886926}, 'rouge-2': {'r': 0.03614457831325301, 'p': 0.015151515151515152, 'f': 0.021352313167259787}, 'rouge-su4': {'r': 0.07991803278688525, 'p': 0.03310696095076401, 'f': 0.0468187274909964}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3557692307692308, 'p': 0.18592964824120603, 'f': 0.24422442244224424}, 'rouge-2': {'r': 0.019417475728155338, 'p': 0.010101010101010102, 'f': 0.013289036544850499}, 'rouge-su4': {'r': 0.08881578947368421, 'p': 0.04584040747028863, 'f': 0.06047032474804031}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.09417808219178082, 'f': 0.06242905788876277, 'p': 0.0466893039049236}, 'rouge-2': {'r': 0.04040404040404041, 'f': 0.02693602693602694, 'p': 0.020202020202020204}, 'rouge-1': {'r': 0.3557692307692308, 'f': 0.24422442244224424, 'p': 0.18592964824120603}}
+
+
+Anti-redundancy objective value :	1.059157304040031
+Average Reader attention score objective value :	7.243798151357991e-33
+Average Density based score objective value :	69.88880526056705
+Average Reader attention with tf-idf (RAWT) score objective value :	0.16323242637352814

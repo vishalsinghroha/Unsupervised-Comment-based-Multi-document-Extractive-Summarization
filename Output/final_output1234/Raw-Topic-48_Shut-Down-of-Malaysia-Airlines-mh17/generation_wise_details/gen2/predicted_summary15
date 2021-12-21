@@ -1,0 +1,26 @@
+b'\nSeveral of those on board - it is not yet clear how many - were heading for a major international conference on HIV/Aids in Melbourne, Australian officials said.\nThe plane is said to have crashed in eastern Ukraine near the border with Russia. Russian-backed separatists are fighting the Ukrainian military in the region.\nFamily members accused airline officials of not offering information about how they responded immediately after the plane disappeared. In the months that followed, they expressed distrust of the airline and Malaysia\'s government.\nIn the immediate hours following Thursday\'s disaster, Gavin said "the airline needs to share every piece of information and every piece of data they have, including the decision making process that led to that plane flying over a recent conflict region."\nM: "Well, we are 100% sure that it was a civilian plane."\nG: "Are there a lot of people?"\nUnlike Flight 370, the responsibility for which is pinned with Malaysia Airlines, the second disaster appears largely beyond the airline\'s control. It may, however, face questions about why it continued with flight paths over eastern Ukraine, which is the heart of a violent rebellion against Kiev, when some airlines were circumventing the country. The flight route was declared safe by the International Civil Aviation Organization.\nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.\nBut he is now "very hesitant" about using the airline. "Flying is scary enough."\nAfter the disappearance of Flight 370, the biggest backlash emanated from China because its nationals were the majority of passengers on the flight. Hopes for a recovery in that crucial market might now be set back.\nA Downing Street spokesman said it was "increasingly likely" separatists near the Torez area had shot down the plane.\nGlenn Thomas, 49, a press officer at the World Health Organization (WHO) and a former BBC journalist\nMr Sweeney\'s father Barry said he had been unable to find out what had happened via official channels and discovered his son had died from a post on Newcastle United\'s website.\nThere were also passengers from Germany, Belgium, the Philippines and Canada, the airline has said.\nMeanwhile, leading airlines have announced they are now avoiding airspace surrounding eastern Ukraine.\nThe officials told Fox News that President Barack Obama received "multiple" intelligence assessments regarding the crash of Flight MH17 at Camp David, where he is spending the weekend. The president\'s national security aides also held several meetings to discuss the situation in Ukraine, where separatists are reportedly limiting international investigators\' access to the crash site.  '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.62, 'p': 0.13219616204690832, 'f': 0.2179261862917399}, 'rouge-2': {'r': 0.23232323232323232, 'p': 0.049145299145299144, 'f': 0.08112874779541446}, 'rouge-su4': {'r': 0.2654109589041096, 'p': 0.05539671193709793, 'f': 0.09166173861620343}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.6530612244897959, 'p': 0.13646055437100213, 'f': 0.2257495590828924}, 'rouge-2': {'r': 0.24742268041237114, 'p': 0.05128205128205128, 'f': 0.08495575221238938}, 'rouge-su4': {'r': 0.24825174825174826, 'p': 0.05075053609721229, 'f': 0.08427299703264095}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5595238095238095, 'p': 0.10021321961620469, 'f': 0.16998191681735986}, 'rouge-2': {'r': 0.18072289156626506, 'p': 0.03205128205128205, 'f': 0.0544464609800363}, 'rouge-su4': {'r': 0.2192622950819672, 'p': 0.03824160114367405, 'f': 0.06512477175897748}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5865384615384616, 'p': 0.1300639658848614, 'f': 0.21291448516579412}, 'rouge-2': {'r': 0.1650485436893204, 'p': 0.03632478632478633, 'f': 0.0595446584938704}, 'rouge-su4': {'r': 0.22861842105263158, 'p': 0.049678341672623305, 'f': 0.08162066940692896}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2654109589041096, 'f': 0.09166173861620343, 'p': 0.05539671193709793}, 'rouge-2': {'r': 0.24742268041237114, 'f': 0.08495575221238938, 'p': 0.05128205128205128}, 'rouge-1': {'r': 0.6530612244897959, 'f': 0.2257495590828924, 'p': 0.13646055437100213}}
+
+
+Anti-redundancy objective value :	0.8886342447575797
+Average Reader attention score objective value :	8.122159853939869e-19
+Average Density based score objective value :	97.13967383743898
+Average Reader attention with tf-idf (RAWT) score objective value :	0.2109642013050399
