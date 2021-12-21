@@ -1,0 +1,16 @@
+b"The head of the Russian Air Traffic Controllers' Union, Sergei Kovalyov, told BBC Russian that the airspace over eastern Ukraine had remained open during the conflict because the planes previously shot down had tended to be helicopters or low-flying fast jets. \nThe biggest clue so far into who may have shot down Malaysia Airlines Flight 17 might be what Ukrainian officials say are intercepted communications between pro-Russian rebels operating in eastern Ukraine. \nCrisis and risk management expert Kuniyoshi Shirai at A.C.E. Consulting in Tokyo said Malaysia Airlines must take dramatic steps such as replacing top executives in response to the disaster, which he blamed partly on the airline for flying over war-torn eastern Ukraine."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.38, 'p': 0.3333333333333333, 'f': 0.3551401869158878}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.04424778761061947, 'f': 0.04716981132075471}, 'rouge-su4': {'r': 0.10102739726027397, 'p': 0.08832335329341318, 'f': 0.09424920127795526}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.2755102040816326, 'p': 0.23684210526315788, 'f': 0.25471698113207547}, 'rouge-2': {'r': 0.061855670103092786, 'p': 0.05309734513274336, 'f': 0.05714285714285715}, 'rouge-su4': {'r': 0.06818181818181818, 'p': 0.058383233532934134, 'f': 0.06290322580645162}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.24561403508771928, 'f': 0.2828282828282828}, 'rouge-2': {'r': 0.060240963855421686, 'p': 0.04424778761061947, 'f': 0.05102040816326531}, 'rouge-su4': {'r': 0.09631147540983606, 'p': 0.07035928143712575, 'f': 0.08131487889273356}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.28846153846153844, 'p': 0.2631578947368421, 'f': 0.2752293577981651}, 'rouge-2': {'r': 0.038834951456310676, 'p': 0.035398230088495575, 'f': 0.037037037037037035}, 'rouge-su4': {'r': 0.06907894736842106, 'p': 0.06287425149700598, 'f': 0.06583072100313479}}

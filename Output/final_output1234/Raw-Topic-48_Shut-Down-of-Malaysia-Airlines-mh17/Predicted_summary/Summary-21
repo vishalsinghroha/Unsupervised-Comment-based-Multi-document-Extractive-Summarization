@@ -1,0 +1,16 @@
+b'In the immediate hours following Thursday\'s disaster, Gavin said "the airline needs to share every piece of information and every piece of data they have, including the decision making process that led to that plane flying over a recent conflict region." \nThe biggest clue so far into who may have shot down Malaysia Airlines Flight 17 might be what Ukrainian officials say are intercepted communications between pro-Russian rebels operating in eastern Ukraine. \nMalaysia Airlines has been in the red for the last three years. Last year, its losses ballooned to 1.17 billion ringgit ($363 million), nearly three times larger than its 433 million ringgit loss in 2012.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3, 'p': 0.2803738317757009, 'f': 0.2898550724637681}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.04716981132075472, 'f': 0.04878048780487805}, 'rouge-su4': {'r': 0.07876712328767123, 'p': 0.07348242811501597, 'f': 0.07603305785123968}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.2653061224489796, 'p': 0.24299065420560748, 'f': 0.2536585365853659}, 'rouge-2': {'r': 0.07216494845360824, 'p': 0.0660377358490566, 'f': 0.06896551724137931}, 'rouge-su4': {'r': 0.06818181818181818, 'p': 0.06230031948881789, 'f': 0.06510851419031718}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.2976190476190476, 'p': 0.2336448598130841, 'f': 0.26178010471204194}, 'rouge-2': {'r': 0.04819277108433735, 'p': 0.03773584905660377, 'f': 0.042328042328042326}, 'rouge-su4': {'r': 0.07172131147540983, 'p': 0.05591054313099041, 'f': 0.06283662477558347}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.2692307692307692, 'p': 0.2616822429906542, 'f': 0.2654028436018957}, 'rouge-2': {'r': 0.038834951456310676, 'p': 0.03773584905660377, 'f': 0.03827751196172248}, 'rouge-su4': {'r': 0.05921052631578947, 'p': 0.05750798722044728, 'f': 0.05834683954619124}}

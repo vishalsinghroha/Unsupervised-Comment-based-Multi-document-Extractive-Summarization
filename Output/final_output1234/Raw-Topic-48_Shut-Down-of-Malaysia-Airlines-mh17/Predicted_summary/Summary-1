@@ -1,0 +1,16 @@
+b'Malaysia Airlines Flight 17 was downed over eastern Ukraine on Thursday with 298 people aboard by what American intelligence authorities believe was a surface-to-air missile. Just four months earlier, a Malaysia Airlines jetliner carrying 239 people disappeared about an hour after taking off from Kuala Lumpur. The jet has still not been found, a source of profound unease for travelers and the aviation industry. \nKorean Air Line also said it had rerouted cargo and passenger flights in early March amid the worsening situation over the Crimean peninsula. A company official, who requested anonymity in line with department rules, said Korean Air Line had had 42 flights  26 cargo and 16 passenger flights  which flew over Ukraine before.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.33, 'p': 0.28205128205128205, 'f': 0.3041474654377881}, 'rouge-2': {'r': 0.08080808080808081, 'p': 0.06896551724137931, 'f': 0.0744186046511628}, 'rouge-su4': {'r': 0.10445205479452055, 'p': 0.08892128279883382, 'f': 0.09606299212598425}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.336734693877551, 'p': 0.28205128205128205, 'f': 0.30697674418604654}, 'rouge-2': {'r': 0.09278350515463918, 'p': 0.07758620689655173, 'f': 0.08450704225352114}, 'rouge-su4': {'r': 0.09615384615384616, 'p': 0.08017492711370262, 'f': 0.08744038155802862}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.27380952380952384, 'p': 0.19658119658119658, 'f': 0.22885572139303484}, 'rouge-2': {'r': 0.04819277108433735, 'p': 0.034482758620689655, 'f': 0.04020100502512563}, 'rouge-su4': {'r': 0.07377049180327869, 'p': 0.052478134110787174, 'f': 0.061328790459965934}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3076923076923077, 'p': 0.27350427350427353, 'f': 0.2895927601809955}, 'rouge-2': {'r': 0.06796116504854369, 'p': 0.0603448275862069, 'f': 0.0639269406392694}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.08163265306122448, 'f': 0.0865533230293663}}

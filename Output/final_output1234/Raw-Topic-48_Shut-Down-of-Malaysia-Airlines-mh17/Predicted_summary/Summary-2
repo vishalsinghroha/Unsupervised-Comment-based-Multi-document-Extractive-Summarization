@@ -1,0 +1,16 @@
+b'\'Mistake or terrorism\' \nAnalysts said it may take a government rescue to save the company from financial disaster. \nThe recordings, translated and distributed by Ukrainian officials, begin with an alleged militant informing others that a plane has been shot down. \nM: "Nothing at all. Civilian belongings, medical scraps, towels, toilet paper." \nWithin Malaysia, the shock is palpably raw. \nCameron Dalziel, who was born in Zimbabwe and lived in South Africa, but was travelling on a British passport \nWHO spokeswoman Fadela Chaib said: "For the time being we would like to give his family time to grieve. \n"It is pure chance. I flew through Ukrainian airspace on Monday with my daughter. It could have been us."'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26, 'p': 0.22608695652173913, 'f': 0.24186046511627907}, 'rouge-2': {'r': 0.020202020202020204, 'p': 0.017543859649122806, 'f': 0.018779342723004692}, 'rouge-su4': {'r': 0.053082191780821915, 'p': 0.04599406528189911, 'f': 0.0492845786963434}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.25510204081632654, 'p': 0.21739130434782608, 'f': 0.23474178403755866}, 'rouge-2': {'r': 0.010309278350515464, 'p': 0.008771929824561403, 'f': 0.009478672985781991}, 'rouge-su4': {'r': 0.057692307692307696, 'p': 0.04896142433234421, 'f': 0.052969502407704656}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.20869565217391303, 'f': 0.24120603015075373}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07377049180327869, 'p': 0.05341246290801187, 'f': 0.061962134251290886}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.22115384615384615, 'p': 0.2, 'f': 0.21004566210045664}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.049342105263157895, 'p': 0.04451038575667656, 'f': 0.046801872074883}}
