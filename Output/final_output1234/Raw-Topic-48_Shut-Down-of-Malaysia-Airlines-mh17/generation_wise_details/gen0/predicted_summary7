@@ -1,0 +1,26 @@
+b'\nBut Russian President Vladimir Putin blamed the Ukraine government for restarting military operations in the area, where it is trying to regain control from pro-Russian rebels.\nIn a telephone conversation, US President Barack Obama and the Dutch leader, Mark Rutte, "agreed on the need to assure immediate access to the site... to international investigators... to carry out a thorough investigation", the White House said.\nIf it does turn out that the Boeing 777 was shot down by the separatists - with weaponry supplied by Moscow - then it could significantly alter the terms of the whole debate surrounding the Ukraine crisis.\nG: "Are there any weapons?"\nUkrainian Prime Minister Arseniy Yatsenyuk on Friday blasted the "terrorists" he blamed for shooting down the plane a day earlier, with 298 people aboard.\nKozitsyn: "Well then it was bringing spies. Why the hell were they flying? This is war going on."\nYatsenyuk called for international support "to bring to justice all these bastards who committed this international crime."\nWithin Malaysia, the shock is palpably raw.\nSpeaking after he chaired a meeting of the Cobra emergency committee on Friday, the UK prime minister described the tragedy as "absolutely appalling, shocking, horrific incident". He said it "cannot be allowed to stand".\nBritish passengers believed to have died in the tragedy include:\n"We are keeping those services under review, but Kiev is several hundred kilometres from the incident site."\nA statement from Hong Kong\'s Civil Aviation Department said local "airlines do not use air routes that cross Ukrainian airspace."\nThe missile is the latest piece of evidence tying the jet tragedy to Moscow and its separatist clients. Earlier Saturday, U.S. officials told Fox News that senior Western intelligence officials believe they have found evidence that the Russian commander Igor "Strelkov" Girkin oversaw the deadly missile strike.\nGirkin is a retired Russian military intelligence officer who purportedly served in the Russian FSB, the countrys internal security unit -- a part of the KGB that was renamed after the Soviet Union fell apart. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.53, 'p': 0.1582089552238806, 'f': 0.24367816091954023}, 'rouge-2': {'r': 0.20202020202020202, 'p': 0.059880239520958084, 'f': 0.09237875288683603}, 'rouge-su4': {'r': 0.21575342465753425, 'p': 0.06318956870611836, 'f': 0.09775019394879754}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.5, 'p': 0.14626865671641792, 'f': 0.22632794457274827}, 'rouge-2': {'r': 0.12371134020618557, 'p': 0.03592814371257485, 'f': 0.0556844547563805}, 'rouge-su4': {'r': 0.16958041958041958, 'p': 0.04864593781344032, 'f': 0.07560405300077942}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5833333333333334, 'p': 0.14626865671641792, 'f': 0.23389021479713606}, 'rouge-2': {'r': 0.30120481927710846, 'p': 0.0748502994011976, 'f': 0.11990407673860912}, 'rouge-su4': {'r': 0.3073770491803279, 'p': 0.07522567703109329, 'f': 0.12087026591458501}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.4423076923076923, 'p': 0.1373134328358209, 'f': 0.20956719817767655}, 'rouge-2': {'r': 0.07766990291262135, 'p': 0.023952095808383235, 'f': 0.03661327231121282}, 'rouge-su4': {'r': 0.13486842105263158, 'p': 0.041123370110330994, 'f': 0.06302843966179862}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3073770491803279, 'f': 0.12087026591458501, 'p': 0.07522567703109329}, 'rouge-2': {'r': 0.30120481927710846, 'f': 0.11990407673860912, 'p': 0.0748502994011976}, 'rouge-1': {'r': 0.5833333333333334, 'f': 0.24367816091954023, 'p': 0.1582089552238806}}
+
+
+Anti-redundancy objective value :	0.9268296586887784
+Average Reader attention score objective value :	3.684952107135105e-20
+Average Density based score objective value :	88.45201178950579
+Average Reader attention with tf-idf (RAWT) score objective value :	0.1804497157103143

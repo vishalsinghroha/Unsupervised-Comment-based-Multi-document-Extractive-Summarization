@@ -1,0 +1,26 @@
+b'\nThe recordings, translated and distributed by Ukrainian officials, begin with an alleged militant informing others that a plane has been shot down.\nWhile these recordings have garnered worldwide attention, they are not the first alleged intercepted calls that Ukrainian officials have released. Others were released earlier this month.\nJohn Wood, headmaster at Mr Mayne\'s former school, Dixie Grammar in Leicestershire, described him as "a great all-rounder, good academically and also a keen sportsman".\nThe Security Council also approved a statement calling for a "full, thorough and independent international investigation" into the tragedy.\n"We have been waiting for four hours. We found out the news from international media. Facebook is more efficient than MAS. It\'s so funny, they are a laughing stock," one young man told reporters angrily.\nFor others, a disaster may well mean "rebranding, rebadging, a new air operator\'s certificate".\nOne key question is whether the airline should have chosen another course for the Boeing-777, given that two aircraft had been downed in the region that week.\n"\'What\'s wrong with Malaysia Airlines?\' is completely the wrong question to ask and will lead us down a rabbit hole of entirely useless thinking," said aviation expert Dekker. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32, 'p': 0.16326530612244897, 'f': 0.21621621621621617}, 'rouge-2': {'r': 0.030303030303030304, 'p': 0.015384615384615385, 'f': 0.020408163265306124}, 'rouge-su4': {'r': 0.08047945205479452, 'p': 0.04051724137931034, 'f': 0.05389908256880734}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.29591836734693877, 'p': 0.14795918367346939, 'f': 0.19727891156462585}, 'rouge-2': {'r': 0.041237113402061855, 'p': 0.020512820512820513, 'f': 0.0273972602739726}, 'rouge-su4': {'r': 0.07167832167832168, 'p': 0.0353448275862069, 'f': 0.04734411085450346}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.12244897959183673, 'f': 0.1714285714285714}, 'rouge-2': {'r': 0.012048192771084338, 'p': 0.005128205128205128, 'f': 0.007194244604316547}, 'rouge-su4': {'r': 0.06762295081967214, 'p': 0.028448275862068967, 'f': 0.04004854368932039}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.25, 'p': 0.1326530612244898, 'f': 0.17333333333333334}, 'rouge-2': {'r': 0.009708737864077669, 'p': 0.005128205128205128, 'f': 0.006711409395973154}, 'rouge-su4': {'r': 0.06743421052631579, 'p': 0.0353448275862069, 'f': 0.04638009049773755}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.08047945205479452, 'f': 0.05389908256880734, 'p': 0.04051724137931034}, 'rouge-2': {'r': 0.041237113402061855, 'f': 0.0273972602739726, 'p': 0.020512820512820513}, 'rouge-1': {'r': 0.32, 'f': 0.21621621621621617, 'p': 0.16326530612244897}}
+
+
+Anti-redundancy objective value :	0.6849374715928315
+Average Reader attention score objective value :	1.32476424221609e-10
+Average Density based score objective value :	82.89675976811756
+Average Reader attention with tf-idf (RAWT) score objective value :	0.19869426359450318
