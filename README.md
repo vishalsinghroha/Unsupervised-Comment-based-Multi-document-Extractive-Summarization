@@ -4,20 +4,25 @@ This work proposes a novel multi-objective optimization-based framework for  Uns
 
 Input Files: 
 --------------------------------------------------------------------
-1)	WMD matrix which is the distance matrix having tweet to tweet distance in semantic space [Line-19]
-2)	Tf-idf score of the tweets [Line-28]
-3)	The file having Length of the tweets [Line-38]
-4)	Original set of Tweet [Line 58]
-5)	Gold summaries [Line-70, Line-82, Line-97]
+1)	WMD matrix which is the distance matrix having tweet to tweet distance in semantic space [Line-28]
+2)	Reader Attention score of news sentence [Line-38]
+3)	Density based score of news sentence [Line-49]
+4)	Reader Attention with syntatcic score of news sentence [Line-60]
+5)	Length of news sentences [Line 84]
+6)	Original set of news sentences [Line 96]
+7)	Reference/Actual/Gold summaries [Line-123, Line-152, Line-177, Line-202]
+
+Note: All the above input files are present in the preprocessing directory.
 
 
  User input:
  -----------------------------------------------------------------------
-1)	Population size [Line 112]
-2)	Mating pool size [Line 113]
-3)	Minimum number of tweets to be in the summary [Line 115]
-4)	Maximum number of tweets to be in the summary [Line 116]
-5)	Maximum number of generations [Line 117]
+ Since, the code is automated for multiple topics, you have to update the below values before running the main program.
+1)	Population size [Line 229]
+2)	Mating pool size [Line 232]
+3)	Minimum number of tweets to be in the summary [Line 237]
+4)	Maximum number of tweets to be in the summary [Line 240]
+5)	Maximum number of generations [Line 243]
 
 Output Files: 
 -----------------------------------------------------------------------
@@ -26,7 +31,8 @@ Output Files:
 3)	Files:
 (a)	 ‘Annotator1_solutionwise_summary_score_overview’,
 (b)	‘Annotator2_solutionwise_summary_score_overview’, 
-(c)	‘Annotator2_solutionwise_summary_score_overview’
+(c)	‘Annotator3_solutionwise_summary_score_overview’
+(d) ‘Annotator4_solutionwise_summary_score_overview’
 These files contains gold summaries scores corresponding to each solution in the final population (at the end of the execution)
 (d)	Plots: 
 i.	‘Generation_wise_Objective_values’: It shows the maximum values of objective functions at each generation.
