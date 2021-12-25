@@ -18,18 +18,9 @@ Note: All the above input files are present in the preprocessing directory.
  -----------------------------------------------------------------------
  For word embedding word2vec model is used.
  1) For English datase, 'word2vec-google-news-30' is used.
- @article{mikolov2013efficient,
-  title={Efficient estimation of word representations in vector space},
-  author={Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
-  journal={arXiv preprint arXiv:1301.3781},
-  year={2013}
-}
+https://github.com/RaRe-Technologies/gensim-data/releases/tag/word2vec-google-news-300
  2) For French dataset, 'frWac non lem no postag no 200 cbow cut0' is used.
- @misc{fauconnier_2015,
-	author = {Fauconnier, Jean-Philippe},
-	title = {French Word Embeddings},
-	url = {http://fauconnier.github.io},
-	year = {2015}}
+https://fauconnier.github.io/
  
  User input:
  -----------------------------------------------------------------------
