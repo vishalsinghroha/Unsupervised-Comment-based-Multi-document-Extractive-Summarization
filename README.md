@@ -14,7 +14,17 @@ Input Files:
 
 Note: All the above input files are present in the preprocessing directory.
 
-
+ Embeddings Used:
+ -----------------------------------------------------------------------
+ For word embedding word2vec model is used.
+ 1) For English datase, 'word2vec-google-news-30' is used.
+ 2) For French dataset, 'frWac non lem no postag no 200 cbow cut0' is used.
+ @misc{fauconnier_2015,
+	author = {Fauconnier, Jean-Philippe},
+	title = {French Word Embeddings},
+	url = {http://fauconnier.github.io},
+	year = {2015}}
+ 
  User input:
  -----------------------------------------------------------------------
  Since, the code is automated for multiple topics, you have to update the below values before running the main program.
