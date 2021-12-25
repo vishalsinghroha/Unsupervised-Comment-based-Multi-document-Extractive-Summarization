@@ -34,12 +34,12 @@ Output Files:
 (c)	‘Annotator3_solutionwise_summary_score_overview’
 (d) ‘Annotator4_solutionwise_summary_score_overview’
 These files contains gold summaries scores corresponding to each solution in the final population (at the end of the execution)
-(d)	Plots: 
+(e)	Plots: 
 i)	‘Generation_wise_Objective_values’: It shows the maximum values of objective functions at each generation.
 ii)	‘New Sols_vs_Generations’: It shows the number of new good solutions obtained at the end of each generation. 
 iii)	‘Generation Wise Rouge score’:  It shows the maximum ROUGE score values (obtained using the gold summary) at each generation.
 
 How to Run:
 -----------------------------------------------------------------------
-a)	Create a text file and provide all the topics names in that file separated by '\n' and provide the text file path in [Line 618]. All the outputs will be stored in the output folder in the folder with the same topic name you have provided in the input text file. 
-b)	To run the program, go to ‘examples’ folder and run the file ‘comment_based_summarization_main.py’ and give the required number parameters before running the program.  Note that there we have utilized 2 datasets one belonging to English language and another belonging to French language. For the testing purpose result of only 3 topics out of 45 topics of the english dataset are present. For running the code on french dataset execute 'french_dataset_comment_based_summarization_main.py' and provide the path of all the required input files to the program. 
+1)	Create a text file and provide all the topics names in that file separated by '\n' and provide the text file path in [Line 618]. All the outputs will be stored in the output folder in the folder with the same topic name you have provided in the input text file. 
+2)	To run the program, go to ‘examples’ folder and run the file ‘comment_based_summarization_main.py’ and give the required number parameters before running the program.  Note that there we have utilized 2 datasets one belonging to English language and another belonging to French language. For the testing purpose result of only 3 topics out of 45 topics of the english dataset are present. For running the code on french dataset execute 'french_dataset_comment_based_summarization_main.py' and provide the path of all the required input files to the program. 
