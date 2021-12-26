@@ -244,12 +244,9 @@ def calculate_dbs(folder_name):
 
   df.to_csv(str(root_path) + 'important_results/' + str(folder_name) + '/' + str(folder_name) +'_sentence_score.csv', index=False)
 
-i =7
-print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
-calculate_dbs(files_list[i])
-print('Finished!')
 
-for i in range(len(files_list)):
+if __name__ == "__main__":
+  for i in range(len(files_list)):
     print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
     calculate_dbs(files_list[i])
     print('Finished!')

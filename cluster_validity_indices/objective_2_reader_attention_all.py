@@ -261,89 +261,12 @@ def calculate_reader_attention(document_df,comment_file,wmd_file):
     
     df.to_csv(wmd_file + '_reader_attention_part2.csv', index=False)
 
-#topic : 14,27 (creating problems)
-#comment_folder = root_path+'processed_comments/'
-#document_folder = root_path+'processed_documents/'
-#wmd_folder = root_path+'important_results/'
-#print('\n ******************************* \n Topic No.: '+str(13)+'\n Topic Name: '+str(files_list[12]))
-#calculate_reader_attention(document_folder + files_list[12]+'/'+files_list[12],comment_folder + files_list[12] +'/'+files_list[12], wmd_folder + files_list[12]+'/'+files_list[12] )
-#print('Finished!')
+if __name__ == "__main__":
+  comment_folder = root_path+'processed_comments/'
+  document_folder = root_path+'processed_documents/'
+  wmd_folder = root_path+'important_results/'
 
-i = 27
-document_folder = root_path+'processed_documents/'
-document_file  = document_folder + files_list[i]+'/'+files_list[i]
-document_df_1 = pd.read_csv(document_file + '.csv')
-document_df_1.head()
-
-len(document_df_1)
-
-document_df_part1 = document_df_1[:int(len(document_df_1)/2)]
-len(document_df_part1)
-
-document_df_part2 = document_df_1[int(len(document_df_1)/2) : ]
-len(document_df_part2)
-
-#document_df_part3 = document_df_1[int(2*(len(document_df_1)/3)):]
-#len(document_df_part3)
-
-for i in range(len(document_df_1)):
-
-  print(' \n **********************************\n sentence ' + str(i+1)+ ' : \n '+ str(document_df_1['document_sentence'][i]))
-
-counter = 0
-for i in range(len(document_df_part1)):
-  counter +=1
-  print(' \n **********************************\n sentence ' + str(counter)+ ': \n '+ str(document_df_part1['document_sentence'][i]))
-
-document_df_part2.head(88)
-
-#document_df_part3.head(65)
-
-comment_folder = root_path+'processed_comments/'
-document_folder = root_path+'processed_documents/'
-wmd_folder = root_path+'important_results/'
-i = 27
-print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
-calculate_reader_attention(document_df_part2,comment_folder + files_list[i] +'/'+files_list[i], wmd_folder + files_list[i]+'/'+files_list[i] )
-print('Finished!')
-
-#comment_folder = root_path+'processed_comments/'
-#document_folder = root_path+'processed_documents/'
-#wmd_folder = root_path+'important_results/'
-#i = 14
-#print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
-#calculate_reader_attention(,comment_folder + files_list[i] +'/'+files_list[i], wmd_folder + files_list[i]+'/'+files_list[i] )
-#print('Finished!')
-
-comment_folder = root_path+'processed_comments/'
-document_folder = root_path+'processed_documents/'
-wmd_folder = root_path+'important_results/'
-for i in range(28,len(files_list)):
+  for i in range(len(files_list)):
     print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
     calculate_reader_attention(document_folder + files_list[i]+'/'+files_list[i],comment_folder + files_list[i] +'/'+files_list[i], wmd_folder + files_list[i]+'/'+files_list[i] )
     print('Finished!')
-
-"""### combining the 3 data frames"""
-
-wmd_folder = root_path+'important_results/'
-my_path = wmd_folder + files_list[i]+'/'+files_list[i]
-frame1 = pd.read_csv(my_path + '_reader_attention_part1.csv')
-frame2 = pd.read_csv(my_path + '_reader_attention_part2.csv')
-#frame3 = pd.read_csv(my_path + '_reader_attention_part3.csv')
-
-final_frame = [frame1, frame2]
-result = pd.concat(final_frame, ignore_index=True)
-
-for i in range(len(result)):
-  print('\n ***************************** \n sentence '+str(i+1) +' : \n '+ str(result['clean_document_sentences'][i]))
-
-len(result)
-
-i = 27
-result.to_csv(wmd_folder + files_list[i]+'/'+ files_list[i] + '_reader_attention.csv', index=False)
-
-final_frame_reader_att = pd.read_csv(wmd_folder + files_list[i]+'/'+ files_list[i] + '_reader_attention.csv')
-final_frame_reader_att.head()
-
-len(final_frame_reader_att)
-

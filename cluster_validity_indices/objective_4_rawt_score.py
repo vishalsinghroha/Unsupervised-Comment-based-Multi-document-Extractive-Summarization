@@ -154,17 +154,8 @@ def calculate_rawt(folder_name):
     
     df.to_csv(str(dir_folder) + str(folder_name) + '/' + str(folder_name) +'_rawt_score.csv', index=False)
 
-#sentence_raw = []
-#temp3 = np.asarray(0, dtype= float).reshape(-1,1)
-#sentence_raw.append(temp3)
-#print(sentence_raw[0][0])
-
-i =14
-print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
-calculate_rawt(files_list[i])
-print('Finished!')
-
-for i in range(len(files_list)):
+if __name__ == "__main__":
+  for i in range(len(files_list)):
     print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
     calculate_rawt(files_list[i])
     print('Finished!')

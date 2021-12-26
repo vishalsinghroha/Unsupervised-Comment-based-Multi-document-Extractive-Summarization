@@ -174,7 +174,8 @@ def cal_wmd_bw_doc_com(document_folder,comment_folder):
 
     df_wmd.to_csv(file_path+'_document_wmd.csv', header = False ,index=False)
 
-for i in range(7,len(files_list)):
+if __name__ == "__main__":
+  for i in range(len(files_list)):
     print('\n ******************************* \n Topic No.: '+str(i+1)+'\n Topic Name: '+str(files_list[i]))
     cal_wmd_bw_doc_com(files_list[i],files_list[i])
     print('Finished!')
