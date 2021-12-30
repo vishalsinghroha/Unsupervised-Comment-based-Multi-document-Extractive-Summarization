@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nJacky et son \xc3\xa9go. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6428571428571429, 'p': 0.2222222222222222, 'f': 0.33027522935779813}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.1, 'f': 0.14953271028037385}, 'rouge-su4': {'r': 0.29605263157894735, 'p': 0.09574468085106383, 'f': 0.14469453376205788}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.09574468085106383, 'r': 0.29605263157894735, 'f': 0.14469453376205788}, 'rouge-2': {'p': 0.1, 'r': 0.2962962962962963, 'f': 0.14953271028037385}, 'rouge-1': {'p': 0.2222222222222222, 'r': 0.6428571428571429, 'f': 0.33027522935779813}}
+
+
+Anti-redundancy objective value :	4.440576217253282
+Average Reader attention score objective value :	0.01666666666666665
+Average Density based score objective value :	39.49684365100993
+Average Reader attention with tf-idf (RAWT) score objective value :	1.5167560625249141

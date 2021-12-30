@@ -1,0 +1,14 @@
+b'\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJacky et son \xc3\xa9go.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.39285714285714285, 'p': 0.09401709401709402, 'f': 0.15172413793103448}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.09868421052631579, 'p': 0.021865889212827987, 'f': 0.03579952267303103}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.021865889212827987, 'r': 0.09868421052631579, 'f': 0.03579952267303103}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.09401709401709402, 'r': 0.39285714285714285, 'f': 0.15172413793103448}}
+
+
+Anti-redundancy objective value :	5.541005452233237
+Average Reader attention score objective value :	6.80428739395352e-137
+Average Density based score objective value :	48.05090240345228
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4052807770113804

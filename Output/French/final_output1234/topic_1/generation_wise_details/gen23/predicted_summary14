@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJacky et son \xc3\xa9go.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5357142857142857, 'p': 0.17045454545454544, 'f': 0.25862068965517243}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.09195402298850575, 'f': 0.14035087719298245}, 'rouge-su4': {'r': 0.2565789473684211, 'p': 0.076171875, 'f': 0.11746987951807228}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.076171875, 'r': 0.2565789473684211, 'f': 0.11746987951807228}, 'rouge-2': {'p': 0.09195402298850575, 'r': 0.2962962962962963, 'f': 0.14035087719298245}, 'rouge-1': {'p': 0.17045454545454544, 'r': 0.5357142857142857, 'f': 0.25862068965517243}}
+
+
+Anti-redundancy objective value :	5.6747010499339385
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	28.502916507892184
+Average Reader attention with tf-idf (RAWT) score objective value :	1.030401182469682

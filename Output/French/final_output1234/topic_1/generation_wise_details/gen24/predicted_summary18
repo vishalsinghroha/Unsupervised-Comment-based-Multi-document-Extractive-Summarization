@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nC\xc3\xb4t\xc3\xa9 Racing, je m\xe2\x80\x99\xc3\xa9tonne toujours de voir Dan Carter prolonger tranquillement sa pr\xc3\xa9 retraite dans un rugby pourcentage qui ne le met gu\xc3\xa8re \xc3\xa0 son avantage.\nJacky et son \xc3\xa9go.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.07207207207207207, 'f': 0.11510791366906475}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.05921052631578947, 'p': 0.013846153846153847, 'f': 0.022443890274314215}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.013846153846153847, 'r': 0.05921052631578947, 'f': 0.022443890274314215}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.07207207207207207, 'r': 0.2857142857142857, 'f': 0.11510791366906475}}
+
+
+Anti-redundancy objective value :	5.520394945144323
+Average Reader attention score objective value :	1.1513239766133637e-127
+Average Density based score objective value :	40.03438914662569
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4809759053291098

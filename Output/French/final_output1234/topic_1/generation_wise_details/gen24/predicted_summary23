@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nEt Montpellier a d\xc3\xa9truit en quelques saisons tout ce que le duo Galthi\xc3\xa9-B\xc3\xa9chu avait savamment b\xc3\xa2ti pour faire du club h\xc3\xa9raultais une r\xc3\xa9f\xc3\xa9rence en mati\xc3\xa8re de jeu et de formation.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.04878048780487805, 'f': 0.08333333333333334}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.006134969325153374, 'f': 0.010526315789473684}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.014462809917355372, 'f': 0.025000000000000005}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.014462809917355372, 'r': 0.09210526315789473, 'f': 0.025000000000000005}, 'rouge-2': {'p': 0.006134969325153374, 'r': 0.037037037037037035, 'f': 0.010526315789473684}, 'rouge-1': {'p': 0.04878048780487805, 'r': 0.2857142857142857, 'f': 0.08333333333333334}}
+
+
+Anti-redundancy objective value :	2.093102375085819
+Average Reader attention score objective value :	5.508303763812192e-42
+Average Density based score objective value :	85.03149695546114
+Average Reader attention with tf-idf (RAWT) score objective value :	2.805939792856986

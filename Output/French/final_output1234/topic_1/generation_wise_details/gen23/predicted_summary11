@@ -1,0 +1,14 @@
+b'\nCurieux sentiment que de vouloir qu\xe2\x80\x99aucune des deux \xc3\xa9quipes qui se sont affront\xc3\xa9es samedi \xc3\xa0 Montpellier en match de barrages du Top 14 ne s\xe2\x80\x99impose\xe2\x80\xa6 Au final, le Racing l\xe2\x80\x99a emport\xc3\xa9 en toute logique dans le sillage d\xe2\x80\x99un Roco\xc3\xa7oko des grands jours et d\xe2\x80\x99un pack qui, autour du formidable Nyanga, a fini par faire plier Montpellier.\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6071428571428571, 'p': 0.10559006211180125, 'f': 0.17989417989417988}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.05, 'f': 0.08556149732620322}, 'rouge-su4': {'r': 0.26973684210526316, 'p': 0.0431578947368421, 'f': 0.07441016333938294}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0431578947368421, 'r': 0.26973684210526316, 'f': 0.07441016333938294}, 'rouge-2': {'p': 0.05, 'r': 0.2962962962962963, 'f': 0.08556149732620322}, 'rouge-1': {'p': 0.10559006211180125, 'r': 0.6071428571428571, 'f': 0.17989417989417988}}
+
+
+Anti-redundancy objective value :	1.5548351408788423
+Average Reader attention score objective value :	0.01666666666666665
+Average Density based score objective value :	74.8753869638188
+Average Reader attention with tf-idf (RAWT) score objective value :	2.858837722297425

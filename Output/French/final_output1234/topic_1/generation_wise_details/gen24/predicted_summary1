@@ -1,0 +1,14 @@
+b'\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32142857142857145, 'p': 0.11688311688311688, 'f': 0.17142857142857143}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.08552631578947369, 'p': 0.02914798206278027, 'f': 0.043478260869565216}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.02914798206278027, 'r': 0.08552631578947369, 'f': 0.043478260869565216}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.11688311688311688, 'r': 0.32142857142857145, 'f': 0.17142857142857143}}
+
+
+Anti-redundancy objective value :	5.651025149088107
+Average Reader attention score objective value :	4.54884473134711e-241
+Average Density based score objective value :	70.41672052838675
+Average Reader attention with tf-idf (RAWT) score objective value :	1.8419460066127478

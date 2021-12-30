@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJacky et son oseille.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.06722689075630252, 'f': 0.10884353741496598}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07236842105263158, 'p': 0.015759312320916905, 'f': 0.02588235294117647}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.015759312320916905, 'r': 0.07236842105263158, 'f': 0.02588235294117647}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.06722689075630252, 'r': 0.2857142857142857, 'f': 0.10884353741496598}}
+
+
+Anti-redundancy objective value :	4.6336266699244275
+Average Reader attention score objective value :	4.4066430110497535e-42
+Average Density based score objective value :	54.80529038188597
+Average Reader attention with tf-idf (RAWT) score objective value :	1.7456484099136513

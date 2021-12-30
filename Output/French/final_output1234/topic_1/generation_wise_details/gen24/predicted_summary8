@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nJacky et son \xc3\xa9go.\nLe supermarch\xc3\xa9 du rugby priv\xc3\xa9 de go\xc3\xbbt et de saveur, priv\xc3\xa9 d\xe2\x80\x99histoire et d\xe2\x80\x99identit\xc3\xa9, gr\xc3\xa2ce \xc3\xa0 nos deux grands \xc3\xa9piciers du rugby fran\xc3\xa7ais.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.1038961038961039, 'f': 0.15238095238095237}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.013157894736842105, 'f': 0.019417475728155338}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.03139013452914798, 'f': 0.04682274247491639}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.03139013452914798, 'r': 0.09210526315789473, 'f': 0.04682274247491639}, 'rouge-2': {'p': 0.013157894736842105, 'r': 0.037037037037037035, 'f': 0.019417475728155338}, 'rouge-1': {'p': 0.1038961038961039, 'r': 0.2857142857142857, 'f': 0.15238095238095237}}
+
+
+Anti-redundancy objective value :	6.4238528906425545
+Average Reader attention score objective value :	5.508303763812192e-42
+Average Density based score objective value :	38.33950485650419
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2288495905498857

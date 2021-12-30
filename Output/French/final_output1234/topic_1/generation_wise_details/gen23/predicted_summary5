@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.08247422680412371, 'f': 0.128}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07236842105263158, 'p': 0.019434628975265017, 'f': 0.030640668523676882}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.019434628975265017, 'r': 0.07236842105263158, 'f': 0.030640668523676882}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08247422680412371, 'r': 0.2857142857142857, 'f': 0.128}}
+
+
+Anti-redundancy objective value :	2.06487373931535
+Average Reader attention score objective value :	1.1016607527624384e-41
+Average Density based score objective value :	113.26654689371807
+Average Reader attention with tf-idf (RAWT) score objective value :	3.217749888108691

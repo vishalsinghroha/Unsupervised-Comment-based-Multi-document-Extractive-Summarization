@@ -1,0 +1,14 @@
+b'\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.14285714285714285, 'p': 0.13793103448275862, 'f': 0.14035087719298248}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.039473684210526314, 'p': 0.0379746835443038, 'f': 0.03870967741935484}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0379746835443038, 'r': 0.039473684210526314, 'f': 0.03870967741935484}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.13793103448275862, 'r': 0.14285714285714285, 'f': 0.14035087719298248}}
+
+
+Anti-redundancy objective value :	7.515639352927303
+Average Reader attention score objective value :	6.823267097020666e-241
+Average Density based score objective value :	43.276674286525754
+Average Reader attention with tf-idf (RAWT) score objective value :	1.0986053849942152

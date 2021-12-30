@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb.\nLe supermarch\xc3\xa9 du rugby priv\xc3\xa9 de go\xc3\xbbt et de saveur, priv\xc3\xa9 d\xe2\x80\x99histoire et d\xe2\x80\x99identit\xc3\xa9, gr\xc3\xa2ce \xc3\xa0 nos deux grands \xc3\xa9piciers du rugby fran\xc3\xa7ais. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32142857142857145, 'p': 0.075, 'f': 0.12162162162162161}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.008403361344537815, 'f': 0.0136986301369863}, 'rouge-su4': {'r': 0.09868421052631579, 'p': 0.02130681818181818, 'f': 0.035046728971962614}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.02130681818181818, 'r': 0.09868421052631579, 'f': 0.035046728971962614}, 'rouge-2': {'p': 0.008403361344537815, 'r': 0.037037037037037035, 'f': 0.0136986301369863}, 'rouge-1': {'p': 0.075, 'r': 0.32142857142857145, 'f': 0.12162162162162161}}
+
+
+Anti-redundancy objective value :	2.622822054210296
+Average Reader attention score objective value :	7.344405018416256e-42
+Average Density based score objective value :	92.03258847816316
+Average Reader attention with tf-idf (RAWT) score objective value :	2.657611361884125

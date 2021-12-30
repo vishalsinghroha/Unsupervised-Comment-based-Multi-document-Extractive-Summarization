@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nIls veulent la lumi\xc3\xa8re et occupent co\xc3\xbbte que co\xc3\xbbte l\xe2\x80\x99espace m\xc3\xa9diatique.\nJacky et son \xc3\xa9go.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6071428571428571, 'p': 0.14285714285714285, 'f': 0.23129251700680267}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.06779661016949153, 'f': 0.1103448275862069}, 'rouge-su4': {'r': 0.3092105263157895, 'p': 0.0673352435530086, 'f': 0.11058823529411765}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0673352435530086, 'r': 0.3092105263157895, 'f': 0.11058823529411765}, 'rouge-2': {'p': 0.06779661016949153, 'r': 0.2962962962962963, 'f': 0.1103448275862069}, 'rouge-1': {'p': 0.14285714285714285, 'r': 0.6071428571428571, 'f': 0.23129251700680267}}
+
+
+Anti-redundancy objective value :	4.17541657441484
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	49.8515473782968
+Average Reader attention with tf-idf (RAWT) score objective value :	1.8070401596862666

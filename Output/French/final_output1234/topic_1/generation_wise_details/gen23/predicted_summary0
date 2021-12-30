@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nJacky en a voulu autrement.\nJacky et son \xc3\xa9go.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5, 'p': 0.28, 'f': 0.358974358974359}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.16326530612244897, 'f': 0.21052631578947367}, 'rouge-su4': {'r': 0.25, 'p': 0.13380281690140844, 'f': 0.17431192660550457}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.13380281690140844, 'r': 0.25, 'f': 0.17431192660550457}, 'rouge-2': {'p': 0.16326530612244897, 'r': 0.2962962962962963, 'f': 0.21052631578947367}, 'rouge-1': {'p': 0.28, 'r': 0.5, 'f': 0.358974358974359}}
+
+
+Anti-redundancy objective value :	5.8525229247213755
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	21.248194855729103
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6549015449605037

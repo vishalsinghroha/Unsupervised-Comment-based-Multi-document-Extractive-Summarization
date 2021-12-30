@@ -1,0 +1,14 @@
+b'\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32142857142857145, 'p': 0.0989010989010989, 'f': 0.15126050420168066}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07236842105263158, 'p': 0.020754716981132074, 'f': 0.03225806451612903}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.020754716981132074, 'r': 0.07236842105263158, 'f': 0.03225806451612903}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.0989010989010989, 'r': 0.32142857142857145, 'f': 0.15126050420168066}}
+
+
+Anti-redundancy objective value :	2.402011487052494
+Average Reader attention score objective value :	2.00664204988853e-181
+Average Density based score objective value :	96.45188825247241
+Average Reader attention with tf-idf (RAWT) score objective value :	2.7832880694569213

@@ -1,0 +1,14 @@
+b'\nSurtout le ridicule.\nJacky en a voulu autrement.\nJacky et son \xc3\xa9go.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.13333333333333333, 'f': 0.18181818181818182}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07894736842105263, 'p': 0.03488372093023256, 'f': 0.04838709677419354}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.03488372093023256, 'r': 0.07894736842105263, 'f': 0.04838709677419354}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.13333333333333333, 'r': 0.2857142857142857, 'f': 0.18181818181818182}}
+
+
+Anti-redundancy objective value :	5.0514548227556615
+Average Reader attention score objective value :	8.695288140176613e-214
+Average Density based score objective value :	40.66004906888798
+Average Reader attention with tf-idf (RAWT) score objective value :	1.0094440102642164
