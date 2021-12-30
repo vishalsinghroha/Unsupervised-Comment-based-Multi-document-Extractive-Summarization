@@ -1,0 +1,16 @@
+b"A moderate earthquake that rattled a swath of Southern California forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday. \nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents. \nDespite the evacuations and scattered damage, Friday night's magnitude-5.1 earthquake centered about 25 miles south of downtown Los Angeles mostly frayed nerves."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.35353535353535354, 'p': 0.30973451327433627, 'f': 0.330188679245283}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.0625, 'f': 0.06666666666666667}, 'rouge-su4': {'r': 0.12110726643598616, 'p': 0.10574018126888217, 'f': 0.11290322580645161}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.44, 'p': 0.3893805309734513, 'f': 0.4131455399061033}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.13392857142857142, 'f': 0.14218009478672985}, 'rouge-su4': {'r': 0.17294520547945205, 'p': 0.15256797583081572, 'f': 0.1621187800963082}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.32323232323232326, 'p': 0.2831858407079646, 'f': 0.3018867924528302}, 'rouge-2': {'r': 0.04081632653061224, 'p': 0.03571428571428571, 'f': 0.038095238095238085}, 'rouge-su4': {'r': 0.08304498269896193, 'p': 0.07250755287009064, 'f': 0.07741935483870968}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3939393939393939, 'p': 0.34513274336283184, 'f': 0.36792452830188677}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.07142857142857142, 'f': 0.07619047619047617}, 'rouge-su4': {'r': 0.12629757785467127, 'p': 0.11027190332326284, 'f': 0.11774193548387096}}

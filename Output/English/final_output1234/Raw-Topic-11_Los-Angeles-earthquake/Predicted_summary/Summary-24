@@ -1,0 +1,16 @@
+b"A moderate earthquake that rattled a swath of Southern California forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday. \nA water-main break flooded several floors of Brea City Hall, and the shaking knocked down computers and ceiling tiles, Stokes said. \nThe Los Angeles Times reported that residents in La Habra posted pictures on social media showing broken vases, topped furniture and other items scattered in their homes. \nFriday's quake hit a week after a pre-dawn magnitude-4.4 quake centered in the San Fernando Valley rattled a swath of Southern California. That jolt shook buildings and rattled nerves, but did not cause significant damage."
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26262626262626265, 'p': 0.2184873949579832, 'f': 0.23853211009174313}, 'rouge-2': {'r': 0.030612244897959183, 'p': 0.025423728813559324, 'f': 0.02777777777777778}, 'rouge-su4': {'r': 0.07093425605536333, 'p': 0.05873925501432665, 'f': 0.06426332288401254}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.47, 'p': 0.3949579831932773, 'f': 0.4292237442922375}, 'rouge-2': {'r': 0.13131313131313133, 'p': 0.11016949152542373, 'f': 0.11981566820276499}, 'rouge-su4': {'r': 0.17294520547945205, 'p': 0.14469914040114612, 'f': 0.15756630265210606}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.26262626262626265, 'p': 0.2184873949579832, 'f': 0.23853211009174313}, 'rouge-2': {'r': 0.02040816326530612, 'p': 0.01694915254237288, 'f': 0.018518518518518517}, 'rouge-su4': {'r': 0.058823529411764705, 'p': 0.04871060171919771, 'f': 0.05329153605015674}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.2727272727272727, 'p': 0.226890756302521, 'f': 0.24770642201834864}, 'rouge-2': {'r': 0.02040816326530612, 'p': 0.01694915254237288, 'f': 0.018518518518518517}, 'rouge-su4': {'r': 0.06747404844290658, 'p': 0.055873925501432664, 'f': 0.061128526645768025}}

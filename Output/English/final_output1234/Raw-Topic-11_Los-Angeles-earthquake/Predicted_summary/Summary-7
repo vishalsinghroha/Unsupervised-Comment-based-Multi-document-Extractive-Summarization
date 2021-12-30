@@ -1,0 +1,16 @@
+b'Residents were inconvenienced and some lost valuables, but "thankfully the damage wasn\'t greater," said Chi-Chung Keung, a spokesman for the city of Fullerton. \nAnother 14 residential structures around the city suffered lesser damage, including collapsed fireplaces. Shortly after the main earthquake, the city dealt with a dozen water-main breaks and multiple natural-gas leaks, Stokes said. \nU.S. Geological Survey seismologist Lucy Jones said it\'s unclear whether Southern California is entering a more active seismic period. "We have been in a really quiet time. It can\'t stay that way," Jones said. \nThe quake Friday was not connected to the 4.4 magnitude event in the area on March 17, since they occurred on different fault systems, Pressfield said.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.30303030303030304, 'p': 0.2608695652173913, 'f': 0.28037383177570097}, 'rouge-2': {'r': 0.030612244897959183, 'p': 0.02631578947368421, 'f': 0.028301886792452827}, 'rouge-su4': {'r': 0.07785467128027682, 'p': 0.06676557863501484, 'f': 0.07188498402555911}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.33, 'p': 0.28695652173913044, 'f': 0.3069767441860466}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.07894736842105263, 'f': 0.08450704225352113}, 'rouge-su4': {'r': 0.10273972602739725, 'p': 0.08902077151335312, 'f': 0.09538950715421306}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.29292929292929293, 'p': 0.25217391304347825, 'f': 0.27102803738317754}, 'rouge-2': {'r': 0.02040816326530612, 'p': 0.017543859649122806, 'f': 0.01886792452830189}, 'rouge-su4': {'r': 0.0657439446366782, 'p': 0.05637982195845697, 'f': 0.06070287539936103}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.30303030303030304, 'p': 0.2608695652173913, 'f': 0.28037383177570097}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.043859649122807015, 'f': 0.04716981132075471}, 'rouge-su4': {'r': 0.07785467128027682, 'p': 0.06676557863501484, 'f': 0.07188498402555911}}
