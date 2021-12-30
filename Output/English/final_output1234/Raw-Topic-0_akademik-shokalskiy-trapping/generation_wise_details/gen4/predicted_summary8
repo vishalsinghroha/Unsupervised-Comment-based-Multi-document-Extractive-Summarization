@@ -1,0 +1,26 @@
+b"\nFifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News.\nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nThe Akademik Shokalskiy, which left New Zealand on Nov. 28, got stuck Christmas Eve after a blizzard pushed the sea ice around the ship, freezing it in place about 1,700 miles south of Hobart, Tasmania. The ship isn't in danger of sinking and has weeks' worth of supplies on board, but it cannot move.\nIn a dramatic operation displaying unusual international harmony in one of the world  s most remote and inhospitable places, a red-and-white Chinese helicopter on Thursday rescued 52 passengers trapped for more than a week aboard an icebound Russian research ship in Antarctica, ferrying them a dozen at a time to an Australian icebreaker.\nBut, several hours later, Dr. Turney sent another message on Twitter saying,   We  ve made it to the Aurora Australis safe and sound.   The Australian Maritime Safety Agency, which coordinated the rescue, said the crew of the Aurora Australis had confirmed that the 52 passengers were on board.\nEfforts to rescue the passengers began when the Aurora Australis was diverted from a resupply operation at an Australian Antarctic base. But the ship was unable to break through and risked becoming stuck itself, according to Australian maritime authorities. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7157894736842105, 'p': 0.14945054945054945, 'f': 0.24727272727272726}, 'rouge-2': {'r': 0.22340425531914893, 'p': 0.046255506607929514, 'f': 0.07664233576642338}, 'rouge-su4': {'r': 0.2996389891696751, 'p': 0.061164333087693444, 'f': 0.10159118727050186}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.64, 'p': 0.14065934065934066, 'f': 0.2306306306306306}, 'rouge-2': {'r': 0.1919191919191919, 'p': 0.04185022026431718, 'f': 0.06871609403254973}, 'rouge-su4': {'r': 0.25, 'p': 0.05379513633014001, 'f': 0.08853850818677987}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6868686868686869, 'p': 0.14945054945054945, 'f': 0.24548736462093862}, 'rouge-2': {'r': 0.30612244897959184, 'p': 0.06607929515418502, 'f': 0.10869565217391304}, 'rouge-su4': {'r': 0.3391003460207612, 'p': 0.07221812822402358, 'f': 0.11907654921020656}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.68, 'p': 0.14945054945054945, 'f': 0.245045045045045}, 'rouge-2': {'r': 0.31313131313131315, 'p': 0.06828193832599119, 'f': 0.11211573236889694}, 'rouge-su4': {'r': 0.3356164383561644, 'p': 0.07221812822402358, 'f': 0.11885991510006064}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3391003460207612, 'f': 0.11907654921020656, 'p': 0.07221812822402358}, 'rouge-2': {'r': 0.31313131313131315, 'f': 0.11211573236889694, 'p': 0.06828193832599119}, 'rouge-1': {'r': 0.7157894736842105, 'f': 0.24727272727272726, 'p': 0.14945054945054945}}
+
+
+Anti-redundancy objective value :	0.5901115533276496
+Average Reader attention score objective value :	0.0022368458658030164
+Average Density based score objective value :	129.7577244234041
+Average Reader attention with tf-idf (RAWT) score objective value :	0.641812005586901

@@ -1,0 +1,26 @@
+b'\nA first rescue attempt by a Chinese icebreaker, the Snow Dragon, had to be halted because the ice was so thick.\nIt has had to return to open waters about 18 nautical miles from the Akademik Shokalskiy because of poor visibility, the Australian Maritime Safety Authority (AMSA), which is co-ordinating the rescue, said.\nThe Australian vessel had reached as close as about 10 nautical miles from the trapped ship before turning back.\nAustralia\'s maritime authority said the Aurora Australis, a vessel designed to break through thick blocks of ice, had come close to the MV Akademik Shokalskiy, a Russian ship that remains stranded after two earlier rescue attempts by other icebreakers failed.\nThe Russian ship, carrying 74 people and chartered by a team of scientists, first sent out a distress call on Christmas Day after getting stuck in ice about 1,500 nautical miles south of Hobart, the capital of Australia\'s Tasmania state.\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nThe Chinese vessel will wait for better weather and visibility before launching the evacuation. On Tuesday morning conditions were not yet suitable, with rain, heavy winds and clouds.\n  We must be patient and wait until the adverse weather improves, as poor visibility could lead to tragedy under the current conditions of limited navigation,   he said before the first flight.\nEfforts to rescue the passengers began when the Aurora Australis was diverted from a resupply operation at an Australian Antarctic base. But the ship was unable to break through and risked becoming stuck itself, according to Australian maritime authorities.\nSeventy-four people were on board the Akademik Shokalskiy, which has weeks of supplies and is in no danger of sinking. Most of the 22-member Russian crew are expected to stay behind and wait for the ice to break up naturally.\nThe Russian ship, which left New Zealand on November 28, was trying to recreate Australian explorer Douglas Mawson\'s century-old voyage to Antarctica.\nThe BBC\'s Andrew Luck-Baker, who was on board the Akademik Shokalskiy, says the 15-minute one-way flight was a "white-knuckle ride".\nThe Aurora will take them to Tasmania, arriving around mid-January.\nAnd because the Aurora is not built to handle a helicopter landing, the rescue was postponed. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7578947368421053, 'p': 0.15517241379310345, 'f': 0.25760286225402507}, 'rouge-2': {'r': 0.22340425531914893, 'p': 0.04535637149028078, 'f': 0.07540394973070019}, 'rouge-su4': {'r': 0.2888086642599278, 'p': 0.057803468208092484, 'f': 0.09632751354605659}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.6, 'p': 0.12931034482758622, 'f': 0.21276595744680854}, 'rouge-2': {'r': 0.1717171717171717, 'p': 0.0367170626349892, 'f': 0.0604982206405694}, 'rouge-su4': {'r': 0.2243150684931507, 'p': 0.04732658959537572, 'f': 0.07816229116945109}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.7272727272727273, 'p': 0.15517241379310345, 'f': 0.2557726465364121}, 'rouge-2': {'r': 0.22448979591836735, 'p': 0.047516198704103674, 'f': 0.07843137254901962}, 'rouge-su4': {'r': 0.2820069204152249, 'p': 0.05888728323699422, 'f': 0.09742976688583384}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.63, 'p': 0.13577586206896552, 'f': 0.22340425531914895}, 'rouge-2': {'r': 0.24242424242424243, 'p': 0.05183585313174946, 'f': 0.08540925266903916}, 'rouge-su4': {'r': 0.2756849315068493, 'p': 0.058164739884393066, 'f': 0.09606205250596658}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2888086642599278, 'f': 0.09742976688583384, 'p': 0.05888728323699422}, 'rouge-2': {'r': 0.24242424242424243, 'f': 0.08540925266903916, 'p': 0.05183585313174946}, 'rouge-1': {'r': 0.7578947368421053, 'f': 0.25760286225402507, 'p': 0.15517241379310345}}
+
+
+Anti-redundancy objective value :	0.8086948773879347
+Average Reader attention score objective value :	0.0003673552881591358
+Average Density based score objective value :	72.80532563200823
+Average Reader attention with tf-idf (RAWT) score objective value :	0.3915736315281443

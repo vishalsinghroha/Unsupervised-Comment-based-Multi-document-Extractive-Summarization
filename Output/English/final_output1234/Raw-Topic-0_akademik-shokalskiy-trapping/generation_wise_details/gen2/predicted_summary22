@@ -1,0 +1,26 @@
+b'\nFifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nIn a dramatic operation displaying unusual international harmony in one of the world  s most remote and inhospitable places, a red-and-white Chinese helicopter on Thursday rescued 52 passengers trapped for more than a week aboard an icebound Russian research ship in Antarctica, ferrying them a dozen at a time to an Australian icebreaker.\nThe twin-rotor helicopter, based on a Chinese icebreaker, the Xue Long, or Snow Dragon, flew several sorties across miles of packed ice to pluck scientists, tourists and journalists from a landing zone next to the marooned vessel, the Akademik Shokalskiy.\nAs the rescue got underway with the arrival of the Chinese helicopter, Chris Turney, a leader of the research expedition and a professor of climate change at the University of New South Wales in Australia, said in a message on Twitter that the Chinese helicopter had arrived.   It  s 100% we  re off!   he wrote.   A huge thanks to all.  \nThe ship had set sail from Bluff, New Zealand, on Dec. 8, embarking on a planned monthlong voyage known as the Australasian Antarctic Expedition to study changes to the environment of East Antarctica since an Australian geologist, Douglas Mawson, surveyed the region a century ago. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6526315789473685, 'p': 0.14058956916099774, 'f': 0.23134328358208958}, 'rouge-2': {'r': 0.1595744680851064, 'p': 0.03409090909090909, 'f': 0.056179775280898875}, 'rouge-su4': {'r': 0.24007220216606498, 'p': 0.05057034220532319, 'f': 0.0835427135678392}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.62, 'p': 0.14058956916099774, 'f': 0.22920517560073939}, 'rouge-2': {'r': 0.16161616161616163, 'p': 0.03636363636363636, 'f': 0.05936920222634509}, 'rouge-su4': {'r': 0.22945205479452055, 'p': 0.05095057034220532, 'f': 0.0833851897946484}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6363636363636364, 'p': 0.14285714285714285, 'f': 0.23333333333333328}, 'rouge-2': {'r': 0.20408163265306123, 'p': 0.045454545454545456, 'f': 0.07434944237918216}, 'rouge-su4': {'r': 0.26124567474048443, 'p': 0.05741444866920152, 'f': 0.09413965087281795}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.64, 'p': 0.14512471655328799, 'f': 0.2365988909426987}, 'rouge-2': {'r': 0.20202020202020202, 'p': 0.045454545454545456, 'f': 0.07421150278293136}, 'rouge-su4': {'r': 0.2551369863013699, 'p': 0.05665399239543726, 'f': 0.09271935283136278}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.26124567474048443, 'f': 0.09413965087281795, 'p': 0.05741444866920152}, 'rouge-2': {'r': 0.20408163265306123, 'f': 0.07434944237918216, 'p': 0.045454545454545456}, 'rouge-1': {'r': 0.6526315789473685, 'f': 0.2365988909426987, 'p': 0.14512471655328799}}
+
+
+Anti-redundancy objective value :	0.5074620774885097
+Average Reader attention score objective value :	0.0025020277784351267
+Average Density based score objective value :	141.86311815584943
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7176089423797267

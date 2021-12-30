@@ -1,0 +1,26 @@
+b'\nFifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nIn a dramatic operation displaying unusual international harmony in one of the world  s most remote and inhospitable places, a red-and-white Chinese helicopter on Thursday rescued 52 passengers trapped for more than a week aboard an icebound Russian research ship in Antarctica, ferrying them a dozen at a time to an Australian icebreaker.\nThe twin-rotor helicopter, based on a Chinese icebreaker, the Xue Long, or Snow Dragon, flew several sorties across miles of packed ice to pluck scientists, tourists and journalists from a landing zone next to the marooned vessel, the Akademik Shokalskiy.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage.\nAs the rescue got underway with the arrival of the Chinese helicopter, Chris Turney, a leader of the research expedition and a professor of climate change at the University of New South Wales in Australia, said in a message on Twitter that the Chinese helicopter had arrived.   It  s 100% we  re off!   he wrote.   A huge thanks to all.   '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6842105263157895, 'p': 0.1371308016877637, 'f': 0.22847100175746923}, 'rouge-2': {'r': 0.18085106382978725, 'p': 0.035940803382663845, 'f': 0.0599647266313933}, 'rouge-su4': {'r': 0.2545126353790614, 'p': 0.04985855728429986, 'f': 0.0833826138379657}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.65, 'p': 0.1371308016877637, 'f': 0.22648083623693377}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.03171247357293869, 'f': 0.05244755244755244}, 'rouge-su4': {'r': 0.2465753424657534, 'p': 0.05091937765205092, 'f': 0.08440797186400939}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6666666666666666, 'p': 0.13924050632911392, 'f': 0.23036649214659685}, 'rouge-2': {'r': 0.21428571428571427, 'p': 0.04439746300211417, 'f': 0.0735551663747811}, 'rouge-su4': {'r': 0.28027681660899656, 'p': 0.057284299858557285, 'f': 0.09512624779800354}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.66, 'p': 0.13924050632911392, 'f': 0.22996515679442506}, 'rouge-2': {'r': 0.23232323232323232, 'p': 0.048625792811839326, 'f': 0.08041958041958043}, 'rouge-su4': {'r': 0.2756849315068493, 'p': 0.05693069306930693, 'f': 0.0943728018757327}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.28027681660899656, 'f': 0.09512624779800354, 'p': 0.057284299858557285}, 'rouge-2': {'r': 0.23232323232323232, 'f': 0.08041958041958043, 'p': 0.048625792811839326}, 'rouge-1': {'r': 0.6842105263157895, 'f': 0.23036649214659685, 'p': 0.13924050632911392}}
+
+
+Anti-redundancy objective value :	0.5383948936790197
+Average Reader attention score objective value :	0.0025020277068682505
+Average Density based score objective value :	151.93061196461218
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7644513298232399

@@ -1,0 +1,26 @@
+b'\n  We  re in the ice like the explorers of old! All are well and spirits are high. Happy Christmas,   Australian professor Chris Turney tweeted.The ship is too far from land to send aircraft or normal rescue vessels, Hayward-Maher said. Three ships with ice-breaking capabilities in the region have   been tasked with helping,   but they are all a two-day sail from the stuck vessel,   she added.\nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nThe rescue operation for the 74 scientists, tourists and crew on the Russian ship MV Akademik Shokalskiy has been plagued by one delay after another since the vessel became stuck on Christmas Eve. Three icebreakers were initially dispatched to try and crack their way through the thick ice surrounding the ship, but all failed. The Aurora came within 12 miles of the ship Monday, but fierce winds and snow forced it to retreat to open water.\nOfficials had been planning on Thursday to use a helicopter on board the Snow Dragon -- which is waiting at the edge of the ice pack with the Aurora -- to rescue 52 scientists and tourists, a dozen at a time, over five hours. All 22 crew members are expected to stay with their icebound vessel, which is not in danger.\n  We must be patient and wait until the adverse weather improves, as poor visibility could lead to tragedy under the current conditions of limited navigation,   he said before the first flight.\nBut, several hours later, Dr. Turney sent another message on Twitter saying,   We  ve made it to the Aurora Australis safe and sound.   The Australian Maritime Safety Agency, which coordinated the rescue, said the crew of the Aurora Australis had confirmed that the 52 passengers were on board.\nThe ship is to take the rescued passengers to the Australian island state of Tasmania, arriving there in mid-January.\nEfforts to rescue the passengers began when the Aurora Australis was diverted from a resupply operation at an Australian Antarctic base. But the ship was unable to break through and risked becoming stuck itself, according to Australian maritime authorities.\nThe passengers - including scientists, tourists, and journalists - were airlifted 12 at a time to the Australian vessel, which they will now take on a weeks-long journey to land.\nThe BBC\'s Andrew Luck-Baker, who was on board the Akademik Shokalskiy, says the 15-minute one-way flight was a "white-knuckle ride".\nThe passengers were taken to an ice floe next to the Aurora Australis and then ferried on to the ice-breaker by a small boat.\nDespite being trapped, the scientists continued their experiments, measuring temperature and salinity through cracks in the surrounding ice.\nScientists and tourists on a research ship trapped by Antarctic ice since Christmas Eve have been airlifted to safety.\nHowever, before the operation could begin, sea ice had blocked the path of the barge that needed to make it to the Snow Dragon. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7263157894736842, 'p': 0.13609467455621302, 'f': 0.2292358803986711}, 'rouge-2': {'r': 0.2553191489361702, 'p': 0.04743083003952569, 'f': 0.07999999999999999}, 'rouge-su4': {'r': 0.30144404332129965, 'p': 0.055188367481824194, 'f': 0.09329608938547486}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.65, 'p': 0.1282051282051282, 'f': 0.21416803953871497}, 'rouge-2': {'r': 0.20202020202020202, 'p': 0.039525691699604744, 'f': 0.06611570247933884}, 'rouge-su4': {'r': 0.2517123287671233, 'p': 0.04857898215465962, 'f': 0.0814404432132964}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6565656565656566, 'p': 0.1282051282051282, 'f': 0.2145214521452145}, 'rouge-2': {'r': 0.25510204081632654, 'p': 0.04940711462450593, 'f': 0.08278145695364238}, 'rouge-su4': {'r': 0.2750865051903114, 'p': 0.052544613350958363, 'f': 0.08823529411764706}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.64, 'p': 0.126232741617357, 'f': 0.2108731466227348}, 'rouge-2': {'r': 0.31313131313131315, 'p': 0.06126482213438735, 'f': 0.10247933884297522}, 'rouge-su4': {'r': 0.3441780821917808, 'p': 0.06642432253800397, 'f': 0.11135734072022162}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3441780821917808, 'f': 0.11135734072022162, 'p': 0.06642432253800397}, 'rouge-2': {'r': 0.31313131313131315, 'f': 0.10247933884297522, 'p': 0.06126482213438735}, 'rouge-1': {'r': 0.7263157894736842, 'f': 0.2292358803986711, 'p': 0.13609467455621302}}
+
+
+Anti-redundancy objective value :	0.7181824831914247
+Average Reader attention score objective value :	0.0020619729985533277
+Average Density based score objective value :	91.98999278104536
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4389358516450304
