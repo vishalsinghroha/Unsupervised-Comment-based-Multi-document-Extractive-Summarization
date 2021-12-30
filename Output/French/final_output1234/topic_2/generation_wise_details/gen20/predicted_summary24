@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nVous avez d\xe2\x80\x99ailleurs tr\xc3\xa8s mal pris r\xc3\xa9cemment une statistique sur ce sujet produite par le journal L\xe2\x80\x99Equipe apr\xc3\xa8s la finale perdue face aux Saracens en Coupe d\xe2\x80\x99Europe sous le titre maladroit : \xc2\xab Rougerie, roi de la loose \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3, 'p': 0.1267605633802817, 'f': 0.1782178217821782}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.06707317073170732, 'p': 0.026829268292682926, 'f': 0.038327526132404185}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.026829268292682926, 'r': 0.06707317073170732, 'f': 0.038327526132404185}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.1267605633802817, 'r': 0.3, 'f': 0.1782178217821782}}
+
+
+Anti-redundancy objective value :	2.395802109077441
+Average Reader attention score objective value :	2.600411058926194e-41
+Average Density based score objective value :	60.06390086669197
+Average Reader attention with tf-idf (RAWT) score objective value :	1.529510765379639

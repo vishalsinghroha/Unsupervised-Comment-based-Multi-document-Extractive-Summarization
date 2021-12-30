@@ -1,0 +1,14 @@
+b'\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule.\nQuel bonheur de d\xc3\xa9couvrir cette saison le talent et le potentiel de Cancoriet, Jedrasiak, Penaud et de l\xe2\x80\x99incroyable Iturria, le roi du terrain samedi au V\xc3\xa9lodrome. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.23333333333333334, 'p': 0.08045977011494253, 'f': 0.11965811965811966}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.011627906976744186, 'f': 0.017391304347826087}, 'rouge-su4': {'r': 0.06097560975609756, 'p': 0.019762845849802372, 'f': 0.02985074626865672}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.019762845849802372, 'r': 0.06097560975609756, 'f': 0.02985074626865672}, 'rouge-2': {'p': 0.011627906976744186, 'r': 0.034482758620689655, 'f': 0.017391304347826087}, 'rouge-1': {'p': 0.08045977011494253, 'r': 0.23333333333333334, 'f': 0.11965811965811966}}
+
+
+Anti-redundancy objective value :	1.8241744954626526
+Average Reader attention score objective value :	1.3399490064365612e-77
+Average Density based score objective value :	179.78944565028317
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2742352406313022

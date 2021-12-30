@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nEt c\xe2\x80\x99est aussi pour cela que dans le titre de cette lettre que je vous adresse, je pr\xc3\xa9cise mon cher Franck, que vous \xc3\xaates l\xe2\x80\x99entra\xc3\xaeneur de Clermont.\nVous avez d\xe2\x80\x99ailleurs tr\xc3\xa8s mal pris r\xc3\xa9cemment une statistique sur ce sujet produite par le journal L\xe2\x80\x99Equipe apr\xc3\xa8s la finale perdue face aux Saracens en Coupe d\xe2\x80\x99Europe sous le titre maladroit : \xc2\xab Rougerie, roi de la loose \xc2\xbb.\nQuel bonheur de d\xc3\xa9couvrir cette saison le talent et le potentiel de Cancoriet, Jedrasiak, Penaud et de l\xe2\x80\x99incroyable Iturria, le roi du terrain samedi au V\xc3\xa9lodrome. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.36666666666666664, 'p': 0.08870967741935484, 'f': 0.14285714285714285}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.08536585365853659, 'p': 0.019230769230769232, 'f': 0.03139013452914798}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.019230769230769232, 'r': 0.08536585365853659, 'f': 0.03139013452914798}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08870967741935484, 'r': 0.36666666666666664, 'f': 0.14285714285714285}}
+
+
+Anti-redundancy objective value :	2.3062623401835585
+Average Reader attention score objective value :	1.300205529463097e-41
+Average Density based score objective value :	62.99090822818563
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2438992579518824

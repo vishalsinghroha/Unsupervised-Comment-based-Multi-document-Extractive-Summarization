@@ -1,0 +1,14 @@
+b'\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nClermont joue bien au rugby quand certains ne construisent rien.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.1111111111111111, 'f': 0.1212121212121212}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.03048780487804878, 'p': 0.025, 'f': 0.027472527472527472}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.025, 'r': 0.03048780487804878, 'f': 0.027472527472527472}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.1111111111111111, 'r': 0.13333333333333333, 'f': 0.1212121212121212}}
+
+
+Anti-redundancy objective value :	3.307201307977356
+Average Reader attention score objective value :	3.1995185632399185e-21
+Average Density based score objective value :	97.69033692089151
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6165101399799686

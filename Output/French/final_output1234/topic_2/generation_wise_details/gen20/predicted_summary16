@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3, 'p': 0.12, 'f': 0.17142857142857143}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.013513513513513514, 'f': 0.01941747572815534}, 'rouge-su4': {'r': 0.07926829268292683, 'p': 0.029953917050691243, 'f': 0.04347826086956522}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.029953917050691243, 'r': 0.07926829268292683, 'f': 0.04347826086956522}, 'rouge-2': {'p': 0.013513513513513514, 'r': 0.034482758620689655, 'f': 0.01941747572815534}, 'rouge-1': {'p': 0.12, 'r': 0.3, 'f': 0.17142857142857143}}
+
+
+Anti-redundancy objective value :	1.9525464798606709
+Average Reader attention score objective value :	2.600411058926194e-41
+Average Density based score objective value :	164.37504771449989
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4280969988140089

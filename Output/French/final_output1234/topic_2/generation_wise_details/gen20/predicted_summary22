@@ -1,0 +1,14 @@
+b'\nJe regrette juste qu\xe2\x80\x99elle n\xe2\x80\x99ait pas pu passer la barre des 40 points et qu\xe2\x80\x99elle ait permis au Racing, avec deux essais tardifs, de donner moins d\xe2\x80\x99ampleur au score.\nTout comme il ne m\xc3\xa9ritait pas les railleries apr\xc3\xa8s cette finale de Coupe d\xe2\x80\x99Europe qu\xe2\x80\x99il a tout simplement perdu face \xc3\xa0 plus fort il y a deux semaines. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.07017543859649122, 'f': 0.09195402298850575}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.024390243902439025, 'p': 0.012269938650306749, 'f': 0.0163265306122449}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.012269938650306749, 'r': 0.024390243902439025, 'f': 0.0163265306122449}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.07017543859649122, 'r': 0.13333333333333333, 'f': 0.09195402298850575}}
+
+
+Anti-redundancy objective value :	1.4742442015164865
+Average Reader attention score objective value :	2.3053420038834612e-51
+Average Density based score objective value :	166.20525386678023
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4429921082407562

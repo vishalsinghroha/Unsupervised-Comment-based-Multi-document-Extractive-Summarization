@@ -1,0 +1,14 @@
+b'\nEn tous cas, apr\xc3\xa8s la d\xc3\xa9primante partie de rentre dedans de la veille entre Toulon et La Rochelle, je dois vous avouer que votre succ\xc3\xa8s nous a fait beaucoup de bien.\nUn fl\xc3\xa9au qui poursuit votre club depuis trop longtemps.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais.\nCar vous le m\xc3\xa9ritez plus que n\xe2\x80\x99importe qui d\xe2\x80\x99autre cette ann\xc3\xa9e.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.07407407407407407, 'f': 0.10810810810810811}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.036585365853658534, 'p': 0.01276595744680851, 'f': 0.01892744479495268}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.01276595744680851, 'r': 0.036585365853658534, 'f': 0.01892744479495268}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.07407407407407407, 'r': 0.2, 'f': 0.10810810810810811}}
+
+
+Anti-redundancy objective value :	3.1253002041892683
+Average Reader attention score objective value :	0.01666666666666666
+Average Density based score objective value :	57.59730076824834
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6521758525494266

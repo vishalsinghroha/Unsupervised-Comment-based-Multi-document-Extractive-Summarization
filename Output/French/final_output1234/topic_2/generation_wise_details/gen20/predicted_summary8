@@ -1,0 +1,14 @@
+b'\nCe n\xe2\x80\x99\xc3\xa9tait pas tr\xc3\xa8s fair-play certes mais c\xe2\x80\x99\xc3\xa9tait une r\xc3\xa9alit\xc3\xa9 sur laquelle, je l\xe2\x80\x99esp\xc3\xa8re, vous allez nourrir dans ces prochains jours une \xc3\xa9nergie collective autour de ce remarquable joueur.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.05504587155963303, 'f': 0.08633093525179857}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.009259259259259259, 'f': 0.014598540145985401}, 'rouge-su4': {'r': 0.042682926829268296, 'p': 0.0109717868338558, 'f': 0.017456359102244388}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0109717868338558, 'r': 0.042682926829268296, 'f': 0.017456359102244388}, 'rouge-2': {'p': 0.009259259259259259, 'r': 0.034482758620689655, 'f': 0.014598540145985401}, 'rouge-1': {'p': 0.05504587155963303, 'r': 0.2, 'f': 0.08633093525179857}}
+
+
+Anti-redundancy objective value :	1.7565744706147512
+Average Reader attention score objective value :	0.027777777777777766
+Average Density based score objective value :	96.04884067798163
+Average Reader attention with tf-idf (RAWT) score objective value :	1.5241923790416279

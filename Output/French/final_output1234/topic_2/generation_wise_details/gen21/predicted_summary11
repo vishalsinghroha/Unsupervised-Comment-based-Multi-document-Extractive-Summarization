@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez.\nEt c\xe2\x80\x99est peut-\xc3\xaatre pour cela que cette fois-ci, vous allez le faire. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.23333333333333334, 'p': 0.1346153846153846, 'f': 0.17073170731707316}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.054878048780487805, 'p': 0.030405405405405407, 'f': 0.0391304347826087}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.030405405405405407, 'r': 0.054878048780487805, 'f': 0.0391304347826087}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.1346153846153846, 'r': 0.23333333333333334, 'f': 0.17073170731707316}}
+
+
+Anti-redundancy objective value :	4.1266899381299735
+Average Reader attention score objective value :	3.1995185632399185e-21
+Average Density based score objective value :	40.05250913792023
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6427763693346406

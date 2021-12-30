@@ -1,0 +1,14 @@
+b'\nCar vous le m\xc3\xa9ritez plus que n\xe2\x80\x99importe qui d\xe2\x80\x99autre cette ann\xc3\xa9e.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.03333333333333333, 'p': 0.08333333333333333, 'f': 0.04761904761904761}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.006097560975609756, 'p': 0.017857142857142856, 'f': 0.009090909090909092}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.017857142857142856, 'r': 0.006097560975609756, 'f': 0.009090909090909092}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08333333333333333, 'r': 0.03333333333333333, 'f': 0.04761904761904761}}
+
+
+Anti-redundancy objective value :	7.747598564607879
+Average Reader attention score objective value :	8.389746022535572e-146
+Average Density based score objective value :	36.88530526073356
+Average Reader attention with tf-idf (RAWT) score objective value :	0.33354974471183757

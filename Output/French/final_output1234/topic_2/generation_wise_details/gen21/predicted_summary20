@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nC\xe2\x80\x99est la preuve que rien n\xe2\x80\x99est jamais acquis \xc3\xa0 ce jeu et que votre groupe saura en retirer de pr\xc3\xa9cieux enseignements avant la finale du Stade de France dimanche prochain.\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nEt c\xe2\x80\x99est aussi pour cela que dans le titre de cette lettre que je vous adresse, je pr\xc3\xa9cise mon cher Franck, que vous \xc3\xaates l\xe2\x80\x99entra\xc3\xaeneur de Clermont.\nQuel bonheur de d\xc3\xa9couvrir cette saison le talent et le potentiel de Cancoriet, Jedrasiak, Penaud et de l\xe2\x80\x99incroyable Iturria, le roi du terrain samedi au V\xc3\xa9lodrome. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.43333333333333335, 'p': 0.09774436090225563, 'f': 0.15950920245398773}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.007575757575757576, 'f': 0.012422360248447206}, 'rouge-su4': {'r': 0.11585365853658537, 'p': 0.024296675191815855, 'f': 0.040169133192389}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.024296675191815855, 'r': 0.11585365853658537, 'f': 0.040169133192389}, 'rouge-2': {'p': 0.007575757575757576, 'r': 0.034482758620689655, 'f': 0.012422360248447206}, 'rouge-1': {'p': 0.09774436090225563, 'r': 0.43333333333333335, 'f': 0.15950920245398773}}
+
+
+Anti-redundancy objective value :	2.427918384812857
+Average Reader attention score objective value :	1.0401644235704777e-41
+Average Density based score objective value :	96.83889016191776
+Average Reader attention with tf-idf (RAWT) score objective value :	1.0775147091803974

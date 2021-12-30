@@ -1,0 +1,14 @@
+b'\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule.\nCar vous le m\xc3\xa9ritez plus que n\xe2\x80\x99importe qui d\xe2\x80\x99autre cette ann\xc3\xa9e.\nToulon qui vous a souvent fait des mis\xc3\xa8res ces derni\xc3\xa8res saisons.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.16666666666666666, 'p': 0.0684931506849315, 'f': 0.0970873786407767}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.013888888888888888, 'f': 0.019801980198019802}, 'rouge-su4': {'r': 0.04878048780487805, 'p': 0.018957345971563982, 'f': 0.027303754266211608}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.018957345971563982, 'r': 0.04878048780487805, 'f': 0.027303754266211608}, 'rouge-2': {'p': 0.013888888888888888, 'r': 0.034482758620689655, 'f': 0.019801980198019802}, 'rouge-1': {'p': 0.0684931506849315, 'r': 0.16666666666666666, 'f': 0.0970873786407767}}
+
+
+Anti-redundancy objective value :	3.1339335464907285
+Average Reader attention score objective value :	2.399638922429939e-21
+Average Density based score objective value :	98.57872509721689
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7817965339507342

@@ -1,0 +1,14 @@
+b'\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nAbus\xc3\xa9e par un arbitrage vid\xc3\xa9o plut\xc3\xb4t suspect d\xe2\x80\x99un ancien c\xc3\xa9l\xc3\xa8bre arri\xc3\xa8re biterrois sans doute trahi par son affection l\xc3\xa9gitime envers deux Racingmen, deux enfants de B\xc3\xa9ziers, Nyanga et Szarzewski.\nVous aviez la meilleure \xc3\xa9quipe, celle qui m\xc3\xa9ritait de l\xe2\x80\x99emporter mais qui encore une fois avait perdu\xe2\x80\xa6 Encore une fois\xe2\x80\xa6 Clermont battu encore une fois quand tout portait \xc3\xa0 croire qu\xe2\x80\x99il devait l\xe2\x80\x99emporter.\nVous avez d\xe2\x80\x99ailleurs tr\xc3\xa8s mal pris r\xc3\xa9cemment une statistique sur ce sujet produite par le journal L\xe2\x80\x99Equipe apr\xc3\xa8s la finale perdue face aux Saracens en Coupe d\xe2\x80\x99Europe sous le titre maladroit : \xc2\xab Rougerie, roi de la loose \xc2\xbb.\nCe n\xe2\x80\x99\xc3\xa9tait pas tr\xc3\xa8s fair-play certes mais c\xe2\x80\x99\xc3\xa9tait une r\xc3\xa9alit\xc3\xa9 sur laquelle, je l\xe2\x80\x99esp\xc3\xa8re, vous allez nourrir dans ces prochains jours une \xc3\xa9nergie collective autour de ce remarquable joueur. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26666666666666666, 'p': 0.05405405405405406, 'f': 0.0898876404494382}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.054878048780487805, 'p': 0.010321100917431193, 'f': 0.017374517374517374}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.010321100917431193, 'r': 0.054878048780487805, 'f': 0.017374517374517374}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.05405405405405406, 'r': 0.26666666666666666, 'f': 0.0898876404494382}}
+
+
+Anti-redundancy objective value :	2.3212490686638643
+Average Reader attention score objective value :	1.1297324960427228e-158
+Average Density based score objective value :	112.47809846024367
+Average Reader attention with tf-idf (RAWT) score objective value :	1.508451693265754

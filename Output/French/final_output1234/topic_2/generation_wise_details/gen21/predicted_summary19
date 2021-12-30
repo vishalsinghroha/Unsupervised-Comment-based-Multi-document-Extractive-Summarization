@@ -1,0 +1,14 @@
+b'\nFranck, ce samedi au V\xc3\xa9lodrome, votre \xc3\xa9quipe a tout d\xe2\x80\x99abord lav\xc3\xa9 l\xe2\x80\x99affront de la saison pass\xc3\xa9e quand elle avait laiss\xc3\xa9 filer bien malgr\xc3\xa9 elle cette demi-finale qu\xe2\x80\x99elle n\xe2\x80\x99aurait jamais d\xc3\xbb perdre.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.06741573033707865, 'f': 0.10084033613445378}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.011363636363636364, 'f': 0.017094017094017092}, 'rouge-su4': {'r': 0.042682926829268296, 'p': 0.013513513513513514, 'f': 0.020527859237536656}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.013513513513513514, 'r': 0.042682926829268296, 'f': 0.020527859237536656}, 'rouge-2': {'p': 0.011363636363636364, 'r': 0.034482758620689655, 'f': 0.017094017094017092}, 'rouge-1': {'p': 0.06741573033707865, 'r': 0.2, 'f': 0.10084033613445378}}
+
+
+Anti-redundancy objective value :	2.042002649145394
+Average Reader attention score objective value :	2.330112727685222e-19
+Average Density based score objective value :	158.81201586963226
+Average Reader attention with tf-idf (RAWT) score objective value :	2.0789024671604235

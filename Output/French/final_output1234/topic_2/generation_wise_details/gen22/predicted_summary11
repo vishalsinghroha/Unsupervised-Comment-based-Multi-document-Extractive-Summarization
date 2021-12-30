@@ -1,0 +1,14 @@
+b'\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.06818181818181818, 'f': 0.10169491525423728}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.011494252873563218, 'f': 0.017241379310344827}, 'rouge-su4': {'r': 0.042682926829268296, 'p': 0.013671875, 'f': 0.020710059171597635}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.013671875, 'r': 0.042682926829268296, 'f': 0.020710059171597635}, 'rouge-2': {'p': 0.011494252873563218, 'r': 0.034482758620689655, 'f': 0.017241379310344827}, 'rouge-1': {'p': 0.06818181818181818, 'r': 0.2, 'f': 0.10169491525423728}}
+
+
+Anti-redundancy objective value :	3.144636524415756
+Average Reader attention score objective value :	0.027777777777777766
+Average Density based score objective value :	90.72135529691491
+Average Reader attention with tf-idf (RAWT) score objective value :	1.1515525356458671

@@ -1,0 +1,14 @@
+b'\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nFranck, ce samedi au V\xc3\xa9lodrome, votre \xc3\xa9quipe a tout d\xe2\x80\x99abord lav\xc3\xa9 l\xe2\x80\x99affront de la saison pass\xc3\xa9e quand elle avait laiss\xc3\xa9 filer bien malgr\xc3\xa9 elle cette demi-finale qu\xe2\x80\x99elle n\xe2\x80\x99aurait jamais d\xc3\xbb perdre. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.12244897959183673, 'f': 0.15189873417721522}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.042682926829268296, 'p': 0.025179856115107913, 'f': 0.03167420814479638}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.025179856115107913, 'r': 0.042682926829268296, 'f': 0.03167420814479638}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.12244897959183673, 'r': 0.2, 'f': 0.15189873417721522}}
+
+
+Anti-redundancy objective value :	3.148175383976516
+Average Reader attention score objective value :	2.824331240106807e-158
+Average Density based score objective value :	177.38851805349015
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4109656984965744

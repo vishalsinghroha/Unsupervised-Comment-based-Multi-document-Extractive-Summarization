@@ -1,0 +1,14 @@
+b'\nIl nous a r\xc3\xa9concili\xc3\xa9s avec le rugby, ce sport que nous aimons tant mais qui nous d\xc3\xa9prime si souvent ces derniers temps, depuis que quelques pr\xc3\xa9sidents en ont fait leur jouet et leur outil de communication\xe2\x80\xa6 J\xe2\x80\x99en profite pour pr\xc3\xa9ciser que votre pr\xc3\xa9sident, monsieur Eric de Cromi\xc3\xa8res, est sans aucun doute celui que l\xe2\x80\x99on connait le moins et ce n\xe2\x80\x99est certainement pas un hasard.\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26666666666666666, 'p': 0.048484848484848485, 'f': 0.08205128205128205}, 'rouge-2': {'r': 0.06896551724137931, 'p': 0.012195121951219513, 'f': 0.020725388601036274}, 'rouge-su4': {'r': 0.06707317073170732, 'p': 0.011293634496919919, 'f': 0.019332161687170477}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.011293634496919919, 'r': 0.06707317073170732, 'f': 0.019332161687170477}, 'rouge-2': {'p': 0.012195121951219513, 'r': 0.06896551724137931, 'f': 0.020725388601036274}, 'rouge-1': {'p': 0.048484848484848485, 'r': 0.26666666666666666, 'f': 0.08205128205128205}}
+
+
+Anti-redundancy objective value :	1.218096779603474
+Average Reader attention score objective value :	1.5534084851234815e-19
+Average Density based score objective value :	217.5538627459673
+Average Reader attention with tf-idf (RAWT) score objective value :	2.22013672076157

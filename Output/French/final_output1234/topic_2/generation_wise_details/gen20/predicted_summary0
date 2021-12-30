@@ -1,0 +1,14 @@
+b'\nAbus\xc3\xa9e par un arbitrage vid\xc3\xa9o plut\xc3\xb4t suspect d\xe2\x80\x99un ancien c\xc3\xa9l\xc3\xa8bre arri\xc3\xa8re biterrois sans doute trahi par son affection l\xc3\xa9gitime envers deux Racingmen, deux enfants de B\xc3\xa9ziers, Nyanga et Szarzewski.\nTout comme il ne m\xc3\xa9ritait pas les railleries apr\xc3\xa8s cette finale de Coupe d\xe2\x80\x99Europe qu\xe2\x80\x99il a tout simplement perdu face \xc3\xa0 plus fort il y a deux semaines. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.10526315789473684, 'f': 0.13793103448275862}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.036585365853658534, 'p': 0.018404907975460124, 'f': 0.02448979591836735}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.018404907975460124, 'r': 0.036585365853658534, 'f': 0.02448979591836735}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.10526315789473684, 'r': 0.2, 'f': 0.13793103448275862}}
+
+
+Anti-redundancy objective value :	2.347250328508601
+Average Reader attention score objective value :	2.956981571556748e-192
+Average Density based score objective value :	114.91429741898568
+Average Reader attention with tf-idf (RAWT) score objective value :	1.5314519258121078

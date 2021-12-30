@@ -1,0 +1,14 @@
+b'\nEt c\xe2\x80\x99est aussi pour cela que dans le titre de cette lettre que je vous adresse, je pr\xc3\xa9cise mon cher Franck, que vous \xc3\xaates l\xe2\x80\x99entra\xc3\xaeneur de Clermont.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.07058823529411765, 'f': 0.10434782608695652}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.011904761904761904, 'f': 0.017699115044247787}, 'rouge-su4': {'r': 0.04878048780487805, 'p': 0.016194331983805668, 'f': 0.024316109422492405}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.016194331983805668, 'r': 0.04878048780487805, 'f': 0.024316109422492405}, 'rouge-2': {'p': 0.011904761904761904, 'r': 0.034482758620689655, 'f': 0.017699115044247787}, 'rouge-1': {'p': 0.07058823529411765, 'r': 0.2, 'f': 0.10434782608695652}}
+
+
+Anti-redundancy objective value :	2.229627411098885
+Average Reader attention score objective value :	2.330112727685222e-19
+Average Density based score objective value :	118.47565855963691
+Average Reader attention with tf-idf (RAWT) score objective value :	1.6453286359676063

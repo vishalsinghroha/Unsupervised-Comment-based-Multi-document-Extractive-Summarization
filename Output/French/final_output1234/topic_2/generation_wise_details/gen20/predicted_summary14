@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nIl est utile de le rappeler.\nQuel bonheur de d\xc3\xa9couvrir cette saison le talent et le potentiel de Cancoriet, Jedrasiak, Penaud et de l\xe2\x80\x99incroyable Iturria, le roi du terrain samedi au V\xc3\xa9lodrome.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez.\nEt c\xe2\x80\x99est peut-\xc3\xaatre pour cela que cette fois-ci, vous allez le faire. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.26666666666666666, 'p': 0.09523809523809523, 'f': 0.14035087719298245}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.06097560975609756, 'p': 0.020491803278688523, 'f': 0.03067484662576687}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.020491803278688523, 'r': 0.06097560975609756, 'f': 0.03067484662576687}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.09523809523809523, 'r': 0.26666666666666666, 'f': 0.14035087719298245}}
+
+
+Anti-redundancy objective value :	3.839181283204802
+Average Reader attention score objective value :	1.9197111379439513e-21
+Average Density based score objective value :	36.501170206424305
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6171239455974361

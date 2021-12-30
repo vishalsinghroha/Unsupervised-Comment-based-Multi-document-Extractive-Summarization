@@ -1,0 +1,14 @@
+b'\nAbus\xc3\xa9e par un arbitrage vid\xc3\xa9o plut\xc3\xb4t suspect d\xe2\x80\x99un ancien c\xc3\xa9l\xc3\xa8bre arri\xc3\xa8re biterrois sans doute trahi par son affection l\xc3\xa9gitime envers deux Racingmen, deux enfants de B\xc3\xa9ziers, Nyanga et Szarzewski.\nVous avez d\xe2\x80\x99ailleurs tr\xc3\xa8s mal pris r\xc3\xa9cemment une statistique sur ce sujet produite par le journal L\xe2\x80\x99Equipe apr\xc3\xa8s la finale perdue face aux Saracens en Coupe d\xe2\x80\x99Europe sous le titre maladroit : \xc2\xab Rougerie, roi de la loose \xc2\xbb.\nQuel bonheur de d\xc3\xa9couvrir cette saison le talent et le potentiel de Cancoriet, Jedrasiak, Penaud et de l\xe2\x80\x99incroyable Iturria, le roi du terrain samedi au V\xc3\xa9lodrome.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3, 'p': 0.05921052631578947, 'f': 0.0989010989010989}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.006622516556291391, 'f': 0.011111111111111112}, 'rouge-su4': {'r': 0.06097560975609756, 'p': 0.011160714285714286, 'f': 0.01886792452830189}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.011160714285714286, 'r': 0.06097560975609756, 'f': 0.01886792452830189}, 'rouge-2': {'p': 0.006622516556291391, 'r': 0.034482758620689655, 'f': 0.011111111111111112}, 'rouge-1': {'p': 0.05921052631578947, 'r': 0.3, 'f': 0.0989010989010989}}
+
+
+Anti-redundancy objective value :	1.7129211062227754
+Average Reader attention score objective value :	1.165056363842611e-19
+Average Density based score objective value :	86.80440351872045
+Average Reader attention with tf-idf (RAWT) score objective value :	1.7600024102648748
