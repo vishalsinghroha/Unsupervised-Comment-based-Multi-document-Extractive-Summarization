@@ -1,0 +1,26 @@
+b'\nMalaysia Airlines Flight 17 was downed over eastern Ukraine on Thursday with 298 people aboard by what American intelligence authorities believe was a surface-to-air missile. Just four months earlier, a Malaysia Airlines jetliner carrying 239 people disappeared about an hour after taking off from Kuala Lumpur. The jet has still not been found, a source of profound unease for travelers and the aviation industry.\nUnlike Flight 370, the responsibility for which is pinned with Malaysia Airlines, the second disaster appears largely beyond the airline\'s control. It may, however, face questions about why it continued with flight paths over eastern Ukraine, which is the heart of a violent rebellion against Kiev, when some airlines were circumventing the country. The flight route was declared safe by the International Civil Aviation Organization.\nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.\nAviation authorities in several countries, including the FAA in the United States, had issued warnings not to fly over parts of Ukraine prior to Thursday\'s crash, but many carriers, including cash-strapped Malaysia Airlines, had continued to use the route because "it is a shorter route, which means less fuel and therefore less money," said aviation expert Norman Shanks.\nThe carrier, and the Malaysian government, came under heavy criticism for its handling of MH370\'s disappearance  particularly in China, which lost more than 150 nationals in that disaster. While any airline and any nation would have struggled with the extraordinary twists and turns in a mystery that remains unresolved, relatives complained of confused and contradictory information and insensitivity on the part of the government and company.\nThe Wall Street Journal first reported Saturday that U.S. officials suspect that the SA-11 antiaircraft systems were smuggled into Ukraine along with other military equipment, including tanks. The Journal also reported that officials believe the systems were moved back into Russia following Thursday\'s crash, buttressing speculation that the Russians were attempting to remove evidence of their involvement in the tragedy. \nThe officials told Fox News that President Barack Obama received "multiple" intelligence assessments regarding the crash of Flight MH17 at Camp David, where he is spending the weekend. The president\'s national security aides also held several meetings to discuss the situation in Ukraine, where separatists are reportedly limiting international investigators\' access to the crash site. \nSecretary of State John Kerry will appear on all five Sunday morning talk shows, including "Fox News Sunday," and is expected to aggressively pin the blame on Russia for the downed airliner. Kerry is also expected to call for investigators to have "unfettered access" to the crash site, restating a message he delivered to Russian Foreign Minister Sergey Lavrov when the two spoke Saturday.  '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.62, 'p': 0.12627291242362526, 'f': 0.2098138747884941}, 'rouge-2': {'r': 0.1414141414141414, 'p': 0.02857142857142857, 'f': 0.04753820033955857}, 'rouge-su4': {'r': 0.21575342465753425, 'p': 0.043003412969283276, 'f': 0.07171314741035857}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.7040816326530612, 'p': 0.14052953156822812, 'f': 0.234295415959253}, 'rouge-2': {'r': 0.28865979381443296, 'p': 0.05714285714285714, 'f': 0.09540034071550255}, 'rouge-su4': {'r': 0.2692307692307692, 'p': 0.05255972696245734, 'f': 0.08794974300399773}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5357142857142857, 'p': 0.09164969450101833, 'f': 0.15652173913043477}, 'rouge-2': {'r': 0.07228915662650602, 'p': 0.012244897959183673, 'f': 0.02094240837696335}, 'rouge-su4': {'r': 0.16598360655737704, 'p': 0.02764505119453925, 'f': 0.047396138092451724}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5769230769230769, 'p': 0.12219959266802444, 'f': 0.20168067226890757}, 'rouge-2': {'r': 0.11650485436893204, 'p': 0.024489795918367346, 'f': 0.04047217537942665}, 'rouge-su4': {'r': 0.20065789473684212, 'p': 0.041638225255972695, 'f': 0.06896551724137931}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2692307692307692, 'f': 0.08794974300399773, 'p': 0.05255972696245734}, 'rouge-2': {'r': 0.28865979381443296, 'f': 0.09540034071550255, 'p': 0.05714285714285714}, 'rouge-1': {'r': 0.7040816326530612, 'f': 0.234295415959253, 'p': 0.14052953156822812}}
+
+
+Anti-redundancy objective value :	0.42872048177456046
+Average Reader attention score objective value :	6.177427524627398e-22
+Average Density based score objective value :	197.5099351216577
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4718234084564322

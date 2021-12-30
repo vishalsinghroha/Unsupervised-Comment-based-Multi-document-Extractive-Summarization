@@ -1,0 +1,26 @@
+b'\nIn a telephone conversation, US President Barack Obama and the Dutch leader, Mark Rutte, "agreed on the need to assure immediate access to the site... to international investigators... to carry out a thorough investigation", the White House said.\nThe head of the Russian Air Traffic Controllers\' Union, Sergei Kovalyov, told BBC Russian that the airspace over eastern Ukraine had remained open during the conflict because the planes previously shot down had tended to be helicopters or low-flying fast jets.\nIt also must be unashamed to discuss possible mistakes that were made, said Gavin. "What can\'t happen is week-long deliberations where families of crash victims don\'t hear from them or don\'t know anything."\nIn April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft."\nBoeing\'s twin-engine 777 boasts an excellent safety record and is among the most sophisticated airliners flying today. Its capacity is between 300 and 450 passengers and a range of about 5,700 miles.\n"There have been bad years for commercial aviation," Gavin said. "But for one airline to lose two of the same type of airframe in such a short time span? It\'s potentially unprecedented for a commercial carrier in the modern aviation age."\nOne recording, purportedly between the military chief of the separatist Lugansk National Republic and a Russian military intelligence officer, discusses the missile system, called a Buk.\nAlready losing about $1.6 million a day, there will be "no miracles" for Malaysia Airlines, said Aziz, the Maybank analyst. Before the Ukrainian disaster, his opinion was the airline didn\'t have the capacity to survive beyond a year.\nRichard Porter, controller of English services for BBC World Service Group, also paid tribute to ex-colleague Mr Thomas, who he said was a "much loved and respected" journalist.\nMr Pocock \'s family said in a statement that he was travelling to Western Australia as part of university exchange. They added: "He was a gifted academic, talented athlete but more importantly a warm, caring, fun-loving son and brother who had an extremely bright future ahead of him."\nLatest figures released by Malaysia Airlines show the plane was also carrying at least 189 Dutch nationals, 27 Australians, 44 Malaysians - including 15 crew - and 12 Indonesians.\nThe Malaysian transport minister, Liao Tiong Lai, declined to comment on the airline\'s future at a press conference about the disaster on Friday, describing that as a separate issue.\n"Although the detour adds to flight time and cost, we have been making the detour for safety, and until the Ukrainian situation is over we will continue to take the detour route for our cargo flight out of Brussels," an Asiana Airlines Inc spokeswoman told Reuters.\nGirkin, whose nom de guerre means shooter in Russian, is the Russian commander who has overseen the uprising of ethnic Russians in eastern Ukraine over roughly the past four months.\nRussian President Vladimir Putin said Friday that Ukraine was responsible for the downing of the passenger plane because the country\'s central government had renewed its military campaign against the separatists. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.53, 'p': 0.09906542056074766, 'f': 0.16692913385826771}, 'rouge-2': {'r': 0.13131313131313133, 'p': 0.024344569288389514, 'f': 0.04107424960505529}, 'rouge-su4': {'r': 0.17636986301369864, 'p': 0.03224796493425172, 'f': 0.054526204340921126}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.5612244897959183, 'p': 0.102803738317757, 'f': 0.17377567140600314}, 'rouge-2': {'r': 0.14432989690721648, 'p': 0.026217228464419477, 'f': 0.04437400950871632}, 'rouge-su4': {'r': 0.17832167832167833, 'p': 0.031934877896055106, 'f': 0.05416887944768986}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5714285714285714, 'p': 0.08971962616822429, 'f': 0.15508885298869143}, 'rouge-2': {'r': 0.14457831325301204, 'p': 0.02247191011235955, 'f': 0.03889789303079416}, 'rouge-su4': {'r': 0.21311475409836064, 'p': 0.03256105197244834, 'f': 0.056491037479630635}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5096153846153846, 'p': 0.09906542056074766, 'f': 0.16588419405320814}, 'rouge-2': {'r': 0.07766990291262135, 'p': 0.0149812734082397, 'f': 0.02511773940345369}, 'rouge-su4': {'r': 0.17434210526315788, 'p': 0.03318722604884158, 'f': 0.05576012624934244}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.21311475409836064, 'f': 0.056491037479630635, 'p': 0.03318722604884158}, 'rouge-2': {'r': 0.14457831325301204, 'f': 0.04437400950871632, 'p': 0.026217228464419477}, 'rouge-1': {'r': 0.5714285714285714, 'f': 0.17377567140600314, 'p': 0.102803738317757}}
+
+
+Anti-redundancy objective value :	0.6559506818470663
+Average Reader attention score objective value :	2.4782969223491875e-09
+Average Density based score objective value :	124.91483422789024
+Average Reader attention with tf-idf (RAWT) score objective value :	0.26740402738747215

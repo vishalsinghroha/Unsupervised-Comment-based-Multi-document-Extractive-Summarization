@@ -1,0 +1,26 @@
+b'\nIn the immediate hours following Thursday\'s disaster, Gavin said "the airline needs to share every piece of information and every piece of data they have, including the decision making process that led to that plane flying over a recent conflict region."\nMalaysia Airlines has faced increased competition in recent years from new regional airlines. It tried to boost revenue by selling more tickets, rather than raising prices, while keeping operating costs under control. It has also canceled some longer flight routes.\nMalaysia Airlines Flight 17 was downed over eastern Ukraine on Thursday with 298 people aboard by what American intelligence authorities believe was a surface-to-air missile. Just four months earlier, a Malaysia Airlines jetliner carrying 239 people disappeared about an hour after taking off from Kuala Lumpur. The jet has still not been found, a source of profound unease for travelers and the aviation industry.\nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.\nMr Pocock \'s family said in a statement that he was travelling to Western Australia as part of university exchange. They added: "He was a gifted academic, talented athlete but more importantly a warm, caring, fun-loving son and brother who had an extremely bright future ahead of him."\nAviation authorities in several countries, including the FAA in the United States, had issued warnings not to fly over parts of Ukraine prior to Thursday\'s crash, but many carriers, including cash-strapped Malaysia Airlines, had continued to use the route because "it is a shorter route, which means less fuel and therefore less money," said aviation expert Norman Shanks.\nThe Wall Street Journal first reported Saturday that U.S. officials suspect that the SA-11 antiaircraft systems were smuggled into Ukraine along with other military equipment, including tanks. The Journal also reported that officials believe the systems were moved back into Russia following Thursday\'s crash, buttressing speculation that the Russians were attempting to remove evidence of their involvement in the tragedy. \nSecretary of State John Kerry will appear on all five Sunday morning talk shows, including "Fox News Sunday," and is expected to aggressively pin the blame on Russia for the downed airliner. Kerry is also expected to call for investigators to have "unfettered access" to the crash site, restating a message he delivered to Russian Foreign Minister Sergey Lavrov when the two spoke Saturday. \nU.S. officials think Girkin oversaw the missile strike in part because of social media posts he made shortly after the Malaysian plane went down. And they have an intercepted phone conversation purportedly between a Girkin lieutenant and a handler in the Russian military intelligence service in which the fighter seems to say his team shot down the plane. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6, 'p': 0.12195121951219512, 'f': 0.2027027027027027}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.03054989816700611, 'f': 0.050847457627118633}, 'rouge-su4': {'r': 0.21232876712328766, 'p': 0.04223433242506812, 'f': 0.07045454545454546}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.6428571428571429, 'p': 0.12804878048780488, 'f': 0.2135593220338983}, 'rouge-2': {'r': 0.23711340206185566, 'p': 0.04684317718940937, 'f': 0.0782312925170068}, 'rouge-su4': {'r': 0.23776223776223776, 'p': 0.04632152588555858, 'f': 0.0775370581527936}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5119047619047619, 'p': 0.08739837398373984, 'f': 0.14930555555555555}, 'rouge-2': {'r': 0.0963855421686747, 'p': 0.016293279022403257, 'f': 0.027874564459930314}, 'rouge-su4': {'r': 0.1680327868852459, 'p': 0.027929155313351498, 'f': 0.04789719626168224}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5769230769230769, 'p': 0.12195121951219512, 'f': 0.20134228187919462}, 'rouge-2': {'r': 0.1262135922330097, 'p': 0.026476578411405296, 'f': 0.04377104377104377}, 'rouge-su4': {'r': 0.19736842105263158, 'p': 0.04087193460490463, 'f': 0.06772009029345373}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.23776223776223776, 'f': 0.0775370581527936, 'p': 0.04632152588555858}, 'rouge-2': {'r': 0.23711340206185566, 'f': 0.0782312925170068, 'p': 0.04684317718940937}, 'rouge-1': {'r': 0.6428571428571429, 'f': 0.2135593220338983, 'p': 0.12804878048780488}}
+
+
+Anti-redundancy objective value :	0.44075303321292014
+Average Reader attention score objective value :	9.235537051374369e-14
+Average Density based score objective value :	177.64328681995295
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4295628807943296
