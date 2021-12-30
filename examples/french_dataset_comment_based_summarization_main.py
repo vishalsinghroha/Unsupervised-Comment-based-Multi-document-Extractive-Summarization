@@ -26,7 +26,7 @@ def run_comment_based_summarization(dataset):
     #                        skip_header=0)  # load EMD matrix for sentences
 
     my_wmd = pd.read_csv(
-        'C:/Users/VISHAL/Documents/french_dataset/important_results/' + str(dataset) + '/' + str(
+        '../preprocessing/french/' + str(dataset) + '/' + str(
             dataset) + '_document_wmd.csv', header=None)  # load EMD matrix for sentences
     temp_EMD_matrix = np.array(my_wmd)
     EMD_matrix = temp_EMD_matrix.transpose()
@@ -36,7 +36,7 @@ def run_comment_based_summarization(dataset):
 
     """---------------objective 2: Fetch Reader Attention value of each tweet --------------"""
     my_ra = pd.read_csv(
-        'C:/Users/VISHAL/Documents/french_dataset/important_results/' + str(dataset) + '/' + str(
+        '../preprocessing/french/' + str(dataset) + '/' + str(
             dataset) + '_reader_attention.csv')  # load EMD matrix for sentences
     MAX_reader_attention_matrix = np.array(my_ra['average_reader_attention'])
 
@@ -47,7 +47,7 @@ def run_comment_based_summarization(dataset):
 
     """--------------- objective 3: Fetch Density based score of each tweet --------------"""
     density_based_score = pd.read_csv(
-        'C:/Users/VISHAL/Documents/french_dataset/important_results/' + str(dataset) + '/' + str(
+        '../preprocessing/french/' + str(dataset) + '/' + str(
             dataset) + '_sentence_score.csv')  # load EMD matrix for sentences
     MAX_density_based_score_matrix = np.array(density_based_score['dbs_score'])
 
@@ -58,7 +58,7 @@ def run_comment_based_summarization(dataset):
 
     """--------------- objective 4: reader attention with tf-idf --------------"""
     objective4_score = pd.read_csv(
-        'C:/Users/VISHAL/Documents/french_dataset/important_results/' + str(dataset) + '/' + str(
+        '../preprocessing/french/' + str(dataset) + '/' + str(
             dataset) + '_rawt_score.csv')  # load EMD matrix for sentences
     MAX_objective4_score_matrix = np.array(objective4_score['rawt_score'])
 
@@ -111,7 +111,7 @@ def run_comment_based_summarization(dataset):
 
     """----------------------------Fetch actual summary1 ----------------------------------------- """
     count_summary_line = 0
-    filepath2 = 'C:/Users/VISHAL/Documents/french_dataset/actual_summary/' + str(
+    filepath2 = '../french_dataset/actual_summary/' + str(
         dataset) + '.csv'
     actual_summary1_df = pd.read_csv(filepath2)
     temp_actual_summary1 = actual_summary1_df['summary']
@@ -188,14 +188,14 @@ def run_comment_based_summarization(dataset):
     print("\n Total execution time :" + str(end - start))
     total_time = end - start
 
-    fname1 = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(dataset) + '/running_time'
+    fname1 = '../output/French/final_output1234/' + str(dataset) + '/running_time'
     text_file1 = open(fname1, "w")
     text_file1.write("Starting time : " + str(start) + '\n')
     text_file1.write("Starting time : " + str(end) + '\n')
     text_file1.write("Total execution time : " + str(total_time) + '\n')
     text_file1.close()
 
-    fname2 = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(dataset) + '/Min_max_sentence'
+    fname2 = '../output/French/final_output1234/' + str(dataset) + '/Min_max_sentence'
     text_file2 = open(fname2, "w")
     text_file2.write("Minimum number of sentence taken : " + str(smin) + '\n')
     text_file2.write("Maximum number of sentence taken : " + str(smax) + '\n')
@@ -238,12 +238,12 @@ def run_comment_based_summarization(dataset):
         # print("Summary {0} :  ".format(solution_no), Summary)
         All_summary.append(Summary)
         if not os.path.isdir(
-                'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(
+                '../output/French/final_output1234/' + str(
                     dataset) + '/' + 'Predicted_summary'):
             os.makedirs(
-                'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(dataset) + '/Predicted_summary')
+                '../output/French/final_output1234/' + str(dataset) + '/Predicted_summary')
 
-        fname = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(
+        fname = '../output/French/final_output1234/' + str(
             dataset) + '/Predicted_summary/' + "Summary-{0}".format(solution_no)
 
         text_file = open(fname, "w")
@@ -325,7 +325,7 @@ def run_comment_based_summarization(dataset):
     # ann1_max_R2_recall_index=ann1_rouge_2_r.index(max(ann1_rouge_2_r))
     # ann1_max_RL_recall_index=ann1_rouge_su4_r.index(max(ann1_rouge_su4_r))
     # ann1_datasetname.append('Max_R2_recal({0})'.format(annotator1_sol_no[ann1_max_R2_recall_index]))
-    f1name_summ = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(
+    f1name_summ = '../output/French/final_output1234/' + str(
         dataset) + '/' + 'Annotator1_solutionwise_summary_score_overview.csv'
     df1 = pd.DataFrame({'dataset': ann1_datasetname, 'Solution no': annotator1_sol_no, 'rouge_1_p': ann1_rouge_1_p,
                         'rouge_1_r': ann1_rouge_1_r, 'rouge_1_f': ann1_rouge_1_f, 'rouge_2_p': ann1_rouge_2_p,
@@ -333,7 +333,7 @@ def run_comment_based_summarization(dataset):
                         'rouge_su4_r': ann1_rouge_su4_r, 'rouge_su4_f': ann1_rouge_su4_f})
     df1.to_csv(f1name_summ)
 
-    f5name_summ = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(
+    f5name_summ = '../output/French/final_output1234/' + str(
         dataset) + '/' + 'Average_summary_score_overview.csv'
     df5 = pd.DataFrame(
         {'dataset': avg_dataset_name, 'Solution no': avg_sol_no, 'rouge_1_p': avg_rouge_1_p, 'rouge_1_r': avg_rouge_1_r,
@@ -377,7 +377,7 @@ def run_comment_based_summarization(dataset):
     results += str(K)
 
     print(results)
-    fname = 'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(
+    fname = '../output/French/final_output1234/' + str(
         dataset) + '/Best_resulting_Solutions.txt'
 
     text_file = open(fname, "w")
@@ -401,7 +401,7 @@ def run_comment_based_summarization(dataset):
          }, index=[0])
 
     best_result_df.to_csv(
-        'C:/Users/VISHAL/Documents/french_dataset/final_output14/' + str(dataset) + '/Best_resulting_Solutions.csv',
+        '../output/French/final_output1234/' + str(dataset) + '/Best_resulting_Solutions.csv',
         index=False)
 
 
@@ -409,7 +409,7 @@ if __name__ == "__main__":
     # Get the list of all files and directories
     #root_path = "C:\\Users\\VISHAL\\Documents\\french_dataset\\"
 
-    topics_df = pd.read_csv('topics_list.csv')
+    topics_df = pd.read_csv('../french_topics_test.csv') #  'french_topics_text' for development, and 'french_topics_all' for all topics
 
     files_list = []
     files_name = []

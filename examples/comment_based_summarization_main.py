@@ -22,11 +22,11 @@ def run_comment_based_summarization(dataset):
 
     """---------------Fetch Tweet to Tweet Similarity (WMD Distance)  Matrix --------------"""
 
-    # EMD_matrix = genfromtxt('../preprocessing/T2T_WMD_matrices/hblast2_T2T_WMD_matrix.txt',
+    # EMD_matrix = genfromtxt('../preprocessing/english/T2T_WMD_matrices/hblast2_T2T_WMD_matrix.txt',
     #                        skip_header=0)  # load EMD matrix for sentences
 
     my_wmd = pd.read_csv(
-        '../preprocessing/' + str(dataset) + '/' + str(
+        '../preprocessing/english/' + str(dataset) + '/' + str(
             dataset) + '_document_wmd.csv', header=None)  # load EMD matrix for sentences
     temp_EMD_matrix = np.array(my_wmd)
     EMD_matrix = temp_EMD_matrix.transpose()
@@ -36,7 +36,7 @@ def run_comment_based_summarization(dataset):
 
     """---------------objective 2: Fetch Reader Attention value of each tweet --------------"""
     my_ra = pd.read_csv(
-        '../preprocessing/' + str(dataset) + '/' + str(
+        '../preprocessing/english/' + str(dataset) + '/' + str(
             dataset) + '_reader_attention.csv')  # load EMD matrix for sentences
     MAX_reader_attention_matrix = np.array(my_ra['average_reader_attention'])
 
@@ -47,7 +47,7 @@ def run_comment_based_summarization(dataset):
 
     """--------------- objective 3: Fetch Density based score of each tweet --------------"""
     density_based_score = pd.read_csv(
-        '../preprocessing/' + str(dataset) + '/' + str(
+        '../preprocessing/english/' + str(dataset) + '/' + str(
             dataset) + '_sentence_score.csv')  # load EMD matrix for sentences
     MAX_density_based_score_matrix = np.array(density_based_score['dbs_score'])
 
@@ -58,7 +58,7 @@ def run_comment_based_summarization(dataset):
 
     """--------------- objective 4: reader attention with tf-idf --------------"""
     objective4_score = pd.read_csv(
-        '../preprocessing/' + str(dataset) + '/' + str(
+        '../preprocessing/english/' + str(dataset) + '/' + str(
             dataset) + '_rawt_score.csv')  # load EMD matrix for sentences
     MAX_objective4_score_matrix = np.array(objective4_score['rawt_score'])
 
@@ -69,7 +69,7 @@ def run_comment_based_summarization(dataset):
 
     """--------------- objective 5: named entity recognition --------------"""
     # objective5_score = pd.read_csv(
-    #    '../preprocessing/objective_5_version_1/' + str(
+    #    '../preprocessing/english/objective_5_version_1/' + str(
     #        dataset) + '.csv')  # load EMD matrix for sentences
     # MAX_objective5_score_matrix = np.array(objective5_score['entity_weight'])
     #
@@ -79,7 +79,7 @@ def run_comment_based_summarization(dataset):
     """----------------------------------END-----------------------------------------------------"""
 
     """---------------Fetch tweet length of each tweet ------------------------------------------"""
-    # MAX_TWEET_length_matrix = genfromtxt('../preprocessing/MAX_TWEET_LENGTH/hblast2_max_tweet_length.txt',
+    # MAX_TWEET_length_matrix = genfromtxt('../preprocessing/english/MAX_TWEET_LENGTH/hblast2_max_tweet_length.txt',
     #                                     skip_header=0)  # load EMD matrix for sentences
     MAX_TWEET_length_matrix = my_ra['sentence_length']
 
@@ -101,15 +101,15 @@ def run_comment_based_summarization(dataset):
     actual_text_data = []
 
     my_document_sentences = pd.read_csv(
-        '../processed_documents/' + str(dataset) + '/' + str(dataset) + '.csv')
+        '../english_dataset/processed_documents/' + str(dataset) + '/' + str(dataset) + '.csv')
 
-    #my_document_sentences = pd.read_csv(
-    #    '../preprocessing/compressive/compressed_sentences/' + str(dataset) + '_compressed_sentences.csv')
+    # my_document_sentences = pd.read_csv(
+    #    '../preprocessing/english/compressive/compressed_sentences/' + str(dataset) + '_compressed_sentences.csv')
 
     for i in range(len(my_document_sentences['document_sentence'])):
         actual_text_data.append(my_document_sentences['document_sentence'][i])  ##load the actual tweets from file
 
-    #for i in range(len(my_document_sentences['compressed_sentence'])):
+    # for i in range(len(my_document_sentences['compressed_sentence'])):
     #    actual_text_data.append(my_document_sentences['compressed_sentence'][i])  ##load the actual tweets from file
 
     print("first actual tweet : ", actual_text_data[0])
@@ -118,7 +118,7 @@ def run_comment_based_summarization(dataset):
 
     """----------------------------Fetch actual summary1 ----------------------------------------- """
     count_summary_line = 0
-    filepath2 = '../actual_summary/' + str(dataset) + '/' + str(
+    filepath2 = '../english_dataset/actual_summary/' + str(dataset) + '/' + str(
         dataset) + '_1.csv'
     actual_summary1_df = pd.read_csv(filepath2)
     temp_actual_summary1 = actual_summary1_df['sentence']
@@ -147,7 +147,7 @@ def run_comment_based_summarization(dataset):
 
     """----------------------------Fetch actual summary2 ----------------------------------------- """
     count_summary_line1 = 0
-    filepath3 = '../actual_summary/' + str(dataset) + '/' + str(
+    filepath3 = '../english_dataset/actual_summary/' + str(dataset) + '/' + str(
         dataset) + '_2.csv'
     actual_summary2_df = pd.read_csv(filepath3)
     temp_actual_summary2 = actual_summary2_df['sentence']
@@ -172,7 +172,7 @@ def run_comment_based_summarization(dataset):
 
     """----------------------------Fetch actual summary3 ----------------------------------------- """
     count_summary_line2 = 0
-    filepath4 = 'C:/Users/VISHAL/Documents/final_moo_outputs/actual_summary/' + str(dataset) + '/' + str(
+    filepath4 = '../english_dataset/actual_summary/' + str(dataset) + '/' + str(
         dataset) + '_3.csv'
     actual_summary3_df = pd.read_csv(filepath4)
     temp_actual_summary3 = actual_summary3_df['sentence']
@@ -197,7 +197,7 @@ def run_comment_based_summarization(dataset):
 
     """----------------------------Fetch actual summary4 ----------------------------------------- """
     count_summary_line3 = 0
-    filepath5 = '../actual_summary/' + str(dataset) + '/' + str(
+    filepath5 = '../english_dataset/actual_summary/' + str(dataset) + '/' + str(
         dataset) + '_4.csv'
     actual_summary4_df = pd.read_csv(filepath5)
     temp_actual_summary4 = actual_summary4_df['sentence']
@@ -249,7 +249,7 @@ def run_comment_based_summarization(dataset):
                                       MAX_reader_attention_matrix,
                                       MAX_density_based_score_matrix,
                                       MAX_objective4_score_matrix,
-                                      #MAX_objective5_score_matrix
+                                      # MAX_objective5_score_matrix
                                       )
 
     problem = ZDT(SMEA_clustering, max_len_solution)
@@ -260,7 +260,7 @@ def run_comment_based_summarization(dataset):
                                            MAX_reader_attention_matrix,
                                            MAX_density_based_score_matrix,
                                            MAX_objective4_score_matrix,
-                                           #MAX_objective5_score_matrix,
+                                           # MAX_objective5_score_matrix,
                                            MAX_TWEET_length_matrix, smin, smax,
                                            max_len_solution, dataset, actual_text_data, actual_summary1,
                                            actual_summary2,
@@ -273,14 +273,14 @@ def run_comment_based_summarization(dataset):
     print("\n Total execution time :" + str(end - start))
     total_time = end - start
 
-    fname1 = '../output/final_output1234/' + str(dataset) + '/running_time'
+    fname1 = '../output/English/final_output1234/' + str(dataset) + '/running_time'
     text_file1 = open(fname1, "w")
     text_file1.write("Starting time : " + str(start) + '\n')
     text_file1.write("Starting time : " + str(end) + '\n')
     text_file1.write("Total execution time : " + str(total_time) + '\n')
     text_file1.close()
 
-    fname2 = '../output/final_output1234/' + str(dataset) + '/Min_max_sentence'
+    fname2 = '../output/English/final_output1234/' + str(dataset) + '/Min_max_sentence'
     text_file2 = open(fname2, "w")
     text_file2.write("Minimum number of sentence taken : " + str(smin) + '\n')
     text_file2.write("Maximum number of sentence taken : " + str(smax) + '\n')
@@ -341,12 +341,12 @@ def run_comment_based_summarization(dataset):
         # print("Summary {0} :  ".format(solution_no), Summary)
         All_summary.append(Summary)
         if not os.path.isdir(
-                '../output/final_output1234/' + str(
+                '../output/English/final_output1234/' + str(
                     dataset) + '/' + 'Predicted_summary'):
             os.makedirs(
-                '../output/final_output1234/' + str(dataset) + '/Predicted_summary')
+                '../output/English/final_output1234/' + str(dataset) + '/Predicted_summary')
 
-        fname = '../output/final_output1234/' + str(
+        fname = '../output/English/final_output1234/' + str(
             dataset) + '/Predicted_summary/' + "Summary-{0}".format(solution_no)
 
         text_file = open(fname, "w")
@@ -388,7 +388,7 @@ def run_comment_based_summarization(dataset):
         ann1_rouge_1_f.append(actual1_scores['rouge-1']['f'])
 
         """Calculate and Record annotator2 score of all solutions to store in .csv"""
-        actual_summary2_for_test = actual_summary2.lower().replace('.','')
+        actual_summary2_for_test = actual_summary2.lower().replace('.', '')
 
         actual2_scores = rouge.evaluate([Summary_for_test], [[actual_summary2_for_test]])
 
@@ -507,7 +507,7 @@ def run_comment_based_summarization(dataset):
     # ann1_max_R2_recall_index=ann1_rouge_2_r.index(max(ann1_rouge_2_r))
     # ann1_max_RL_recall_index=ann1_rouge_su4_r.index(max(ann1_rouge_su4_r))
     # ann1_datasetname.append('Max_R2_recal({0})'.format(annotator1_sol_no[ann1_max_R2_recall_index]))
-    f1name_summ = '../output/final_output1234/' + str(
+    f1name_summ = '../output/English/final_output1234/' + str(
         dataset) + '/' + 'Annotator1_solutionwise_summary_score_overview.csv'
     df1 = pd.DataFrame({'dataset': ann1_datasetname, 'Solution no': annotator1_sol_no, 'rouge_1_p': ann1_rouge_1_p,
                         'rouge_1_r': ann1_rouge_1_r, 'rouge_1_f': ann1_rouge_1_f, 'rouge_2_p': ann1_rouge_2_p,
@@ -515,7 +515,7 @@ def run_comment_based_summarization(dataset):
                         'rouge_su4_r': ann1_rouge_su4_r, 'rouge_su4_f': ann1_rouge_su4_f})
     df1.to_csv(f1name_summ)
 
-    f2name_summ = '../output/final_output1234/' + str(
+    f2name_summ = '../output/English/final_output1234/' + str(
         dataset) + '/' + 'Annotator2_solutionwise_summary_score_overview.csv'
     df2 = pd.DataFrame({'dataset': ann2_datasetname, 'Solution no': annotator2_sol_no, 'rouge_1_p': ann2_rouge_1_p,
                         'rouge_1_r': ann2_rouge_1_r, 'rouge_1_f': ann2_rouge_1_f, 'rouge_2_p': ann2_rouge_2_p,
@@ -523,7 +523,7 @@ def run_comment_based_summarization(dataset):
                         'rouge_su4_r': ann2_rouge_su4_r, 'rouge_su4_f': ann2_rouge_su4_f})
     df2.to_csv(f2name_summ)
 
-    f3name_summ = '../output/final_output1234/' + str(
+    f3name_summ = '../output/English/final_output1234/' + str(
         dataset) + '/' + 'Annotator3_solutionwise_summary_score_overview.csv'
     df3 = pd.DataFrame({'dataset': ann3_datasetname, 'Solution no': annotator3_sol_no, 'rouge_1_p': ann3_rouge_1_p,
                         'rouge_1_r': ann3_rouge_1_r, 'rouge_1_f': ann3_rouge_1_f, 'rouge_2_p': ann3_rouge_2_p,
@@ -531,7 +531,7 @@ def run_comment_based_summarization(dataset):
                         'rouge_su4_r': ann3_rouge_su4_r, 'rouge_su4_f': ann3_rouge_su4_f})
     df3.to_csv(f3name_summ)
 
-    f4name_summ = '../output/final_output1234/' + str(
+    f4name_summ = '../output/English/final_output1234/' + str(
         dataset) + '/' + 'Annotator4_solutionwise_summary_score_overview.csv'
     df4 = pd.DataFrame({'dataset': ann4_datasetname, 'Solution no': annotator4_sol_no, 'rouge_1_p': ann4_rouge_1_p,
                         'rouge_1_r': ann4_rouge_1_r, 'rouge_1_f': ann4_rouge_1_f, 'rouge_2_p': ann4_rouge_2_p,
@@ -539,7 +539,7 @@ def run_comment_based_summarization(dataset):
                         'rouge_su4_r': ann4_rouge_su4_r, 'rouge_su4_f': ann4_rouge_su4_f})
     df4.to_csv(f4name_summ)
 
-    f5name_summ = '../output/final_output1234/' + str(
+    f5name_summ = '../output/English/final_output1234/' + str(
         dataset) + '/' + 'Average_summary_score_overview.csv'
     df5 = pd.DataFrame(
         {'dataset': avg_dataset_name, 'Solution no': avg_sol_no, 'rouge_1_p': avg_rouge_1_p, 'rouge_1_r': avg_rouge_1_r,
@@ -583,7 +583,7 @@ def run_comment_based_summarization(dataset):
     results += str(K)
 
     print(results)
-    fname = '../output/final_output1234/' + str(
+    fname = '../output/English/final_output1234/' + str(
         dataset) + '/Best_resulting_Solutions.txt'
 
     text_file = open(fname, "w")
@@ -607,15 +607,15 @@ def run_comment_based_summarization(dataset):
          }, index=[0])
 
     best_result_df.to_csv(
-        '../Output/final_output1234/' + str(dataset) + '/Best_resulting_Solutions.csv',
+        '../output/English/final_output1234/' + str(dataset) + '/Best_resulting_Solutions.csv',
         index=False)
 
 
 if __name__ == "__main__":
     # Get the list of all files and directories
-    #root_path = "C:\\Users\\VISHAL\\Documents\\final_moo_outputs\\"
+    # root_path = "C:\\Users\\VISHAL\\Documents\\final_moo_outputs\\"
 
-    with open('../topics_test.txt') as f:
+    with open('../topics_test.txt') as f:  # 'topics_text' for development, and 'topics_all' for all topics
         lines = f.readlines()
 
     files_list = []
@@ -624,6 +624,6 @@ if __name__ == "__main__":
 
     for i in range(len(files_list)):
         print('\n *********************************************************\n')
-        print('Starting topic ' + str( i) + ' : ' + str(files_list[i]))
+        print('Starting topic ' + str(i) + ' : ' + str(files_list[i]))
         run_comment_based_summarization(files_list[i])
         print('Finish!')
