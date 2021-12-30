@@ -1,0 +1,26 @@
+b'\nDespite the evacuations and scattered damage, Friday night\'s magnitude-5.1 earthquake centered about 25 miles south of downtown Los Angeles mostly frayed nerves.\nResidents were inconvenienced and some lost valuables, but "thankfully the damage wasn\'t greater," said Chi-Chung Keung, a spokesman for the city of Fullerton.\nA magnitude-4.1 shake rattled the area Saturday afternoon, centered about a mile and a quarter southeast of the Los Angeles County community of Rowland Heights, the geological agency said.\nA magnitude-5.1 earthquake that shook the Los Angeles area and surrounding counties forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday.\nThe U.S. Geological Survey said the quake struck at about 9:11 p.m. Friday night and was centered near Brea in Orange County -- about 20 miles southeast of downtown Los Angeles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the USGS.\nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported.\nBroken glass, gas leaks, a water main break and a rockslide were reported near the epicenter, according to Twitter updates from local authorities.\nDisneyland shut down rides as a precaution and a baseball game between the LA Dodgers and the Angels was briefly interrupted.\nHannah Hirzel, 17, who lives four miles from the quake\'s epicentre in La Habra, said: "I was home alone and I ran out of the house ... I was sitting where my bookshelf fell, but I ran too quick."\nThe 5.9-magnitude Whittier Narrows quake killed eight people and caused $360m in damage.\nThe quake was just a few miles deepXfairly shallowXwhich can make the shaking feel stronger. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5757575757575758, 'p': 0.18387096774193548, 'f': 0.2787286063569682}, 'rouge-2': {'r': 0.1836734693877551, 'p': 0.05825242718446602, 'f': 0.08845208845208846}, 'rouge-su4': {'r': 0.21107266435986158, 'p': 0.06616052060737528, 'f': 0.10074318744838975}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.57, 'p': 0.18387096774193548, 'f': 0.27804878048780485}, 'rouge-2': {'r': 0.23232323232323232, 'p': 0.0744336569579288, 'f': 0.11274509803921569}, 'rouge-su4': {'r': 0.2636986301369863, 'p': 0.08351409978308026, 'f': 0.12685337726523888}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5959595959595959, 'p': 0.19032258064516128, 'f': 0.28850855745721266}, 'rouge-2': {'r': 0.2653061224489796, 'p': 0.08414239482200647, 'f': 0.12776412776412777}, 'rouge-su4': {'r': 0.27162629757785467, 'p': 0.0851409978308026, 'f': 0.129644921552436}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5454545454545454, 'p': 0.17419354838709677, 'f': 0.26405867970660146}, 'rouge-2': {'r': 0.12244897959183673, 'p': 0.038834951456310676, 'f': 0.05896805896805896}, 'rouge-su4': {'r': 0.19377162629757785, 'p': 0.06073752711496746, 'f': 0.09248554913294797}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.27162629757785467, 'f': 0.129644921552436, 'p': 0.0851409978308026}, 'rouge-2': {'r': 0.2653061224489796, 'f': 0.12776412776412777, 'p': 0.08414239482200647}, 'rouge-1': {'r': 0.5959595959595959, 'f': 0.28850855745721266, 'p': 0.19032258064516128}}
+
+
+Anti-redundancy objective value :	0.6453877618899624
+Average Reader attention score objective value :	5.743352578057939e-09
+Average Density based score objective value :	93.49646930286568
+Average Reader attention with tf-idf (RAWT) score objective value :	0.3464465015964932

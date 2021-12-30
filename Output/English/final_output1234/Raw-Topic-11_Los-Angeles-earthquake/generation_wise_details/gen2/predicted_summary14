@@ -1,0 +1,26 @@
+b'\nIt\'s impossible to predict earthquakes with current scientific knowledge, though the U.S. Geological Survey is working on a device that will be able to alert people to an earthquake four seconds before it is felt.\n"A lot of the glass in the place shook like crazy," he said. "It started like a roll and then it started shaking like crazy. Everybody ran outside, hugging each other in the streets."\nNo injuries were immediately reported from either Saturday\'s quake or the more significant earthquake that struck Friday evening outside La Habra, California, which is about 20 miles east of downtown Los Angeles.\nFriday\'s temblor displaced at least 50 people in Fullerton, about 5 miles from the epicenter, because of minor damage to homes and apartment dwellings, Fullerton Police Lieutenant Mike Chlebowski said.\nThe quake also shook items off tables, rattled chandeliers and resulted in scattered damage to cars and property, including setting off a rockslide in the Orange County city of Brea that flipped a car on its roof.\nA shallow 5.1-magnitude earthquake has rocked the Los Angeles area, the US Geological Survey says, causing some minor damage and stopping rides at Disneyland.\nEmergency services said on Friday they had calls about gas leaks and water main breaks, while some residents said objects fell from walls and shelves, but there were no immediate reports of injuries.\nThe LA County Fire Department received some reports of gas leaks and scattered damage, said spokesman Ed Pickett, while police in Fullerton, about fives miles from La Habra, reported several water main breaks, spokesman Jeff Stuart told KCAL 9 television.\nA 6.7-magnitude earthquake in Los Angeles left at least 60 people dead and did an estimated $10 billion damage in 1994, while a 6.9 quake in San Francisco in 1989 claimed the lives of 67 people.\nA Red Cross shelter was set up in La Habra for residents forced out of their homes or who voluntarily chose to stay there. About 38 people including several families stayed overnight, Red Cross spokeswoman Meredith Mills said.\nThe Hall of Fame baseball announcer Vin Scully was on the air calling Friday night\'s Angels-Dodgers exhibition game in the sixth inning at Dodger Stadium.\n"A little tremor here in the ballpark. I\'m not sure if the folks felt it, but we certainly felt it here in press box row," Scully said. "A tremor and only that, thank goodness."\nThree aftershocks reached magnitude 3, the last at 10:37 p.m. Pacific time on Friday, said the seismologist, Lucy Jones of the United States Geological Survey. She said that a more powerful quake than Fridays was possible, though unlikely, and that comparatively minor aftershocks could continue for weeks.\nThe temblorXthe second moderate quake that rattled the city in two weeks after two decades of relative quiet since 1994\'s deadly Northridge quakeXonce again shook Los Angeles to attention.\nThe recent quakes may indicate a return to more normal seismic activity, geologists said. Emergency service officials urged residents to use the quake as a wake-up call to prepare for "the big one", a large, devastating quake expected to hit southern California. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7575757575757576, 'p': 0.14534883720930233, 'f': 0.24390243902439024}, 'rouge-2': {'r': 0.41836734693877553, 'p': 0.07961165048543689, 'f': 0.13376835236541598}, 'rouge-su4': {'r': 0.43771626297577854, 'p': 0.08214285714285714, 'f': 0.13832695462001093}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.66, 'p': 0.12790697674418605, 'f': 0.2142857142857143}, 'rouge-2': {'r': 0.18181818181818182, 'p': 0.03495145631067961, 'f': 0.05863192182410423}, 'rouge-su4': {'r': 0.2226027397260274, 'p': 0.04220779220779221, 'f': 0.07096069868995633}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6262626262626263, 'p': 0.12015503875968993, 'f': 0.2016260162601626}, 'rouge-2': {'r': 0.07142857142857142, 'p': 0.013592233009708738, 'f': 0.022838499184339313}, 'rouge-su4': {'r': 0.1782006920415225, 'p': 0.03344155844155844, 'f': 0.056314926189174414}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.6565656565656566, 'p': 0.12596899224806202, 'f': 0.21138211382113822}, 'rouge-2': {'r': 0.25510204081632654, 'p': 0.04854368932038835, 'f': 0.08156606851549757}, 'rouge-su4': {'r': 0.314878892733564, 'p': 0.05909090909090909, 'f': 0.09950792782941498}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.43771626297577854, 'f': 0.13832695462001093, 'p': 0.08214285714285714}, 'rouge-2': {'r': 0.41836734693877553, 'f': 0.13376835236541598, 'p': 0.07961165048543689}, 'rouge-1': {'r': 0.7575757575757576, 'f': 0.24390243902439024, 'p': 0.14534883720930233}}
+
+
+Anti-redundancy objective value :	0.6650666057949969
+Average Reader attention score objective value :	3.408725678995e-17
+Average Density based score objective value :	115.69384613069104
+Average Reader attention with tf-idf (RAWT) score objective value :	0.43560422555983985

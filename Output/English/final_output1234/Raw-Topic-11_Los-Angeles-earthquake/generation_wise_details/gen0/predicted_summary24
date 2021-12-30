@@ -1,0 +1,26 @@
+b'\nA day after the magnitude-5.1 quake, Peter Novahof went shopping with his family at a hardware store in Long Beach. Though nothing was knocked out of his place at his home, he figured it was a good time to think about securing his television and cupboards with glassware.\nA magnitude-4.1 shake rattled the area Saturday afternoon, centered about a mile and a quarter southeast of the Los Angeles County community of Rowland Heights, the geological agency said.\nEarthquakes with less than magnitude 5.5 don\'t usually cause significant damage or casualties, though results vary by region, geophysicist Paul Caruso said.\nThe U.S. Geological Survey said the quake struck at about 9:11 p.m. Friday night and was centered near Brea in Orange County -- about 20 miles southeast of downtown Los Angeles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the USGS.\nSaturday\'s quake rippled through an area near Rowland Heights, California, about 2:32 p.m., according to the U.S. Geological Survey. The temblor was considered relatively shallow with a depth of 5.6 miles, the USGS said.\nNo injuries were immediately reported from either Saturday\'s quake or the more significant earthquake that struck Friday evening outside La Habra, California, which is about 20 miles east of downtown Los Angeles.\nFriday\'s quake was felt as far away as Palm Springs in the east, San Diego in the south and Ventura County to the north. While not large, the event "seems unusual, of course, because a lot of people felt it," said Doug Given, a USGS geophysicist.\n"The L.A. Philharmonic should get combat pay," audience member Michael Healy told the newspaper.\nThe western US state is on the so-called Ring of Fire, which circles the Pacific and has produced a number of devastating quakes including Japan\'s March 2011 quake-tsunami, which killed thousands of people.\nHannah Hirzel, 17, who lives four miles from the quake\'s epicentre in La Habra, said: "I was home alone and I ran out of the house ... I was sitting where my bookshelf fell, but I ran too quick."\nThe tremor struck at 9.09pm and was centered near Brea in Orange County, about 20 miles southeast of downtown Los Angeles, at a depth of 5 miles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the US Geological Survey (USGS).\nFriday\'s "earthquake is the second in two weeks, and reminds us to be prepared," Los Angeles Mayor Eric Garcetti said in a statement.\nA total of 115 aftershocks jolted the Los Angeles area by Saturday morning after a magnitude 5.1 earthquake on Friday night, a federal seismologist said. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5959595959595959, 'p': 0.12967032967032968, 'f': 0.21299638989169678}, 'rouge-2': {'r': 0.19387755102040816, 'p': 0.04185022026431718, 'f': 0.06884057971014493}, 'rouge-su4': {'r': 0.2560553633217993, 'p': 0.054532056005895356, 'f': 0.0899149453219927}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.53, 'p': 0.11648351648351649, 'f': 0.190990990990991}, 'rouge-2': {'r': 0.0707070707070707, 'p': 0.015418502202643172, 'f': 0.025316455696202535}, 'rouge-su4': {'r': 0.15753424657534246, 'p': 0.03389830508474576, 'f': 0.05579138872043663}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5757575757575758, 'p': 0.12527472527472527, 'f': 0.20577617328519857}, 'rouge-2': {'r': 0.2755102040816326, 'p': 0.05947136563876652, 'f': 0.09782608695652173}, 'rouge-su4': {'r': 0.2664359861591695, 'p': 0.056742815033161385, 'f': 0.09356014580801945}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5151515151515151, 'p': 0.11208791208791209, 'f': 0.18411552346570395}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.022026431718061675, 'f': 0.036231884057971016}, 'rouge-su4': {'r': 0.18685121107266436, 'p': 0.0397936624907885, 'f': 0.06561360874848116}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2664359861591695, 'f': 0.09356014580801945, 'p': 0.056742815033161385}, 'rouge-2': {'r': 0.2755102040816326, 'f': 0.09782608695652173, 'p': 0.05947136563876652}, 'rouge-1': {'r': 0.5959595959595959, 'f': 0.21299638989169678, 'p': 0.12967032967032968}}
+
+
+Anti-redundancy objective value :	0.6344616721088998
+Average Reader attention score objective value :	1.4420874070513775e-11
+Average Density based score objective value :	126.57409977109702
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4295016918030553

@@ -1,0 +1,26 @@
+b'\nA moderate earthquake that rattled a swath of Southern California forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday.\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe quake was preceded by two smaller foreshocks, and more than 100 aftershocks followed, including a magnitude-4.1 that hit Saturday afternoon, the largest in the sequence so far. No injuries were reported.\n(Reuters) - Residents of southern California were rattled by a 4.1 magnitude earthquake Saturday afternoon, the largest of more than 100 aftershocks following Friday\'s 5.1 rumbler that caused light scattered damage around the Los Angeles area.\nFriday\'s quake was felt as far away as Palm Springs in the east, San Diego in the south and Ventura County to the north. While not large, the event "seems unusual, of course, because a lot of people felt it," said Doug Given, a USGS geophysicist.\n"These quakes occur in populated areas and people try to put two and two together and predict that something more is coming, but that\'s simply not the case," he said.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\nOn Friday night, the Los Angeles Philharmonic didn\'t miss a note even as the quake rattled downtown Los Angeles\'s Walt Disney Concert Hall, the Los Angeles Times reported. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.48484848484848486, 'p': 0.14860681114551083, 'f': 0.2274881516587678}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.024844720496894408, 'f': 0.03809523809523809}, 'rouge-su4': {'r': 0.14705882352941177, 'p': 0.04422476586888657, 'f': 0.06799999999999999}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.58, 'p': 0.17956656346749225, 'f': 0.27423167848699764}, 'rouge-2': {'r': 0.2727272727272727, 'p': 0.08385093167701864, 'f': 0.12826603325415678}, 'rouge-su4': {'r': 0.2722602739726027, 'p': 0.08272632674297607, 'f': 0.12689545091779728}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6363636363636364, 'p': 0.19504643962848298, 'f': 0.2985781990521327}, 'rouge-2': {'r': 0.23469387755102042, 'p': 0.07142857142857142, 'f': 0.10952380952380952}, 'rouge-su4': {'r': 0.23183391003460208, 'p': 0.06971904266389178, 'f': 0.1072}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5252525252525253, 'p': 0.1609907120743034, 'f': 0.24644549763033177}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.031055900621118012, 'f': 0.047619047619047616}, 'rouge-su4': {'r': 0.17647058823529413, 'p': 0.053069719042663895, 'f': 0.0816}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2722602739726027, 'f': 0.12689545091779728, 'p': 0.08272632674297607}, 'rouge-2': {'r': 0.2727272727272727, 'f': 0.12826603325415678, 'p': 0.08385093167701864}, 'rouge-1': {'r': 0.6363636363636364, 'f': 0.2985781990521327, 'p': 0.19504643962848298}}
+
+
+Anti-redundancy objective value :	0.5257962922706618
+Average Reader attention score objective value :	0.007812495409540497
+Average Density based score objective value :	139.43834213343663
+Average Reader attention with tf-idf (RAWT) score objective value :	0.5224478906101951

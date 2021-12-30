@@ -1,0 +1,26 @@
+b'\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe Red Cross opened a shelter in neighboring La Habra but closed it once the 38 people who stayed overnight returned home.\nA water-main break flooded several floors of Brea City Hall, and the shaking knocked down computers and ceiling tiles, Stokes said.\nThe latest quake hit a week after a magnitude-4.4 temblor centered in the San Fernando Valley shook buildings and rattled nerves.\nA day after the magnitude-5.1 quake, Peter Novahof went shopping with his family at a hardware store in Long Beach. Though nothing was knocked out of his place at his home, he figured it was a good time to think about securing his television and cupboards with glassware.\n"But it\'s a nice reminder in these two relatively tame earthquakes that something bigger could happen at any moment," he added.\nBroken glass, gas leaks, a water main break and a rockslide were reported near the epicenter, according to Twitter updates from local authorities.\n"A lot of the glass in the place shook like crazy," he said. "It started like a roll and then it started shaking like crazy. Everybody ran outside, hugging each other in the streets."\n"We\'ve had a very energetic aftershock sequence, up to about 20, and two of those aftershocks had been greater than magnitude three."\nThe temblorXthe second moderate quake that rattled the city in two weeks after two decades of relative quiet since 1994\'s deadly Northridge quakeXonce again shook Los Angeles to attention.\n"The intensity of the shaking was fairly strong," said Robert Graves, a geologist with the U.S. Geological Survey. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5151515151515151, 'p': 0.1624203821656051, 'f': 0.2469733656174334}, 'rouge-2': {'r': 0.19387755102040816, 'p': 0.06070287539936102, 'f': 0.0924574209245742}, 'rouge-su4': {'r': 0.20242214532871972, 'p': 0.0626338329764454, 'f': 0.09566639411283728}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.63, 'p': 0.20063694267515925, 'f': 0.30434782608695654}, 'rouge-2': {'r': 0.31313131313131315, 'p': 0.09904153354632587, 'f': 0.15048543689320387}, 'rouge-su4': {'r': 0.3304794520547945, 'p': 0.10331905781584583, 'f': 0.15742251223491027}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.48484848484848486, 'p': 0.15286624203821655, 'f': 0.23244552058111378}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.03194888178913738, 'f': 0.04866180048661801}, 'rouge-su4': {'r': 0.1643598615916955, 'p': 0.05085653104925054, 'f': 0.0776778413736713}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.46464646464646464, 'p': 0.1464968152866242, 'f': 0.22276029055690072}, 'rouge-2': {'r': 0.11224489795918367, 'p': 0.03514376996805112, 'f': 0.0535279805352798}, 'rouge-su4': {'r': 0.15916955017301038, 'p': 0.04925053533190578, 'f': 0.07522485690923958}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3304794520547945, 'f': 0.15742251223491027, 'p': 0.10331905781584583}, 'rouge-2': {'r': 0.31313131313131315, 'f': 0.15048543689320387, 'p': 0.09904153354632587}, 'rouge-1': {'r': 0.63, 'f': 0.30434782608695654, 'p': 0.20063694267515925}}
+
+
+Anti-redundancy objective value :	0.7241603457497581
+Average Reader attention score objective value :	1.708642236486909e-09
+Average Density based score objective value :	79.08075232964774
+Average Reader attention with tf-idf (RAWT) score objective value :	0.3711455228841452

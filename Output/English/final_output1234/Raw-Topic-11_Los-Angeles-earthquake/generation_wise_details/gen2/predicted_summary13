@@ -1,0 +1,26 @@
+b'\nA moderate earthquake that rattled a swath of Southern California forced several dozen people in one community out of their homes after firefighters discovered foundation problems that made the buildings unsafe to enter, authorities said Saturday.\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nU.S. Geological Survey seismologist Lucy Jones said it\'s unclear whether Southern California is entering a more active seismic period. "We have been in a really quiet time. It can\'t stay that way," Jones said.\nLos Angeles (CNN) -- A magnitude-5.1 earthquake struck the Los Angeles area Friday night, jolting nearby communities and breaking water mains in some neighborhoods.\nThe Los Angeles Times reported that residents in La Habra posted pictures on social media showing broken vases, topped furniture and other items scattered in their homes.\n"A lot of the glass in the place shook like crazy," he said. "It started like a roll and then it started shaking like crazy. Everybody ran outside, hugging each other in the streets."\nFriday\'s temblor displaced at least 50 people in Fullerton, about 5 miles from the epicenter, because of minor damage to homes and apartment dwellings, Fullerton Police Lieutenant Mike Chlebowski said.\nA Red Cross shelter was set up in La Habra for residents forced out of their homes or who voluntarily chose to stay there. About 38 people including several families stayed overnight, Red Cross spokeswoman Meredith Mills said.\nThe Hall of Fame baseball announcer Vin Scully was on the air calling Friday night\'s Angels-Dodgers exhibition game in the sixth inning at Dodger Stadium.\nThe Los Angeles Dodgers announcer Vin Scully incorporated the tremors into his television patter when they were felt in the sixth inning of a home exhibition game against the Los Angeles Angels on Friday night. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5858585858585859, 'p': 0.17159763313609466, 'f': 0.2654462242562929}, 'rouge-2': {'r': 0.14285714285714285, 'p': 0.04154302670623145, 'f': 0.06436781609195402}, 'rouge-su4': {'r': 0.20242214532871972, 'p': 0.05815109343936382, 'f': 0.09034749034749034}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.64, 'p': 0.1893491124260355, 'f': 0.2922374429223744}, 'rouge-2': {'r': 0.21212121212121213, 'p': 0.06231454005934718, 'f': 0.09633027522935779}, 'rouge-su4': {'r': 0.24143835616438356, 'p': 0.07007952286282307, 'f': 0.10862865947611712}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.48484848484848486, 'p': 0.14201183431952663, 'f': 0.2196796338672769}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.02967359050445104, 'f': 0.04597701149425288}, 'rouge-su4': {'r': 0.14013840830449828, 'p': 0.04025844930417495, 'f': 0.06254826254826254}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5656565656565656, 'p': 0.16568047337278108, 'f': 0.2562929061784897}, 'rouge-2': {'r': 0.14285714285714285, 'p': 0.04154302670623145, 'f': 0.06436781609195402}, 'rouge-su4': {'r': 0.20588235294117646, 'p': 0.059145129224652086, 'f': 0.09189189189189188}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.24143835616438356, 'f': 0.10862865947611712, 'p': 0.07007952286282307}, 'rouge-2': {'r': 0.21212121212121213, 'f': 0.09633027522935779, 'p': 0.06231454005934718}, 'rouge-1': {'r': 0.64, 'f': 0.2922374429223744, 'p': 0.1893491124260355}}
+
+
+Anti-redundancy objective value :	0.6124361014939226
+Average Reader attention score objective value :	1.8795658777750424e-09
+Average Density based score objective value :	96.2642055405803
+Average Reader attention with tf-idf (RAWT) score objective value :	0.452221550427731
