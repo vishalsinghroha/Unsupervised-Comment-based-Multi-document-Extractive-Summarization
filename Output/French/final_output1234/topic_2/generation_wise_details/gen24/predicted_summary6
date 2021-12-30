@@ -1,0 +1,14 @@
+b'\nVous avez d\xe2\x80\x99ailleurs tr\xc3\xa8s mal pris r\xc3\xa9cemment une statistique sur ce sujet produite par le journal L\xe2\x80\x99Equipe apr\xc3\xa8s la finale perdue face aux Saracens en Coupe d\xe2\x80\x99Europe sous le titre maladroit : \xc2\xab Rougerie, roi de la loose \xc2\xbb.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.1, 'p': 0.0625, 'f': 0.07692307692307693}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.011029411764705883, 'f': 0.013761467889908258}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.011029411764705883, 'r': 0.018292682926829267, 'f': 0.013761467889908258}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.0625, 'r': 0.1, 'f': 0.07692307692307693}}
+
+
+Anti-redundancy objective value :	6.204140335354784
+Average Reader attention score objective value :	3.1995185632399185e-21
+Average Density based score objective value :	31.28956115889724
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7848182087234

@@ -1,0 +1,14 @@
+b'\nUn fl\xc3\xa9au qui poursuit votre club depuis trop longtemps.\nIls sont l\xe2\x80\x99avenir du rugby fran\xc3\xa7ais et rien que pour cela on vous doit d\xc3\xa9j\xc3\xa0 beaucoup.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais.\nEt c\xe2\x80\x99est peut-\xc3\xaatre pour cela que cette fois-ci, vous allez le faire.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.16666666666666666, 'p': 0.08333333333333333, 'f': 0.1111111111111111}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.03048780487804878, 'p': 0.014534883720930232, 'f': 0.01968503937007874}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.014534883720930232, 'r': 0.03048780487804878, 'f': 0.01968503937007874}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08333333333333333, 'r': 0.16666666666666666, 'f': 0.1111111111111111}}
+
+
+Anti-redundancy objective value :	4.82530873717888
+Average Reader attention score objective value :	0.01666666666666666
+Average Density based score objective value :	42.18722620192883
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4544056935535363

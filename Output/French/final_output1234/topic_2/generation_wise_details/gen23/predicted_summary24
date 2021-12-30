@@ -1,0 +1,14 @@
+b'\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule.\nCar vous le m\xc3\xa9ritez plus que n\xe2\x80\x99importe qui d\xe2\x80\x99autre cette ann\xc3\xa9e.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.23333333333333334, 'p': 0.0625, 'f': 0.09859154929577464}, 'rouge-2': {'r': 0.06896551724137931, 'p': 0.018018018018018018, 'f': 0.02857142857142857}, 'rouge-su4': {'r': 0.06097560975609756, 'p': 0.01524390243902439, 'f': 0.024390243902439022}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.01524390243902439, 'r': 0.06097560975609756, 'f': 0.024390243902439022}, 'rouge-2': {'p': 0.018018018018018018, 'r': 0.06896551724137931, 'f': 0.02857142857142857}, 'rouge-1': {'p': 0.0625, 'r': 0.23333333333333334, 'f': 0.09859154929577464}}
+
+
+Anti-redundancy objective value :	1.757830160296711
+Average Reader attention score objective value :	1.5534084851234815e-19
+Average Density based score objective value :	172.31130404633925
+Average Reader attention with tf-idf (RAWT) score objective value :	1.579819700419871

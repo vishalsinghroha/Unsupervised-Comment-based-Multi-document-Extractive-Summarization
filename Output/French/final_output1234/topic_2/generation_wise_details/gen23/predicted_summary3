@@ -1,0 +1,14 @@
+b'\nEt c\xe2\x80\x99est aussi pour cela que dans le titre de cette lettre que je vous adresse, je pr\xc3\xa9cise mon cher Franck, que vous \xc3\xaates l\xe2\x80\x99entra\xc3\xaeneur de Clermont.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.08163265306122448, 'f': 0.10126582278481011}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.03048780487804878, 'p': 0.017985611510791366, 'f': 0.02262443438914027}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.017985611510791366, 'r': 0.03048780487804878, 'f': 0.02262443438914027}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08163265306122448, 'r': 0.13333333333333333, 'f': 0.10126582278481011}}
+
+
+Anti-redundancy objective value :	2.8385968983941168
+Average Reader attention score objective value :	0.04166666666666665
+Average Density based score objective value :	78.64257836938317
+Average Reader attention with tf-idf (RAWT) score objective value :	0.8202490029199492

@@ -1,0 +1,4 @@
+Clermont va en finale quand certains ne vont nulle part.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.06666666666666667, 'p': 0.2, 'f': 0.1}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.1111111111111111, 'f': 0.05263157894736842}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.06818181818181818, 'f': 0.02884615384615384}}

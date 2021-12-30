@@ -1,0 +1,6 @@
+Un fléau qui poursuit votre club depuis trop longtemps. 
+Ils sont l’avenir du rugby français et rien que pour cela on vous doit déjà beaucoup. 
+J.S.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.15384615384615385, 'f': 0.14285714285714288}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.024390243902439025, 'p': 0.02857142857142857, 'f': 0.02631578947368421}}

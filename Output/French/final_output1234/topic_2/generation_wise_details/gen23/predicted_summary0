@@ -1,0 +1,14 @@
+b'\nIl nous a r\xc3\xa9concili\xc3\xa9s avec le rugby, ce sport que nous aimons tant mais qui nous d\xc3\xa9prime si souvent ces derniers temps, depuis que quelques pr\xc3\xa9sidents en ont fait leur jouet et leur outil de communication\xe2\x80\xa6 J\xe2\x80\x99en profite pour pr\xc3\xa9ciser que votre pr\xc3\xa9sident, monsieur Eric de Cromi\xc3\xa8res, est sans aucun doute celui que l\xe2\x80\x99on connait le moins et ce n\xe2\x80\x99est certainement pas un hasard.\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.23333333333333334, 'p': 0.06542056074766354, 'f': 0.1021897810218978}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.009433962264150943, 'f': 0.014814814814814814}, 'rouge-su4': {'r': 0.054878048780487805, 'p': 0.01437699680511182, 'f': 0.022784810126582275}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.01437699680511182, 'r': 0.054878048780487805, 'f': 0.022784810126582275}, 'rouge-2': {'p': 0.009433962264150943, 'r': 0.034482758620689655, 'f': 0.014814814814814814}, 'rouge-1': {'p': 0.06542056074766354, 'r': 0.23333333333333334, 'f': 0.1021897810218978}}
+
+
+Anti-redundancy objective value :	1.4041774154320934
+Average Reader attention score objective value :	1.1570935789010857e-94
+Average Density based score objective value :	244.24703566620178
+Average Reader attention with tf-idf (RAWT) score objective value :	2.1355898583048383

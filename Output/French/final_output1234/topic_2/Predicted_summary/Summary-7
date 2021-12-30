@@ -1,0 +1,5 @@
+Il est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby français. 
+Ce n’est donc pas gagné, vous le savez.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.1, 'p': 0.1, 'f': 0.10000000000000002}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.018292682926829267, 'f': 0.018292682926829267}}

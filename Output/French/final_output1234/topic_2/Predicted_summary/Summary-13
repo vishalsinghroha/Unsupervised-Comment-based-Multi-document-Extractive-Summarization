@@ -1,0 +1,6 @@
+Clermont va en finale quand certains ne vont nulle part. 
+Ce n’est donc pas gagné, vous le savez. 
+J.S.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.06666666666666667, 'p': 0.10526315789473684, 'f': 0.0816326530612245}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.05555555555555555, 'f': 0.0425531914893617}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.030612244897959183, 'f': 0.022900763358778626}}

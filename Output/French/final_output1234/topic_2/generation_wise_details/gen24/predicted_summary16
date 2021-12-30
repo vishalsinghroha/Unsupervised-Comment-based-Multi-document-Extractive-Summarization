@@ -1,0 +1,14 @@
+b'\nCe n\xe2\x80\x99\xc3\xa9tait pas tr\xc3\xa8s fair-play certes mais c\xe2\x80\x99\xc3\xa9tait une r\xc3\xa9alit\xc3\xa9 sur laquelle, je l\xe2\x80\x99esp\xc3\xa8re, vous allez nourrir dans ces prochains jours une \xc3\xa9nergie collective autour de ce remarquable joueur.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.1, 'p': 0.058823529411764705, 'f': 0.07407407407407408}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.010344827586206896, 'f': 0.013215859030837005}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.010344827586206896, 'r': 0.018292682926829267, 'f': 0.013215859030837005}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.058823529411764705, 'r': 0.1, 'f': 0.07407407407407408}}
+
+
+Anti-redundancy objective value :	1.9871390695842532
+Average Reader attention score objective value :	0.04166666666666665
+Average Density based score objective value :	61.98950256422325
+Average Reader attention with tf-idf (RAWT) score objective value :	1.0916733457249252

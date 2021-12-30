@@ -1,0 +1,5 @@
+Car à Clermont, c’est l’institution qui compte, c’est le club, c’est le jeu et c’est donc les joueurs. 
+Clermont joue bien au rugby quand certains ne construisent rien.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.13333333333333333, 'p': 0.14285714285714285, 'f': 0.1379310344827586}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.03048780487804878, 'p': 0.03289473684210526, 'f': 0.03164556962025317}}

@@ -1,0 +1,5 @@
+Car à Clermont, c’est l’institution qui compte, c’est le club, c’est le jeu et c’est donc les joueurs. 
+Le champion des finales perdues.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.1, 'p': 0.13043478260869565, 'f': 0.11320754716981132}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.024390243902439025, 'p': 0.03278688524590164, 'f': 0.027972027972027975}}

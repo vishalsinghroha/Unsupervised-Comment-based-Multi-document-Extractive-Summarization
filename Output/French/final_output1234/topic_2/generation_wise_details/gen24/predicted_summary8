@@ -1,0 +1,14 @@
+b'\nElle fut belle de bout en bout et malgr\xc3\xa9 une longue inf\xc3\xa9riorit\xc3\xa9 num\xc3\xa9rique, votre \xc3\xa9quipe a d\xc3\xa9montr\xc3\xa9 une constante et un savoir-faire dans le jeu qui en disent long sur sa d\xc3\xa9termination.\nIl nous a r\xc3\xa9concili\xc3\xa9s avec le rugby, ce sport que nous aimons tant mais qui nous d\xc3\xa9prime si souvent ces derniers temps, depuis que quelques pr\xc3\xa9sidents en ont fait leur jouet et leur outil de communication\xe2\x80\xa6 J\xe2\x80\x99en profite pour pr\xc3\xa9ciser que votre pr\xc3\xa9sident, monsieur Eric de Cromi\xc3\xa8res, est sans aucun doute celui que l\xe2\x80\x99on connait le moins et ce n\xe2\x80\x99est certainement pas un hasard.\nFranck, ce samedi au V\xc3\xa9lodrome, votre \xc3\xa9quipe a tout d\xe2\x80\x99abord lav\xc3\xa9 l\xe2\x80\x99affront de la saison pass\xc3\xa9e quand elle avait laiss\xc3\xa9 filer bien malgr\xc3\xa9 elle cette demi-finale qu\xe2\x80\x99elle n\xe2\x80\x99aurait jamais d\xc3\xbb perdre.\nClermont va en finale quand certains ne vont nulle part.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.36666666666666664, 'p': 0.06918238993710692, 'f': 0.1164021164021164}, 'rouge-2': {'r': 0.034482758620689655, 'p': 0.006329113924050633, 'f': 0.0106951871657754}, 'rouge-su4': {'r': 0.08536585365853659, 'p': 0.014925373134328358, 'f': 0.02540834845735027}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.014925373134328358, 'r': 0.08536585365853659, 'f': 0.02540834845735027}, 'rouge-2': {'p': 0.006329113924050633, 'r': 0.034482758620689655, 'f': 0.0106951871657754}, 'rouge-1': {'p': 0.06918238993710692, 'r': 0.36666666666666664, 'f': 0.1164021164021164}}
+
+
+Anti-redundancy objective value :	2.086322624570127
+Average Reader attention score objective value :	0.01666666666666666
+Average Density based score objective value :	112.01776800912937
+Average Reader attention with tf-idf (RAWT) score objective value :	1.323727484381254

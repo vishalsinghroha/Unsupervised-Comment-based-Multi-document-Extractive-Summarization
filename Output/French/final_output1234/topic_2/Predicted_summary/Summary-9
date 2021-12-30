@@ -1,0 +1,4 @@
+Et c’est aussi pour cela que dans le titre de cette lettre que je vous adresse, je précise mon cher Franck, que vous êtes l’entraîneur de Clermont.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.06666666666666667, 'p': 0.07407407407407407, 'f': 0.07017543859649124}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.018292682926829267, 'p': 0.02054794520547945, 'f': 0.019354838709677417}}

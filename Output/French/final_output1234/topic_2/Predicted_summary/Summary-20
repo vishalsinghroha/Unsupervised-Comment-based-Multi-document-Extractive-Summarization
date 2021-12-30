@@ -1,0 +1,4 @@
+Car vous le méritez plus que n’importe qui d’autre cette année.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.03333333333333333, 'p': 0.09090909090909091, 'f': 0.04878048780487805}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.006097560975609756, 'p': 0.02, 'f': 0.009345794392523366}}

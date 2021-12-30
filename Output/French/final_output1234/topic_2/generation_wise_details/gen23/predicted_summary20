@@ -1,0 +1,14 @@
+b'\nCher Franck, Je tiens tout d\xe2\x80\x99abord \xc3\xa0 vous f\xc3\xa9liciter et surtout \xc3\xa0 vous remercier pour la victoire de votre \xc3\xa9quipe en demi-finale du Top 14 face au Racing.\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nFranck, ce samedi au V\xc3\xa9lodrome, votre \xc3\xa9quipe a tout d\xe2\x80\x99abord lav\xc3\xa9 l\xe2\x80\x99affront de la saison pass\xc3\xa9e quand elle avait laiss\xc3\xa9 filer bien malgr\xc3\xa9 elle cette demi-finale qu\xe2\x80\x99elle n\xe2\x80\x99aurait jamais d\xc3\xbb perdre. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.12987012987012986, 'f': 0.18691588785046725}, 'rouge-2': {'r': 0.10344827586206896, 'p': 0.039473684210526314, 'f': 0.05714285714285714}, 'rouge-su4': {'r': 0.13414634146341464, 'p': 0.04932735426008968, 'f': 0.0721311475409836}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.04932735426008968, 'r': 0.13414634146341464, 'f': 0.0721311475409836}, 'rouge-2': {'p': 0.039473684210526314, 'r': 0.10344827586206896, 'f': 0.05714285714285714}, 'rouge-1': {'p': 0.12987012987012986, 'r': 0.3333333333333333, 'f': 0.18691588785046725}}
+
+
+Anti-redundancy objective value :	2.6232119159356553
+Average Reader attention score objective value :	6.250611328877057e-87
+Average Density based score objective value :	134.3470693600182
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2637825394567626

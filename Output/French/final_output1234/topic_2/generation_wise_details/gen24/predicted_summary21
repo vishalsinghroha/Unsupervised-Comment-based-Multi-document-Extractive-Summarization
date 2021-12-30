@@ -1,0 +1,14 @@
+b'\nIl nous a r\xc3\xa9concili\xc3\xa9s avec le rugby, ce sport que nous aimons tant mais qui nous d\xc3\xa9prime si souvent ces derniers temps, depuis que quelques pr\xc3\xa9sidents en ont fait leur jouet et leur outil de communication\xe2\x80\xa6 J\xe2\x80\x99en profite pour pr\xc3\xa9ciser que votre pr\xc3\xa9sident, monsieur Eric de Cromi\xc3\xa8res, est sans aucun doute celui que l\xe2\x80\x99on connait le moins et ce n\xe2\x80\x99est certainement pas un hasard.\nFranck, ce samedi au V\xc3\xa9lodrome, votre \xc3\xa9quipe a tout d\xe2\x80\x99abord lav\xc3\xa9 l\xe2\x80\x99affront de la saison pass\xc3\xa9e quand elle avait laiss\xc3\xa9 filer bien malgr\xc3\xa9 elle cette demi-finale qu\xe2\x80\x99elle n\xe2\x80\x99aurait jamais d\xc3\xbb perdre.\nCar si Clermont est toujours dans le dernier carr\xc3\xa9, car si Clermont est souvent en finale \xe2\x80\x93 ce qui est la preuve d\xe2\x80\x99une v\xc3\xa9ritable constance au plus haut niveau \xe2\x80\x93 votre club ne doit plus accepter qu\xe2\x80\x99on se foute ainsi de sa gueule.\nTout comme il ne m\xc3\xa9ritait pas les railleries apr\xc3\xa8s cette finale de Coupe d\xe2\x80\x99Europe qu\xe2\x80\x99il a tout simplement perdu face \xc3\xa0 plus fort il y a deux semaines.\nToulon qui a fait \xc3\xa0 peu pr\xc3\xa8s tout et n\xe2\x80\x99importe quoi cette saison mais qui se retrouve l\xc3\xa0 encore une fois, parce que ce club poss\xc3\xa8de de grands joueurs, parce que ce club cultive surtout un savoir-faire irrationnel qui vous a fait souvent d\xc3\xa9faut lors de vos pr\xc3\xa9c\xc3\xa9dentes finales : cette capacit\xc3\xa9 \xc3\xa0 se transcender le jour j. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3, 'p': 0.04017857142857143, 'f': 0.07086614173228346}, 'rouge-2': {'r': 0.06896551724137931, 'p': 0.008968609865470852, 'f': 0.015873015873015872}, 'rouge-su4': {'r': 0.07317073170731707, 'p': 0.009036144578313253, 'f': 0.0160857908847185}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.009036144578313253, 'r': 0.07317073170731707, 'f': 0.0160857908847185}, 'rouge-2': {'p': 0.008968609865470852, 'r': 0.06896551724137931, 'f': 0.015873015873015872}, 'rouge-1': {'p': 0.04017857142857143, 'r': 0.3, 'f': 0.07086614173228346}}
+
+
+Anti-redundancy objective value :	1.6692077289169809
+Average Reader attention score objective value :	9.320450910740888e-20
+Average Density based score objective value :	196.46442454445508
+Average Reader attention with tf-idf (RAWT) score objective value :	1.962657130769621

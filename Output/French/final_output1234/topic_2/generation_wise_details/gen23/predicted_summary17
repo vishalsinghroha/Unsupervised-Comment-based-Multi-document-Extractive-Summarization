@@ -1,0 +1,14 @@
+b'\nCar \xc3\xa0 Clermont, c\xe2\x80\x99est l\xe2\x80\x99institution qui compte, c\xe2\x80\x99est le club, c\xe2\x80\x99est le jeu et c\xe2\x80\x99est donc les joueurs.\nLe champion des finales perdues.\nTout comme il ne m\xc3\xa9ritait pas les railleries apr\xc3\xa8s cette finale de Coupe d\xe2\x80\x99Europe qu\xe2\x80\x99il a tout simplement perdu face \xc3\xa0 plus fort il y a deux semaines.\nClermont joue bien au rugby quand certains ne construisent rien.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.23333333333333334, 'p': 0.08433734939759036, 'f': 0.12389380530973451}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.04878048780487805, 'p': 0.016597510373443983, 'f': 0.02476780185758514}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.016597510373443983, 'r': 0.04878048780487805, 'f': 0.02476780185758514}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08433734939759036, 'r': 0.23333333333333334, 'f': 0.12389380530973451}}
+
+
+Anti-redundancy objective value :	2.408201126663907
+Average Reader attention score objective value :	0.01666666666666666
+Average Density based score objective value :	108.60458018062597
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7704907721847134

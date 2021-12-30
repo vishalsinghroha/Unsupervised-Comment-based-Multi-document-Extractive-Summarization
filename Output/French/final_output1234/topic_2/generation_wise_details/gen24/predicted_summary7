@@ -1,0 +1,14 @@
+b'\nIl nous a r\xc3\xa9concili\xc3\xa9s avec le rugby, ce sport que nous aimons tant mais qui nous d\xc3\xa9prime si souvent ces derniers temps, depuis que quelques pr\xc3\xa9sidents en ont fait leur jouet et leur outil de communication\xe2\x80\xa6 J\xe2\x80\x99en profite pour pr\xc3\xa9ciser que votre pr\xc3\xa9sident, monsieur Eric de Cromi\xc3\xa8res, est sans aucun doute celui que l\xe2\x80\x99on connait le moins et ce n\xe2\x80\x99est certainement pas un hasard.\nIl est donc de temps de valider tout ce travail et ce beau projet de club qui doit inspirer le rugby fran\xc3\xa7ais.\nCe n\xe2\x80\x99est donc pas gagn\xc3\xa9, vous le savez. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.06382978723404255, 'f': 0.0967741935483871}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.036585365853658534, 'p': 0.010948905109489052, 'f': 0.016853932584269662}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.010948905109489052, 'r': 0.036585365853658534, 'f': 0.016853932584269662}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.06382978723404255, 'r': 0.2, 'f': 0.0967741935483871}}
+
+
+Anti-redundancy objective value :	3.2540455736039835
+Average Reader attention score objective value :	0.027777777777777766
+Average Density based score objective value :	105.83161186853256
+Average Reader attention with tf-idf (RAWT) score objective value :	1.194135579704582
