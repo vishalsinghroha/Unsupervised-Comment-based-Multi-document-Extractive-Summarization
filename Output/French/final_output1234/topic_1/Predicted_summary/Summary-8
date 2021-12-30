@@ -1,0 +1,6 @@
+Jacky et son égo. 
+Le supermarché du rugby privé de goût et de saveur, privé d’histoire et d’identité, grâce à nos deux grands épiciers du rugby français. 
+J.S.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.2857142857142857, 'f': 0.2857142857142857}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.037037037037037035, 'f': 0.037037037037037035}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.09210526315789473, 'f': 0.09210526315789473}}

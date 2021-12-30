@@ -1,0 +1,4 @@
+Le supermarché du rugby privé de goût et de saveur, privé d’histoire et d’identité, grâce à nos deux grands épiciers du rugby français.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.25, 'p': 0.30434782608695654, 'f': 0.27450980392156865}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.045454545454545456, 'f': 0.04081632653061224}, 'rouge-su4': {'r': 0.07894736842105263, 'p': 0.09836065573770492, 'f': 0.08759124087591241}}

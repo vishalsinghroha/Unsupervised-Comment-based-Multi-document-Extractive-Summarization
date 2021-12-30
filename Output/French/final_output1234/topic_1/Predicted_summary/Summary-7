@@ -1,0 +1,5 @@
+Mais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d’avoir rendu leurs deux clubs particulièrement antipathiques. 
+Tout leur est permis, même le ridicule.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.39285714285714285, 'p': 0.4230769230769231, 'f': 0.4074074074074074}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.32, 'f': 0.30769230769230765}, 'rouge-su4': {'r': 0.23026315789473684, 'p': 0.25, 'f': 0.23972602739726026}}

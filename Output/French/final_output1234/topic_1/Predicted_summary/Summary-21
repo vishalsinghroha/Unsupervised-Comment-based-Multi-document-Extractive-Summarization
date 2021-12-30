@@ -1,0 +1,6 @@
+Le Racing n’a plus rien à voir avec ce que fut son formidable ancêtre dans les années 80-90 en termes d’image. 
+Jacky et son égo. 
+J.S.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.14285714285714285, 'p': 0.15384615384615385, 'f': 0.14814814814814817}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.03289473684210526, 'p': 0.03571428571428571, 'f': 0.03424657534246575}}

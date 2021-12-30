@@ -1,0 +1,5 @@
+Mais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d’avoir rendu leurs deux clubs particulièrement antipathiques. 
+Jacky en a voulu autrement.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.39285714285714285, 'p': 0.4583333333333333, 'f': 0.4230769230769231}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.34782608695652173, 'f': 0.31999999999999995}, 'rouge-su4': {'r': 0.23026315789473684, 'p': 0.2734375, 'f': 0.25}}

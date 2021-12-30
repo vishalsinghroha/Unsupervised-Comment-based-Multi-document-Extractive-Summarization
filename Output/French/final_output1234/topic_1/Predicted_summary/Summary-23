@@ -1,0 +1,4 @@
+Et Montpellier a détruit en quelques saisons tout ce que le duo Galthié-Béchu avait savamment bâti pour faire du club héraultais une référence en matière de jeu et de formation.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.17857142857142858, 'p': 0.16666666666666666, 'f': 0.17241379310344826}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.034482758620689655, 'f': 0.03571428571428571}, 'rouge-su4': {'r': 0.046052631578947366, 'p': 0.042682926829268296, 'f': 0.04430379746835443}}
