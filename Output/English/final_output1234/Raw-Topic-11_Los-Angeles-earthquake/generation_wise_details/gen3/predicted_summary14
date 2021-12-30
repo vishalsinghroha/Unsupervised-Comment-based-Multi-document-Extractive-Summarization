@@ -1,0 +1,26 @@
+b'\nA 6.7-magnitude earthquake in Los Angeles left at least 60 people dead and did an estimated $10 billion damage in 1994, while a 6.9 quake in San Francisco in 1989 claimed the lives of 67 people.\nThe earthquake followed a similar one in California earlier this month which measured 4.4.\nThe Hall of Fame baseball announcer Vin Scully was on the air calling Friday night\'s Angels-Dodgers exhibition game in the sixth inning at Dodger Stadium.\n"It\'s a place where we\'ve had a lot of earthquakes in the past," she said.\nThree aftershocks reached magnitude 3, the last at 10:37 p.m. Pacific time on Friday, said the seismologist, Lucy Jones of the United States Geological Survey. She said that a more powerful quake than Fridays was possible, though unlikely, and that comparatively minor aftershocks could continue for weeks.\nBy 10 p.m., Los Angeles city and county officials had completed checks and found no major damage. No injuries or deaths were reported. A city official in La Habra, where the quake was centered, said one neighborhood was without power.\nDisneyland canceled its fireworks show because of the quake, and stopped rides as a precaution, according to local news. Disney DIS +0.65%  said the park wasn\'t closed, but that people were leaving voluntarily.\nThe recent quakes may indicate a return to more normal seismic activity, geologists said. Emergency service officials urged residents to use the quake as a wake-up call to prepare for "the big one", a large, devastating quake expected to hit southern California. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.47474747474747475, 'p': 0.1865079365079365, 'f': 0.2678062678062678}, 'rouge-2': {'r': 0.061224489795918366, 'p': 0.02390438247011952, 'f': 0.034383954154727794}, 'rouge-su4': {'r': 0.14359861591695502, 'p': 0.05548128342245989, 'f': 0.08003857280617165}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.44, 'p': 0.1746031746031746, 'f': 0.25}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.0199203187250996, 'f': 0.028571428571428567}, 'rouge-su4': {'r': 0.11301369863013698, 'p': 0.04411764705882353, 'f': 0.06346153846153847}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.43434343434343436, 'p': 0.17063492063492064, 'f': 0.245014245014245}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.0199203187250996, 'f': 0.028653295128939826}, 'rouge-su4': {'r': 0.11591695501730104, 'p': 0.04478609625668449, 'f': 0.06460945033751204}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.4444444444444444, 'p': 0.1746031746031746, 'f': 0.2507122507122507}, 'rouge-2': {'r': 0.05102040816326531, 'p': 0.0199203187250996, 'f': 0.028653295128939826}, 'rouge-su4': {'r': 0.14186851211072665, 'p': 0.05481283422459893, 'f': 0.07907425265188042}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.14359861591695502, 'f': 0.08003857280617165, 'p': 0.05548128342245989}, 'rouge-2': {'r': 0.061224489795918366, 'f': 0.034383954154727794, 'p': 0.02390438247011952}, 'rouge-1': {'r': 0.47474747474747475, 'f': 0.2678062678062678, 'p': 0.1865079365079365}}
+
+
+Anti-redundancy objective value :	0.8279897803689102
+Average Reader attention score objective value :	6.599068665328857e-16
+Average Density based score objective value :	118.76705210813564
+Average Reader attention with tf-idf (RAWT) score objective value :	0.4107616539934716

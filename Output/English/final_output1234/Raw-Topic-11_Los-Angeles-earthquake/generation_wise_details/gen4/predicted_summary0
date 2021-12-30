@@ -1,0 +1,26 @@
+b'\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes, including broken chimneys and leaning, were uncovered in half a dozen single-family houses, which were also deemed unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe U.S. Geological Survey said the quake struck at about 9:11 p.m. Friday night and was centered near Brea in Orange County -- about 20 miles southeast of downtown Los Angeles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the USGS.\nFire crews red-tagged 20 apartment units in a building in the Orange County city of Fullerton after finding a major foundation crack. Structural woes including broken chimneys and leaning were uncovered in half a dozen single-family houses, which were also deemed as unsafe to occupy until building inspectors clear the structures. The damage displaced 83 residents.\nThe tremor struck at 9.09pm and was centered near Brea in Orange County, about 20 miles southeast of downtown Los Angeles, at a depth of 5 miles. It was felt as far south as San Diego and as far north as Ventura County, according to citizen responses collected online by the US Geological Survey (USGS).\nCallers to KNX-AM reported seeing a brick wall collapse, water sloshing in a swimming pool and wires and trees swaying back and forth. One caller said he was in a movie theater lobby in Brea when the quake struck and said people ran outside and hugged in the street.\nSouthern California has not experienced a devastating earthquake since the 1994 magnitude-6.7 Northridge quake killed several dozen people and caused $25 billion in damage. Preliminary data suggest Friday night\'s quake occurred near the Puente Hills thrust fault, which stretches from the San Gabriel Valley to downtown Los Angeles and caused the 1987 Whittier Narrows earthquake, USGS seismologist Lucy Jones said.\nThree aftershocks reached magnitude 3, the last at 10:37 p.m. Pacific time on Friday, said the seismologist, Lucy Jones of the United States Geological Survey. She said that a more powerful quake than Fridays was possible, though unlikely, and that comparatively minor aftershocks could continue for weeks.\nThe recent quakes may indicate a return to more normal seismic activity, geologists said. Emergency service officials urged residents to use the quake as a wake-up call to prepare for "the big one", a large, devastating quake expected to hit southern California. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5151515151515151, 'p': 0.12142857142857143, 'f': 0.19653179190751446}, 'rouge-2': {'r': 0.16326530612244897, 'p': 0.03818615751789976, 'f': 0.06189555125725339}, 'rouge-su4': {'r': 0.20069204152249134, 'p': 0.0463258785942492, 'f': 0.07527579493835172}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.53, 'p': 0.1261904761904762, 'f': 0.20384615384615387}, 'rouge-2': {'r': 0.12121212121212122, 'p': 0.028639618138424822, 'f': 0.04633204633204633}, 'rouge-su4': {'r': 0.16095890410958905, 'p': 0.037539936102236424, 'f': 0.06088082901554405}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5959595959595959, 'p': 0.14047619047619048, 'f': 0.22736030828516374}, 'rouge-2': {'r': 0.11224489795918367, 'p': 0.026252983293556086, 'f': 0.0425531914893617}, 'rouge-su4': {'r': 0.1903114186851211, 'p': 0.0439297124600639, 'f': 0.07138221933809215}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5757575757575758, 'p': 0.1357142857142857, 'f': 0.21965317919075142}, 'rouge-2': {'r': 0.15306122448979592, 'p': 0.03579952267303103, 'f': 0.05802707930367505}, 'rouge-su4': {'r': 0.22664359861591696, 'p': 0.05231629392971246, 'f': 0.08500973393900065}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.22664359861591696, 'f': 0.08500973393900065, 'p': 0.05231629392971246}, 'rouge-2': {'r': 0.16326530612244897, 'f': 0.06189555125725339, 'p': 0.03818615751789976}, 'rouge-1': {'r': 0.5959595959595959, 'f': 0.22736030828516374, 'p': 0.14047619047619048}}
+
+
+Anti-redundancy objective value :	0.4297834613974701
+Average Reader attention score objective value :	2.3558973775776032e-09
+Average Density based score objective value :	166.9589911161089
+Average Reader attention with tf-idf (RAWT) score objective value :	0.7010622326302508
