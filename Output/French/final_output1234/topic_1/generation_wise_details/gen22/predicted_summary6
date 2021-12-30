@@ -1,0 +1,14 @@
+b'\nCurieux sentiment que de vouloir qu\xe2\x80\x99aucune des deux \xc3\xa9quipes qui se sont affront\xc3\xa9es samedi \xc3\xa0 Montpellier en match de barrages du Top 14 ne s\xe2\x80\x99impose\xe2\x80\xa6 Au final, le Racing l\xe2\x80\x99a emport\xc3\xa9 en toute logique dans le sillage d\xe2\x80\x99un Roco\xc3\xa7oko des grands jours et d\xe2\x80\x99un pack qui, autour du formidable Nyanga, a fini par faire plier Montpellier.\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6785714285714286, 'p': 0.10106382978723404, 'f': 0.17592592592592593}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.0427807486631016, 'f': 0.07476635514018691}, 'rouge-su4': {'r': 0.3157894736842105, 'p': 0.04316546762589928, 'f': 0.0759493670886076}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.04316546762589928, 'r': 0.3157894736842105, 'f': 0.0759493670886076}, 'rouge-2': {'p': 0.0427807486631016, 'r': 0.2962962962962963, 'f': 0.07476635514018691}, 'rouge-1': {'p': 0.10106382978723404, 'r': 0.6785714285714286, 'f': 0.17592592592592593}}
+
+
+Anti-redundancy objective value :	1.7302671883860523
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	81.78308573302158
+Average Reader attention with tf-idf (RAWT) score objective value :	2.7506609191419993

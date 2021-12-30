@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.4642857142857143, 'p': 0.20967741935483872, 'f': 0.2888888888888889}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.13114754098360656, 'f': 0.18181818181818182}, 'rouge-su4': {'r': 0.24342105263157895, 'p': 0.10393258426966293, 'f': 0.1456692913385827}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.10393258426966293, 'r': 0.24342105263157895, 'f': 0.1456692913385827}, 'rouge-2': {'p': 0.13114754098360656, 'r': 0.2962962962962963, 'f': 0.18181818181818182}, 'rouge-1': {'p': 0.20967741935483872, 'r': 0.4642857142857143, 'f': 0.2888888888888889}}
+
+
+Anti-redundancy objective value :	1.7865234986061391
+Average Reader attention score objective value :	0.0333333333333333
+Average Density based score objective value :	47.58192351357221
+Average Reader attention with tf-idf (RAWT) score objective value :	1.8460890831026757

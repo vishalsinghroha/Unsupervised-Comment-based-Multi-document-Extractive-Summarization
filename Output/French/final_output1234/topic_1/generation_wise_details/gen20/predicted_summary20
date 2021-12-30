@@ -1,0 +1,14 @@
+b'\nCurieux sentiment que de vouloir qu\xe2\x80\x99aucune des deux \xc3\xa9quipes qui se sont affront\xc3\xa9es samedi \xc3\xa0 Montpellier en match de barrages du Top 14 ne s\xe2\x80\x99impose\xe2\x80\xa6 Au final, le Racing l\xe2\x80\x99a emport\xc3\xa9 en toute logique dans le sillage d\xe2\x80\x99un Roco\xc3\xa7oko des grands jours et d\xe2\x80\x99un pack qui, autour du formidable Nyanga, a fini par faire plier Montpellier.\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nEt Montpellier a d\xc3\xa9truit en quelques saisons tout ce que le duo Galthi\xc3\xa9-B\xc3\xa9chu avait savamment b\xc3\xa2ti pour faire du club h\xc3\xa9raultais une r\xc3\xa9f\xc3\xa9rence en mati\xc3\xa8re de jeu et de formation.\nOn compte aussi les protocoles commotion car de part et d\xe2\x80\x99autre on kiffe de se rentrer dedans. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6071428571428571, 'p': 0.09941520467836257, 'f': 0.17085427135678388}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.052941176470588235, 'f': 0.09137055837563453}, 'rouge-su4': {'r': 0.29605263157894735, 'p': 0.04455445544554455, 'f': 0.0774526678141136}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.04455445544554455, 'r': 0.29605263157894735, 'f': 0.0774526678141136}, 'rouge-2': {'p': 0.052941176470588235, 'r': 0.3333333333333333, 'f': 0.09137055837563453}, 'rouge-1': {'p': 0.09941520467836257, 'r': 0.6071428571428571, 'f': 0.17085427135678388}}
+
+
+Anti-redundancy objective value :	1.820100799423446
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	53.35604789906115
+Average Reader attention with tf-idf (RAWT) score objective value :	2.1566370934079466

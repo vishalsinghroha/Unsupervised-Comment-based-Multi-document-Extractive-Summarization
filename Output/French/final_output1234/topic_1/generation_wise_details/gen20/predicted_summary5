@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nEt Montpellier a d\xc3\xa9truit en quelques saisons tout ce que le duo Galthi\xc3\xa9-B\xc3\xa9chu avait savamment b\xc3\xa2ti pour faire du club h\xc3\xa9raultais une r\xc3\xa9f\xc3\xa9rence en mati\xc3\xa8re de jeu et de formation.\nJacky en a voulu autrement. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.21428571428571427, 'p': 0.07142857142857142, 'f': 0.10714285714285714}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.012048192771084338, 'f': 0.018181818181818184}, 'rouge-su4': {'r': 0.06578947368421052, 'p': 0.020491803278688523, 'f': 0.03125}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.020491803278688523, 'r': 0.06578947368421052, 'f': 0.03125}, 'rouge-2': {'p': 0.012048192771084338, 'r': 0.037037037037037035, 'f': 0.018181818181818184}, 'rouge-1': {'p': 0.07142857142857142, 'r': 0.21428571428571427, 'f': 0.10714285714285714}}
+
+
+Anti-redundancy objective value :	2.7173259150752513
+Average Reader attention score objective value :	7.344405018416256e-42
+Average Density based score objective value :	54.56092482811386
+Average Reader attention with tf-idf (RAWT) score objective value :	1.6672012031102055

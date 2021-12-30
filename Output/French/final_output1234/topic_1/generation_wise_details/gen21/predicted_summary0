@@ -1,0 +1,14 @@
+b'\nJ\xe2\x80\x99aurais voulu qu\xe2\x80\x99il reste ce grand demi d\xe2\x80\x99ouverture des All Blacks et qu\xe2\x80\x99il tire sa r\xc3\xa9v\xc3\xa9rence sur ce formidable titre de champion du monde en 2015.\nJacky et son \xc3\xa9go.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb.\nVoil\xc3\xa0, tout cela sent le rance. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.09523809523809523, 'f': 0.14285714285714285}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.028688524590163935, 'f': 0.04375}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.028688524590163935, 'r': 0.09210526315789473, 'f': 0.04375}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.09523809523809523, 'r': 0.2857142857142857, 'f': 0.14285714285714285}}
+
+
+Anti-redundancy objective value :	4.566613864698641
+Average Reader attention score objective value :	3.105441289094375e-268
+Average Density based score objective value :	60.395339304285535
+Average Reader attention with tf-idf (RAWT) score objective value :	1.474353440198343

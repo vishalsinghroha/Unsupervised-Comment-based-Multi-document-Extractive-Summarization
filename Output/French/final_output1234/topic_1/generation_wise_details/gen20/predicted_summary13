@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nLeur projet respectif ne m\xc3\xa8ne nulle part et surtout n\xe2\x80\x99am\xc3\xa8ne absolument rien au rugby fran\xc3\xa7ais.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nVoil\xc3\xa0, tout cela sent le rance. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6428571428571429, 'p': 0.20224719101123595, 'f': 0.3076923076923077}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.09090909090909091, 'f': 0.1391304347826087}, 'rouge-su4': {'r': 0.29605263157894735, 'p': 0.08687258687258688, 'f': 0.13432835820895525}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.08687258687258688, 'r': 0.29605263157894735, 'f': 0.13432835820895525}, 'rouge-2': {'p': 0.09090909090909091, 'r': 0.2962962962962963, 'f': 0.1391304347826087}, 'rouge-1': {'p': 0.20224719101123595, 'r': 0.6428571428571429, 'f': 0.3076923076923077}}
+
+
+Anti-redundancy objective value :	2.206831863307678
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	41.92387599890402
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2661520404074742

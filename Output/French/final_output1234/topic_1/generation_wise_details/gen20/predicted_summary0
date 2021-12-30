@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nC\xc3\xb4t\xc3\xa9 Racing, je m\xe2\x80\x99\xc3\xa9tonne toujours de voir Dan Carter prolonger tranquillement sa pr\xc3\xa9 retraite dans un rugby pourcentage qui ne le met gu\xc3\xa8re \xc3\xa0 son avantage.\nJacky en a voulu autrement.\nJacky et son \xc3\xa9go. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.25, 'p': 0.05511811023622047, 'f': 0.09032258064516129}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.05921052631578947, 'p': 0.012064343163538873, 'f': 0.020044543429844096}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.012064343163538873, 'r': 0.05921052631578947, 'f': 0.020044543429844096}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.05511811023622047, 'r': 0.25, 'f': 0.09032258064516129}}
+
+
+Anti-redundancy objective value :	3.900674943988284
+Average Reader attention score objective value :	4.4066430110497535e-42
+Average Density based score objective value :	50.05236523661234
+Average Reader attention with tf-idf (RAWT) score objective value :	1.5034423907630454

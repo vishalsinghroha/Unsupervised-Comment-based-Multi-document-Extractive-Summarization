@@ -1,0 +1,14 @@
+b'\nCurieux sentiment que de vouloir qu\xe2\x80\x99aucune des deux \xc3\xa9quipes qui se sont affront\xc3\xa9es samedi \xc3\xa0 Montpellier en match de barrages du Top 14 ne s\xe2\x80\x99impose\xe2\x80\xa6 Au final, le Racing l\xe2\x80\x99a emport\xc3\xa9 en toute logique dans le sillage d\xe2\x80\x99un Roco\xc3\xa7oko des grands jours et d\xe2\x80\x99un pack qui, autour du formidable Nyanga, a fini par faire plier Montpellier.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJ\xe2\x80\x99aurais voulu qu\xe2\x80\x99il reste ce grand demi d\xe2\x80\x99ouverture des All Blacks et qu\xe2\x80\x99il tire sa r\xc3\xa9v\xc3\xa9rence sur ce formidable titre de champion du monde en 2015.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.39285714285714285, 'p': 0.06321839080459771, 'f': 0.10891089108910891}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.09868421052631579, 'p': 0.014591439688715954, 'f': 0.02542372881355932}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.014591439688715954, 'r': 0.09868421052631579, 'f': 0.02542372881355932}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.06321839080459771, 'r': 0.39285714285714285, 'f': 0.10891089108910891}}
+
+
+Anti-redundancy objective value :	4.147277154383257
+Average Reader attention score objective value :	3.009585218709862e-112
+Average Density based score objective value :	74.67048710898254
+Average Reader attention with tf-idf (RAWT) score objective value :	2.2439435196004385

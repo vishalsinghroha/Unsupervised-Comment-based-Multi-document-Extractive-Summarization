@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nTout leur est permis, m\xc3\xaame le ridicule.\nOn compte aussi les protocoles commotion car de part et d\xe2\x80\x99autre on kiffe de se rentrer dedans. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5357142857142857, 'p': 0.3488372093023256, 'f': 0.4225352112676056}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.19047619047619047, 'f': 0.2318840579710145}, 'rouge-su4': {'r': 0.27631578947368424, 'p': 0.17355371900826447, 'f': 0.2131979695431472}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.17355371900826447, 'r': 0.27631578947368424, 'f': 0.2131979695431472}, 'rouge-2': {'p': 0.19047619047619047, 'r': 0.2962962962962963, 'f': 0.2318840579710145}, 'rouge-1': {'p': 0.3488372093023256, 'r': 0.5357142857142857, 'f': 0.4225352112676056}}
+
+
+Anti-redundancy objective value :	2.1954761162658785
+Average Reader attention score objective value :	0.0222222222222222
+Average Density based score objective value :	18.21888664818424
+Average Reader attention with tf-idf (RAWT) score objective value :	0.9288286948951595

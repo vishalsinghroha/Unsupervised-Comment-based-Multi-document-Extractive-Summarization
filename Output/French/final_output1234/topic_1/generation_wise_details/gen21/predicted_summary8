@@ -1,0 +1,14 @@
+b'\nMais avouons le, rien dans l\xe2\x80\x99emballage de cette rencontre au sommet n\xe2\x80\x99avait le go\xc3\xbbt du rugby que l\xe2\x80\x99on aime, celui d\xe2\x80\x99un jeu qui appartient d\xe2\x80\x99abord aux joueurs, celui d\xe2\x80\x99une aventure humaine que l\xe2\x80\x99on a envie de suivre.\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.21428571428571427, 'p': 0.06976744186046512, 'f': 0.10526315789473685}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.046052631578947366, 'p': 0.014, 'f': 0.02147239263803681}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.014, 'r': 0.046052631578947366, 'f': 0.02147239263803681}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.06976744186046512, 'r': 0.21428571428571427, 'f': 0.10526315789473685}}
+
+
+Anti-redundancy objective value :	1.7692291832017533
+Average Reader attention score objective value :	1.1016607527624384e-41
+Average Density based score objective value :	92.75801816637117
+Average Reader attention with tf-idf (RAWT) score objective value :	3.18042577006661

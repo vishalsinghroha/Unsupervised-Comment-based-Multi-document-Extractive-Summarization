@@ -1,0 +1,14 @@
+b'\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nEt Montpellier a d\xc3\xa9truit en quelques saisons tout ce que le duo Galthi\xc3\xa9-B\xc3\xa9chu avait savamment b\xc3\xa2ti pour faire du club h\xc3\xa9raultais une r\xc3\xa9f\xc3\xa9rence en mati\xc3\xa8re de jeu et de formation.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6428571428571429, 'p': 0.15789473684210525, 'f': 0.25352112676056343}, 'rouge-2': {'r': 0.3333333333333333, 'p': 0.07964601769911504, 'f': 0.12857142857142856}, 'rouge-su4': {'r': 0.2894736842105263, 'p': 0.0658682634730539, 'f': 0.1073170731707317}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0658682634730539, 'r': 0.2894736842105263, 'f': 0.1073170731707317}, 'rouge-2': {'p': 0.07964601769911504, 'r': 0.3333333333333333, 'f': 0.12857142857142856}, 'rouge-1': {'p': 0.15789473684210525, 'r': 0.6428571428571429, 'f': 0.25352112676056343}}
+
+
+Anti-redundancy objective value :	4.320957701966483
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	34.09413080256369
+Average Reader attention with tf-idf (RAWT) score objective value :	1.303221310869343

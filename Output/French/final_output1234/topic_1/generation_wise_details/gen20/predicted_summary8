@@ -1,0 +1,14 @@
+b'\nCurieux sentiment que de vouloir qu\xe2\x80\x99aucune des deux \xc3\xa9quipes qui se sont affront\xc3\xa9es samedi \xc3\xa0 Montpellier en match de barrages du Top 14 ne s\xe2\x80\x99impose\xe2\x80\xa6 Au final, le Racing l\xe2\x80\x99a emport\xc3\xa9 en toute logique dans le sillage d\xe2\x80\x99un Roco\xc3\xa7oko des grands jours et d\xe2\x80\x99un pack qui, autour du formidable Nyanga, a fini par faire plier Montpellier.\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nOn s\xe2\x80\x99amuse d\xc3\xa9sormais \xc3\xa0 compter les joueurs s\xc3\xa9lectionnables en \xc3\xa9quipe de France.\nJacky en a voulu autrement.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32142857142857145, 'p': 0.09473684210526316, 'f': 0.14634146341463414}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07236842105263158, 'p': 0.019855595667870037, 'f': 0.031161473087818695}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.019855595667870037, 'r': 0.07236842105263158, 'f': 0.031161473087818695}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.09473684210526316, 'r': 0.32142857142857145, 'f': 0.14634146341463414}}
+
+
+Anti-redundancy objective value :	4.60797194908536
+Average Reader attention score objective value :	3.009585218709862e-112
+Average Density based score objective value :	36.34030953479587
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2173603373056934

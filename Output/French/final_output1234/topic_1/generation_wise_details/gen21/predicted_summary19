@@ -1,0 +1,14 @@
+b'\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJacky et sa grande vision du rugby \xc3\xa0 Paris \xe2\x80\xa6 merci Jacky ! Car Jacky est aussi contagieux et l\xe2\x80\x99un de ses entra\xc3\xaeneurs, Laurent Travers a d\xe2\x80\x99ailleurs \xc3\xa9t\xc3\xa9 rattrap\xc3\xa9 en gagnant quelques galons de plus samedi au stade Yves-Du-Manoir dans la cat\xc3\xa9gorie \xc2\xab j\xe2\x80\x99ai tr\xc3\xa8s mauvais esprit \xc2\xbb. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.35714285714285715, 'p': 0.08403361344537816, 'f': 0.1360544217687075}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.09210526315789473, 'p': 0.02005730659025788, 'f': 0.03294117647058824}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.02005730659025788, 'r': 0.09210526315789473, 'f': 0.03294117647058824}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.08403361344537816, 'r': 0.35714285714285715, 'f': 0.1360544217687075}}
+
+
+Anti-redundancy objective value :	2.0336510024012724
+Average Reader attention score objective value :	1.3377613665923533e-181
+Average Density based score objective value :	93.15237502599878
+Average Reader attention with tf-idf (RAWT) score objective value :	2.554258373983965

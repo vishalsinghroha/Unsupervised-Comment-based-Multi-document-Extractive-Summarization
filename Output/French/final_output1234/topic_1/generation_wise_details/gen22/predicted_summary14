@@ -1,0 +1,14 @@
+b'\nDommage, car de part et d\xe2\x80\x99autre, il y a des hommes qui m\xc3\xa9riteraient justement qu\xe2\x80\x99on leur embo\xc3\xaete le pas: Fulgence Ouedraogo c\xc3\xb4t\xc3\xa9 h\xc3\xa9raultais et Yannick Nyanga c\xc3\xb4t\xc3\xa9 francilien notamment, qui portent ces valeurs de jeu, de partage, de solidarit\xc3\xa9 et d\xe2\x80\x99exemplarit\xc3\xa9 qui se transmettent depuis toujours dans ce sport.\nMais Jacky Lorenzetti et Mohed Altrad en ont voulu autrement au point d\xe2\x80\x99avoir rendu leurs deux clubs particuli\xc3\xa8rement antipathiques.\nC\xc3\xb4t\xc3\xa9 Montpellier, la grande famille Du Plessis a \xc3\xa9t\xc3\xa9 nulle de bout en bout et Fran\xc3\xa7ois Steyn n\xe2\x80\x99a \xc3\xa9t\xc3\xa9 que l\xe2\x80\x99ombre du grand joueur qu\xe2\x80\x99il a certainement \xc3\xa9t\xc3\xa9.\nJacky en a voulu autrement.\nJacky et son \xc3\xa9go. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5714285714285714, 'p': 0.1523809523809524, 'f': 0.2406015037593985}, 'rouge-2': {'r': 0.2962962962962963, 'p': 0.07692307692307693, 'f': 0.12213740458015268}, 'rouge-su4': {'r': 0.27631578947368424, 'p': 0.06840390879478828, 'f': 0.10966057441253266}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.06840390879478828, 'r': 0.27631578947368424, 'f': 0.10966057441253266}, 'rouge-2': {'p': 0.07692307692307693, 'r': 0.2962962962962963, 'f': 0.12213740458015268}, 'rouge-1': {'p': 0.1523809523809524, 'r': 0.5714285714285714, 'f': 0.2406015037593985}}
+
+
+Anti-redundancy objective value :	4.005673616878882
+Average Reader attention score objective value :	0.013333333333333319
+Average Density based score objective value :	49.84738702366878
+Average Reader attention with tf-idf (RAWT) score objective value :	1.4375862455023374

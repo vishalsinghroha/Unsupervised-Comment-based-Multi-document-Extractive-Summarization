@@ -1,0 +1,14 @@
+b'\nTout leur est permis, m\xc3\xaame le ridicule.\nSurtout le ridicule.\nEt Montpellier a d\xc3\xa9truit en quelques saisons tout ce que le duo Galthi\xc3\xa9-B\xc3\xa9chu avait savamment b\xc3\xa2ti pour faire du club h\xc3\xa9raultais une r\xc3\xa9f\xc3\xa9rence en mati\xc3\xa8re de jeu et de formation.\nOn compte aussi les protocoles commotion car de part et d\xe2\x80\x99autre on kiffe de se rentrer dedans.\nJacky et son \xc3\xa9go. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.25, 'p': 0.11475409836065574, 'f': 0.15730337078651685}, 'rouge-2': {'r': 0.037037037037037035, 'p': 0.016666666666666666, 'f': 0.02298850574712644}, 'rouge-su4': {'r': 0.08552631578947369, 'p': 0.037142857142857144, 'f': 0.05179282868525897}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.037142857142857144, 'r': 0.08552631578947369, 'f': 0.05179282868525897}, 'rouge-2': {'p': 0.016666666666666666, 'r': 0.037037037037037035, 'f': 0.02298850574712644}, 'rouge-1': {'p': 0.11475409836065574, 'r': 0.25, 'f': 0.15730337078651685}}
+
+
+Anti-redundancy objective value :	4.517031392750946
+Average Reader attention score objective value :	3.4850552322553526e-115
+Average Density based score objective value :	12.724588583732087
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6430470557355963

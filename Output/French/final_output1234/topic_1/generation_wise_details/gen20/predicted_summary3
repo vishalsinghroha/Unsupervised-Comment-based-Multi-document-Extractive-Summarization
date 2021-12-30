@@ -1,0 +1,14 @@
+b'\nLe Racing n\xe2\x80\x99a plus rien \xc3\xa0 voir avec ce que fut son formidable anc\xc3\xaatre dans les ann\xc3\xa9es 80-90 en termes d\xe2\x80\x99image.\nOn constate \xc3\xa0 quel point le joueur sud-africain est devenu incontournable dans le Top 14, on se dit que tout cela ressemble beaucoup \xc3\xa0 ce que font d\xc3\xa9j\xc3\xa0 les Saracens, mais en beaucoup moins bien, et au final, le bilan est plut\xc3\xb4t accablant.\nJacky en a voulu autrement.\nJacky et son \xc3\xa9go. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.21428571428571427, 'p': 0.0821917808219178, 'f': 0.1188118811881188}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.046052631578947366, 'p': 0.016587677725118485, 'f': 0.02439024390243903}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.016587677725118485, 'r': 0.046052631578947366, 'f': 0.02439024390243903}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.0821917808219178, 'r': 0.21428571428571427, 'f': 0.1188118811881188}}
+
+
+Anti-redundancy objective value :	4.628467546865693
+Average Reader attention score objective value :	8.505359242441901e-137
+Average Density based score objective value :	36.87276355929333
+Average Reader attention with tf-idf (RAWT) score objective value :	0.9893038874437122
