@@ -38,7 +38,7 @@ class Evolution(object):
                MAX_reader_attention_matrix,
                MAX_density_based_score_matrix,
                MAX_objective4_score_matrix,
-               MAX_objective5_score_matrix,
+               #MAX_objective5_score_matrix,
                MAX_TWEET_length_matrix,
                min_sen, max_sen,
                max_len_solution, dataset,
@@ -58,7 +58,7 @@ class Evolution(object):
         MAX_OBJ2_VALUE = []
         MAX_OBJ3_VALUE = []
         MAX_OBJ4_VALUE = []
-        MAX_OBJ5_VALUE = []
+        #MAX_OBJ5_VALUE = []
         MAX_ROUGE1_VALUE = []
         MAX_ROUGE1_VALUE_INDEX = []  # store solution no. having avg. max. Rouge-1 score per generation
         MAX_ROUGE2_VALUE = []
@@ -82,7 +82,7 @@ class Evolution(object):
                                                   MAX_reader_attention_matrix,
                                                   MAX_density_based_score_matrix,
                                                   MAX_objective4_score_matrix,
-                                                  MAX_objective5_score_matrix,
+                                                  #MAX_objective5_score_matrix,
                                                   MAX_TWEET_length_matrix, max_len_solution)
             # print('Generating children finished.................')
             self.population.extend(children)
@@ -112,11 +112,11 @@ class Evolution(object):
                 yline = [ii.objectives[1] for ii in self.population.fronts[front_num]]
                 zline = [ii.objectives[2] for ii in self.population.fronts[front_num]]
                 wline = [ii.objectives[3] for ii in self.population.fronts[front_num]]
-                pline = [ii.objectives[4] for ii in self.population.fronts[front_num]]
+                #pline = [ii.objectives[4] for ii in self.population.fronts[front_num]]
 
-                magnified_pline = []
-                for k in range(len(pline)):
-                    magnified_pline.append(pline[k]*200)
+                #magnified_pline = []
+                #for k in range(len(pline)):
+                #    magnified_pline.append(pline[k]*200)
 
                 #ax1.scatter(xline, yline, label="fr-{}".format(front_num))
 
@@ -124,7 +124,7 @@ class Evolution(object):
                 ax_3d.scatter3D(xline, yline, zline,
                                 c=wline,
                                 cmap=plt.hot(),
-                                s= magnified_pline,
+                                #s= magnified_pline,
                                 label="fr-{}".format(front_num))
 
 
@@ -141,23 +141,23 @@ class Evolution(object):
                 yline = [ii.objectives[1] for ii in self.population.fronts[front_num]]
                 zline = [ii.objectives[2] for ii in self.population.fronts[front_num]]
                 wline = [ii.objectives[3] for ii in self.population.fronts[front_num]]
-                pline = [ii.objectives[4] for ii in self.population.fronts[front_num]]
+               # pline = [ii.objectives[4] for ii in self.population.fronts[front_num]]
 
-                magnified_pline = []
-                for k in range(len(pline)):
-                    magnified_pline.append(pline[k] * 200)
+                #magnified_pline = []
+                #for k in range(len(pline)):
+                #    magnified_pline.append(pline[k] * 200)
                 # Creating plot
                 ax_3d.scatter3D(xline, yline, zline,
                                 c=wline,
                                 cmap=plt.hot(),
-                                s= magnified_pline,
+                               # s= magnified_pline,
                                 label="fr-{}".format(front_num))
                 plt_3d.title(
                     "generation - " + str(i) + "\n" + "Anti-redundancy vs"
                                                        " Reader attention \n vs "
                                                       " Density based score \n "
-                                                      "Reader attention with tf-idf (RAWT) score \n"
-                                                      " vs Named entity score"
+                                                      "Reader attention with tf-idf (RAWT) score"
+                                                      #" vs Named entity score"
                 )
                 #fig_3d.colorbar(img_3d)
                 ax_3d.set_xlabel("Anti-redundancy")
@@ -175,12 +175,12 @@ class Evolution(object):
 
                 name = '/Pareto_front/Pareto_fronts_generations_no' + str(i)
                 if not os.path.isdir(
-                        'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/Pareto_front'):
+                        '../output/English/final_output1234/' + str(dataset) + '/Pareto_front'):
                     os.makedirs(
-                        'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/Pareto_front')
+                        '../output/English/final_output1234/' + str(dataset) + '/Pareto_front')
 
                 plt.savefig(
-                    'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/' + name,
+                    '../output/English/final_output1234/' + str(dataset) + '/' + name,
                     dpi=300, bbox_inches='tight')
                 #plt.subplots_adjust(top=0.9, bottom=0.09, left=0.10, right=0.95, hspace=0.8, wspace=0.9)
                 del ax_3d
@@ -209,11 +209,11 @@ class Evolution(object):
 
             # print("no. of new training data samples at the end of generation {0}  : ".format(i), len(training_data))
             name = '/generation_wise_details'  # /gen_no' + str(i)
-            if not os.path.isdir('C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + name):
-                os.makedirs('C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + name)
-            gen_folder = '/gen2' + str(i)
+            if not os.path.isdir('../output/English/final_output1234/' + str(dataset) + name):
+                os.makedirs('../output/English/final_output1234/' + str(dataset) + name)
+            gen_folder = '/gen' + str(i)
             os.makedirs(
-                'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + name + gen_folder)
+                '../output/English/final_output1234/' + str(dataset) + name + gen_folder)
 
             # following code is to generate pareto front flots and also to record ROUGE score of each solution
             counter11 = 0  # solution number
@@ -252,12 +252,12 @@ class Evolution(object):
             ob2 = []
             ob3 = []
             ob4 = []
-            ob5 = []
+            #ob5 = []
 
             k11 = []
             for k1 in self.population:
                 f11 = open(
-                    'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+                    '../output/English/final_output1234/' + str(
                         dataset) + name + gen_folder + '/predicted_summary' + str(counter11), 'w')
                 Summary = ''
                 # print("objectives :", k1.objectives)
@@ -413,20 +413,20 @@ class Evolution(object):
                 f11.write('\nAverage Density based score objective value :\t' + str(
                     k1.objectives[2]))
                 f11.write('\nAverage Reader attention with tf-idf (RAWT) score objective value :\t' + str(k1.objectives[3]))
-                f11.write('\nAverage Named entity score value :\t' + str(k1.objectives[4]))
+             #   f11.write('\nAverage Named entity score value :\t' + str(k1.objectives[4]))
 
                 ob1.append(k1.objectives[0])
                 ob2.append(k1.objectives[1])
                 ob3.append((k1.objectives[2]))
                 ob4.append((k1.objectives[3]))
-                ob5.append((k1.objectives[4]))
+              #  ob5.append((k1.objectives[4]))
                 # print "ob2 :", ob2[0]
 
                 k11.append(k1.K)
                 counter11 += 1
 
             import pandas as pd
-            f1name_summ = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            f1name_summ = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Gen{0}'.format(
                 i) + 'Annotator1_solutionwise_summary_score_overview.csv'
             df1 = pd.DataFrame(
@@ -436,7 +436,7 @@ class Evolution(object):
                  'rouge_su4_r': ann1_rouge_su4_r, 'rouge_su4_f': ann1_rouge_su4_f})
             df1.to_csv(f1name_summ)
 
-            f2name_summ = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            f2name_summ = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Gen{0}'.format(
                 i) + 'Annotator2_solutionwise_summary_score_overview.csv'
             df2 = pd.DataFrame(
@@ -446,7 +446,7 @@ class Evolution(object):
                  'rouge_su4_r': ann2_rouge_su4_r, 'rouge_su4_f': ann2_rouge_su4_f})
             df2.to_csv(f2name_summ)
 
-            f3name_summ = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            f3name_summ = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Gen{0}'.format(
                 i) + 'Annotator3_solutionwise_summary_score_overview.csv'
             df3 = pd.DataFrame(
@@ -456,7 +456,7 @@ class Evolution(object):
                  'rouge_su4_r': ann3_rouge_su4_r, 'rouge_su4_f': ann3_rouge_su4_f})
             df3.to_csv(f3name_summ)
 
-            f4name_summ = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            f4name_summ = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Gen{0}'.format(
                 i) + 'Annotator4_solutionwise_summary_score_overview.csv'
             df4 = pd.DataFrame(
@@ -466,7 +466,7 @@ class Evolution(object):
                  'rouge_su4_r': ann4_rouge_su4_r, 'rouge_su4_f': ann4_rouge_su4_f})
             df4.to_csv(f4name_summ)
 
-            f5name_summ = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            f5name_summ = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Gen{0}'.format(
                 i) + 'Average_summary_score_overview.csv'
             df5 = pd.DataFrame({'dataset': avg_dataset_name, 'Solution no': avg_sol_no, 'rouge_1_p': avg_rouge_1_p,
@@ -514,7 +514,7 @@ class Evolution(object):
             results += str(k11)
 
             # print(results)
-            fname = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+            fname = '../output/English/final_output1234/' + str(
                 dataset) + name + gen_folder + '/Best_resulting_Solutions.txt'
             text_file = open(fname, "w")
             new_results = str(results.encode('utf-8'))
@@ -525,7 +525,7 @@ class Evolution(object):
             MAX_OBJ2_VALUE.append(max(ob2))
             MAX_OBJ3_VALUE.append(max(ob3))
             MAX_OBJ4_VALUE.append(max(ob4))
-            MAX_OBJ5_VALUE.append(max(ob5))
+            #MAX_OBJ5_VALUE.append(max(ob5))
 
             index11 = avg_rouge_1_f.index(max(avg_rouge_1_f))
             index12 = avg_rouge_2_f.index(max(avg_rouge_2_f))
@@ -548,7 +548,7 @@ class Evolution(object):
             print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=+++++++++++++++=")
         """PLOT MAX VALUE OF OBJECTIVE FUNCTIONS"""
 
-        fname = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+        fname = '../output/English/final_output1234/' + str(
             dataset) + '/newSolnsfromMergedPop-Gen{0}.txt'.format(self.num_of_generations)
         text_file = open(fname, "w")
         final_results11 = str(results11.encode('utf-8'))
@@ -566,7 +566,7 @@ class Evolution(object):
         plt.xlabel('Generation Number')
         plt.ylabel('Rouge-score')
         name = str(dataset) + 'Generation Wise Rouge score'
-        plt.savefig('C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/' + name, dpi=300)
+        plt.savefig('../output/English/final_output1234/' + str(dataset) + '/' + name, dpi=300)
         plt.close('all')
 
         import matplotlib.pyplot as plt1
@@ -577,7 +577,7 @@ class Evolution(object):
         plt1.ylabel('New Sols Generated')
         fig.suptitle('Number of new good solutions proceeding to next generation', fontsize=8)
         name = str(dataset) + 'New Sols_vs_Generations'
-        plt1.savefig('C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/' + name, dpi=300)
+        plt1.savefig('../output/English/final_output1234/' + str(dataset) + '/' + name, dpi=300)
         plt1.close('all')
 
         import matplotlib.pyplot as plt2
@@ -587,7 +587,7 @@ class Evolution(object):
         plt2.plot(GENERATION_NUMBER, MAX_OBJ2_VALUE)  #
         plt2.plot(GENERATION_NUMBER, MAX_OBJ3_VALUE)
         plt2.plot(GENERATION_NUMBER, MAX_OBJ4_VALUE)
-        plt2.plot(GENERATION_NUMBER, MAX_OBJ5_VALUE)
+       # plt2.plot(GENERATION_NUMBER, MAX_OBJ5_VALUE)
         # plt2.tight_layout()
         plt2.grid(alpha=0.6)
         # plt.set_title('MAX_OBJECTIVE FUNCTION VALUES', color='red')
@@ -600,10 +600,10 @@ class Evolution(object):
                      'Objective-2: Reader attention value',
                      'Objective-3: Density based score',
                      'Objective-4: Reader attention with tf-idf (RAWT) score',
-                     'Objective-5: Named entity score'
+                    # 'Objective-5: Named entity score'
                      ])
         name = '/Generation_wise_Objective_values_' + str(dataset)
-        plt2.savefig('C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(dataset) + '/' + name, dpi=300)
+        plt2.savefig('../output/English/final_output1234/' + str(dataset) + '/' + name, dpi=300)
 
         plt2.close('all')
 
@@ -611,7 +611,7 @@ class Evolution(object):
         print("max ob2 value :", MAX_OBJ2_VALUE)
         print("max ob3 value :", MAX_OBJ3_VALUE)
         print("max ob4 value :", MAX_OBJ4_VALUE)
-        print("max ob5 value :", MAX_OBJ5_VALUE)
+       # print("max ob5 value :", MAX_OBJ5_VALUE)
         print("final population length : ", len(self.population))
 
         import pandas as pd
@@ -633,7 +633,7 @@ class Evolution(object):
         MAX_ROUGESU4_VALUE_INDEX.append(MAX_ROUGESU4_VALUE_INDEX[index_SU4])
         MAX_ROUGESU4_VALUE.append(MAX_ROUGESU4_VALUE[index_SU4])
 
-        f5name = 'C:/Users/VISHAL/Documents/final_moo_outputs/compressive/version_1/final_output12345/' + str(
+        f5name = '../output/English/final_output1234/' + str(
             dataset) + '/Max_Avg_ROUGE_score_generation_wise.csv'
         df5 = pd.DataFrame({'generation_no': GENERATION_NUMBER, 'solution No._R1': MAX_ROUGE1_VALUE_INDEX,
                             'rouge_1_f': MAX_ROUGE1_VALUE, 'solution No._R2': MAX_ROUGE2_VALUE_INDEX,
