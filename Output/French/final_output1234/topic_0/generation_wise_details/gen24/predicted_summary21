@@ -1,0 +1,14 @@
+b'\nLes quelques ann\xc3\xa9es pass\xc3\xa9es \xc3\xa0 diriger ces deux belles unit\xc3\xa9s auraient pu les fa\xc3\xa7onner, les faire \xc3\xa9voluer, leur donner cette dimension humaine qui est au c\xc5\x93ur de ce jeu et qui en est finalement la raison d\xe2\x80\x99\xc3\xaatre.\nIl n\xe2\x80\x99en a rien \xc3\xa9t\xc3\xa9.\nPlace \xc3\xa0 la fusion entre deux clubs que tout oppose si ce n\xe2\x80\x99est une longue et belle histoire qui les lie tous les deux au rugby fran\xc3\xa7ais dans tout ce qui fait sa richesse : son identit\xc3\xa9, le socle sur lequel il s\xe2\x80\x99est b\xc3\xa2ti depuis la fin du 19\xc3\xa8me si\xc3\xa8cle, sa diversit\xc3\xa9, ses hommes, ses aventures, ses valeurs qui se transmettent de g\xc3\xa9n\xc3\xa9ration en g\xc3\xa9n\xc3\xa9ration\xe2\x80\xa6 Place \xc3\xa0 une fusion que personne n\xe2\x80\x99a vu venir car Jacky et Thomas l\xe2\x80\x99ont d\xc3\xa9cid\xc3\xa9 seuls et peu importe finalement les d\xc3\xa9g\xc3\xa2ts collat\xc3\xa9raux qu\xe2\x80\x99elle entra\xc3\xaenera dans chacune des structures professionnelles de ces clubs, pour les joueurs, pour les staffs, pour les employ\xc3\xa9s\xe2\x80\xa6 et \xc3\xa0 terme sur l\xe2\x80\x99ensemble des licenci\xc3\xa9s et des passionn\xc3\xa9s. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.21052631578947367, 'p': 0.025157232704402517, 'f': 0.04494382022471911}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.04081632653061224, 'p': 0.0042643923240938165, 'f': 0.0077220077220077205}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0042643923240938165, 'r': 0.04081632653061224, 'f': 0.0077220077220077205}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.025157232704402517, 'r': 0.21052631578947367, 'f': 0.04494382022471911}}
+
+
+Anti-redundancy objective value :	3.3192295724555514
+Average Reader attention score objective value :	0.004830917874396133
+Average Density based score objective value :	140.6727874760338
+Average Reader attention with tf-idf (RAWT) score objective value :	2.60460244570185

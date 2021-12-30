@@ -1,0 +1,14 @@
+b'\nPlace \xc3\xa0 la fusion entre deux clubs que tout oppose si ce n\xe2\x80\x99est une longue et belle histoire qui les lie tous les deux au rugby fran\xc3\xa7ais dans tout ce qui fait sa richesse : son identit\xc3\xa9, le socle sur lequel il s\xe2\x80\x99est b\xc3\xa2ti depuis la fin du 19\xc3\xa8me si\xc3\xa8cle, sa diversit\xc3\xa9, ses hommes, ses aventures, ses valeurs qui se transmettent de g\xc3\xa9n\xc3\xa9ration en g\xc3\xa9n\xc3\xa9ration\xe2\x80\xa6 Place \xc3\xa0 une fusion que personne n\xe2\x80\x99a vu venir car Jacky et Thomas l\xe2\x80\x99ont d\xc3\xa9cid\xc3\xa9 seuls et peu importe finalement les d\xc3\xa9g\xc3\xa2ts collat\xc3\xa9raux qu\xe2\x80\x99elle entra\xc3\xaenera dans chacune des structures professionnelles de ces clubs, pour les joueurs, pour les staffs, pour les employ\xc3\xa9s\xe2\x80\xa6 et \xc3\xa0 terme sur l\xe2\x80\x99ensemble des licenci\xc3\xa9s et des passionn\xc3\xa9s.\nCar cette fusion n\xe2\x80\x99est finalement que le r\xc3\xa9sultat d\xe2\x80\x99int\xc3\xa9r\xc3\xaats parfaitement personnels de deux hommes.\nSi on peut parler encore de vision car \xc3\xa0 part sauver le Stade Fran\xc3\xa7ais du d\xc3\xa9sengagement financier de son pr\xc3\xa9sident, je n\xe2\x80\x99y vois aucune autre bonne raison. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.21052631578947367, 'p': 0.02531645569620253, 'f': 0.04519774011299435}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.05102040816326531, 'p': 0.00536480686695279, 'f': 0.009708737864077669}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.00536480686695279, 'r': 0.05102040816326531, 'f': 0.009708737864077669}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.02531645569620253, 'r': 0.21052631578947367, 'f': 0.04519774011299435}}
+
+
+Anti-redundancy objective value :	1.7776952953742928
+Average Reader attention score objective value :	0.004830917874396133
+Average Density based score objective value :	161.7721550493861
+Average Reader attention with tf-idf (RAWT) score objective value :	2.821111055966473

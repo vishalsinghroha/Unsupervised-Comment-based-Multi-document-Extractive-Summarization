@@ -1,0 +1,14 @@
+b'\nEt l\xe2\x80\x99histoire ne retiendra finalement qu\xe2\x80\x99ils seront bient\xc3\xb4t les fossoyeurs d\xe2\x80\x99un rugby parisien qui a pourtant parfaitement les moyens d\xe2\x80\x99imposer deux clubs dans l\xe2\x80\x99\xc3\xa9lite pour peu qu\xe2\x80\x99on ne p\xc3\xa8te pas plus haut que son cul et que l\xe2\x80\x99on n\xe2\x80\x99aille pas rechercher syst\xc3\xa9matiquement dans l\xe2\x80\x99h\xc3\xa9misph\xc3\xa8re sud la comp\xc3\xa9tence et les moyens humains dont le puissant comit\xc3\xa9 d\xe2\x80\x99Ile de France dispose depuis de longues ann\xc3\xa9es.\nCar s\xe2\x80\x99il y a un perdant dans cette fumeuse histoire de fusion express, c\xe2\x80\x99est bien le Stade Fran\xc3\xa7ais, lequel rappelons le avait d\xc3\xa9j\xc3\xa0 absorb\xc3\xa9 le CASG il y a quelques ann\xc3\xa9es\xe2\x80\xa6 Un autre perdant ? La Ville de Paris bien \xc3\xa9videmment qui a d\xc3\xa9bours\xc3\xa9 110 millions d\xe2\x80\x99euros pour la r\xc3\xa9novation du Stade Jean-Bouin entre 2010 et 2013 et qui n\xe2\x80\x99a rien vu venir.\nQu\xe2\x80\x99en pensent les joueurs du Stade Fran\xc3\xa7ais aujourd\xe2\x80\x99hui. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3157894736842105, 'p': 0.04477611940298507, 'f': 0.07843137254901959}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07142857142857142, 'p': 0.008883248730964468, 'f': 0.01580135440180587}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.008883248730964468, 'r': 0.07142857142857142, 'f': 0.01580135440180587}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.04477611940298507, 'r': 0.3157894736842105, 'f': 0.07843137254901959}}
+
+
+Anti-redundancy objective value :	1.9612583613307357
+Average Reader attention score objective value :	0.0
+Average Density based score objective value :	197.91579223450552
+Average Reader attention with tf-idf (RAWT) score objective value :	2.8155411480089776

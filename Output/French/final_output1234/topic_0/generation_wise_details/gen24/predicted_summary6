@@ -1,0 +1,14 @@
+b'\nIls n\xe2\x80\x99ont rien compris.\nEt l\xe2\x80\x99histoire ne retiendra finalement qu\xe2\x80\x99ils seront bient\xc3\xb4t les fossoyeurs d\xe2\x80\x99un rugby parisien qui a pourtant parfaitement les moyens d\xe2\x80\x99imposer deux clubs dans l\xe2\x80\x99\xc3\xa9lite pour peu qu\xe2\x80\x99on ne p\xc3\xa8te pas plus haut que son cul et que l\xe2\x80\x99on n\xe2\x80\x99aille pas rechercher syst\xc3\xa9matiquement dans l\xe2\x80\x99h\xc3\xa9misph\xc3\xa8re sud la comp\xc3\xa9tence et les moyens humains dont le puissant comit\xc3\xa9 d\xe2\x80\x99Ile de France dispose depuis de longues ann\xc3\xa9es.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2631578947368421, 'p': 0.07352941176470588, 'f': 0.11494252873563217}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.061224489795918366, 'p': 0.015306122448979591, 'f': 0.024489795918367346}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.015306122448979591, 'r': 0.061224489795918366, 'f': 0.024489795918367346}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.07352941176470588, 'r': 0.2631578947368421, 'f': 0.11494252873563217}}
+
+
+Anti-redundancy objective value :	6.044636099242713
+Average Reader attention score objective value :	0.0
+Average Density based score objective value :	92.37351765576962
+Average Reader attention with tf-idf (RAWT) score objective value :	1.6123157934131767

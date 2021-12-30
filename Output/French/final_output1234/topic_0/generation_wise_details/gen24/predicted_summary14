@@ -1,0 +1,14 @@
+b'\nPlace \xc3\xa0 la fusion entre deux clubs que tout oppose si ce n\xe2\x80\x99est une longue et belle histoire qui les lie tous les deux au rugby fran\xc3\xa7ais dans tout ce qui fait sa richesse : son identit\xc3\xa9, le socle sur lequel il s\xe2\x80\x99est b\xc3\xa2ti depuis la fin du 19\xc3\xa8me si\xc3\xa8cle, sa diversit\xc3\xa9, ses hommes, ses aventures, ses valeurs qui se transmettent de g\xc3\xa9n\xc3\xa9ration en g\xc3\xa9n\xc3\xa9ration\xe2\x80\xa6 Place \xc3\xa0 une fusion que personne n\xe2\x80\x99a vu venir car Jacky et Thomas l\xe2\x80\x99ont d\xc3\xa9cid\xc3\xa9 seuls et peu importe finalement les d\xc3\xa9g\xc3\xa2ts collat\xc3\xa9raux qu\xe2\x80\x99elle entra\xc3\xaenera dans chacune des structures professionnelles de ces clubs, pour les joueurs, pour les staffs, pour les employ\xc3\xa9s\xe2\x80\xa6 et \xc3\xa0 terme sur l\xe2\x80\x99ensemble des licenci\xc3\xa9s et des passionn\xc3\xa9s.\nL\xe2\x80\x99un qui veut d\xc3\xa9velopper son club, l\xe2\x80\x99autre qui veut s\xe2\x80\x99en d\xc3\xa9barrasser.\nCar s\xe2\x80\x99il y a un perdant dans cette fumeuse histoire de fusion express, c\xe2\x80\x99est bien le Stade Fran\xc3\xa7ais, lequel rappelons le avait d\xc3\xa9j\xc3\xa0 absorb\xc3\xa9 le CASG il y a quelques ann\xc3\xa9es\xe2\x80\xa6 Un autre perdant ? La Ville de Paris bien \xc3\xa9videmment qui a d\xc3\xa9bours\xc3\xa9 110 millions d\xe2\x80\x99euros pour la r\xc3\xa9novation du Stade Jean-Bouin entre 2010 et 2013 et qui n\xe2\x80\x99a rien vu venir.\nQuelle insulte \xc3\xa0 l\xe2\x80\x99argent public ! Il ne manquerait plus que monsieur Savare se rembourse sur cette op\xc3\xa9ration\xe2\x80\xa6 Jacky Lorenzetti et Thomas Savare imposent ainsi leur propre vision du rugby dans la capitale.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2631578947368421, 'p': 0.022222222222222223, 'f': 0.04098360655737705}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.05102040816326531, 'p': 0.0037481259370314842, 'f': 0.006983240223463687}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0037481259370314842, 'r': 0.05102040816326531, 'f': 0.006983240223463687}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.022222222222222223, 'r': 0.2631578947368421, 'f': 0.04098360655737705}}
+
+
+Anti-redundancy objective value :	4.042158694971101
+Average Reader attention score objective value :	0.0028985507246376803
+Average Density based score objective value :	143.9177309660528
+Average Reader attention with tf-idf (RAWT) score objective value :	2.4001890828385273

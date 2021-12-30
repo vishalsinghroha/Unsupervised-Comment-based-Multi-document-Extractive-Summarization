@@ -1,0 +1,14 @@
+b'\nCar quoi ? Paris ne serait donc pas capable d\xe2\x80\x99assumer deux structures de haut niveau quand Londres avec les Saracens, les Harlequins, les Wasps en poss\xc3\xa8de trois qui vivent tr\xc3\xa8s bien ? Jacky et Thomas pensent autrement et ils en ont donc d\xc3\xa9cid\xc3\xa9 autrement.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.15789473684210525, 'p': 0.06666666666666667, 'f': 0.09375000000000001}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.05102040816326531, 'p': 0.01968503937007874, 'f': 0.02840909090909091}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.01968503937007874, 'r': 0.05102040816326531, 'f': 0.02840909090909091}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.06666666666666667, 'r': 0.15789473684210525, 'f': 0.09375000000000001}}
+
+
+Anti-redundancy objective value :	7.095555066819578
+Average Reader attention score objective value :	0.0
+Average Density based score objective value :	44.86826192781888
+Average Reader attention with tf-idf (RAWT) score objective value :	1.2045183762016383

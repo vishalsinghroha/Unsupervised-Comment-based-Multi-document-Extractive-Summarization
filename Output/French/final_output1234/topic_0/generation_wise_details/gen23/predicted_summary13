@@ -1,0 +1,14 @@
+b'\nJacky Lorenzetti et Thomas Savare, respectivement pr\xc3\xa9sidents du Racing et du Stade Fran\xc3\xa7ais, ont donc bien un point commun : ils ne comprennent toujours rien au rugby.\nIl n\xe2\x80\x99en a rien \xc3\xa9t\xc3\xa9.\nEt l\xe2\x80\x99histoire ne retiendra finalement qu\xe2\x80\x99ils seront bient\xc3\xb4t les fossoyeurs d\xe2\x80\x99un rugby parisien qui a pourtant parfaitement les moyens d\xe2\x80\x99imposer deux clubs dans l\xe2\x80\x99\xc3\xa9lite pour peu qu\xe2\x80\x99on ne p\xc3\xa8te pas plus haut que son cul et que l\xe2\x80\x99on n\xe2\x80\x99aille pas rechercher syst\xc3\xa9matiquement dans l\xe2\x80\x99h\xc3\xa9misph\xc3\xa8re sud la comp\xc3\xa9tence et les moyens humains dont le puissant comit\xc3\xa9 d\xe2\x80\x99Ile de France dispose depuis de longues ann\xc3\xa9es.\nPlace \xc3\xa0 la fusion entre deux clubs que tout oppose si ce n\xe2\x80\x99est une longue et belle histoire qui les lie tous les deux au rugby fran\xc3\xa7ais dans tout ce qui fait sa richesse : son identit\xc3\xa9, le socle sur lequel il s\xe2\x80\x99est b\xc3\xa2ti depuis la fin du 19\xc3\xa8me si\xc3\xa8cle, sa diversit\xc3\xa9, ses hommes, ses aventures, ses valeurs qui se transmettent de g\xc3\xa9n\xc3\xa9ration en g\xc3\xa9n\xc3\xa9ration\xe2\x80\xa6 Place \xc3\xa0 une fusion que personne n\xe2\x80\x99a vu venir car Jacky et Thomas l\xe2\x80\x99ont d\xc3\xa9cid\xc3\xa9 seuls et peu importe finalement les d\xc3\xa9g\xc3\xa2ts collat\xc3\xa9raux qu\xe2\x80\x99elle entra\xc3\xaenera dans chacune des structures professionnelles de ces clubs, pour les joueurs, pour les staffs, pour les employ\xc3\xa9s\xe2\x80\xa6 et \xc3\xa0 terme sur l\xe2\x80\x99ensemble des licenci\xc3\xa9s et des passionn\xc3\xa9s.\nCar cette fusion n\xe2\x80\x99est finalement que le r\xc3\xa9sultat d\xe2\x80\x99int\xc3\xa9r\xc3\xaats parfaitement personnels de deux hommes. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.3157894736842105, 'p': 0.02654867256637168, 'f': 0.0489795918367347}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.07142857142857142, 'p': 0.0052238805970149255, 'f': 0.009735744089012519}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0052238805970149255, 'r': 0.07142857142857142, 'f': 0.009735744089012519}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.02654867256637168, 'r': 0.3157894736842105, 'f': 0.0489795918367347}}
+
+
+Anti-redundancy objective value :	2.708253901539933
+Average Reader attention score objective value :	0.0028985507246376803
+Average Density based score objective value :	148.10099453330582
+Average Reader attention with tf-idf (RAWT) score objective value :	2.5756394158857265

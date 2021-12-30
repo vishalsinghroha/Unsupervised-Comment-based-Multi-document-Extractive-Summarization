@@ -1,0 +1,14 @@
+b'\nSi on peut parler encore de vision car \xc3\xa0 part sauver le Stade Fran\xc3\xa7ais du d\xc3\xa9sengagement financier de son pr\xc3\xa9sident, je n\xe2\x80\x99y vois aucune autre bonne raison.\nAlors que le championnat doit encore livrer ses qualifi\xc3\xa9s et ses rel\xc3\xa9gu\xc3\xa9s.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.15789473684210525, 'p': 0.075, 'f': 0.10169491525423728}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.04081632653061224, 'p': 0.017857142857142856, 'f': 0.024844720496894408}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.017857142857142856, 'r': 0.04081632653061224, 'f': 0.024844720496894408}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.075, 'r': 0.15789473684210525, 'f': 0.10169491525423728}}
+
+
+Anti-redundancy objective value :	5.666966613915309
+Average Reader attention score objective value :	2.856313114684068e-256
+Average Density based score objective value :	45.85050748463382
+Average Reader attention with tf-idf (RAWT) score objective value :	0.773731247195086

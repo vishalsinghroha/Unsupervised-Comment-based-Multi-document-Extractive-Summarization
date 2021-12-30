@@ -1,0 +1,14 @@
+b'\nIl n\xe2\x80\x99en a rien \xc3\xa9t\xc3\xa9.\nJ.S. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.0, 'p': 0.0, 'f': 0.0}}
+
+
+average Rouge score : 
+{'rouge-su4': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-2': {'p': 0.0, 'r': 0.0, 'f': 0.0}, 'rouge-1': {'p': 0.0, 'r': 0.0, 'f': 0.0}}
+
+
+Anti-redundancy objective value :	7.430018407078386
+Average Reader attention score objective value :	0.0
+Average Density based score objective value :	18.05588541396274
+Average Reader attention with tf-idf (RAWT) score objective value :	0.2168725677611595
