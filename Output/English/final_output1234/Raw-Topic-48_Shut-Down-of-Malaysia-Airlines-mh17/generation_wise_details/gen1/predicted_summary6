@@ -1,0 +1,26 @@
+b'\nDescribing the disaster as a "tragic day" in a "tragic year" for Malaysia, Najib Razak said the investigation "must not be hindered in any way".\nIt also must be unashamed to discuss possible mistakes that were made, said Gavin. "What can\'t happen is week-long deliberations where families of crash victims don\'t hear from them or don\'t know anything."\nAnalysts said it may take a government rescue to save the company from financial disaster.\nThe Malaysian government has helped the largely unprofitable airline before, though its previous efforts seemed only to provide temporary respite.\nMalaysia Airlines Flight 17 was downed over eastern Ukraine on Thursday with 298 people aboard by what American intelligence authorities believe was a surface-to-air missile. Just four months earlier, a Malaysia Airlines jetliner carrying 239 people disappeared about an hour after taking off from Kuala Lumpur. The jet has still not been found, a source of profound unease for travelers and the aviation industry.\n"I was hurt because I think we should\'ve known," he told the BBC.\nWHO spokeswoman Fadela Chaib said: "For the time being we would like to give his family time to grieve.\nAviation authorities in several countries, including the FAA in the United States, had issued warnings not to fly over parts of Ukraine prior to Thursday\'s crash, but many carriers, including cash-strapped Malaysia Airlines, had continued to use the route because "it is a shorter route, which means less fuel and therefore less money," said aviation expert Norman Shanks.\n"Even before the second incident, I have been very sceptical over the company\'s ability to survive beyond the second half of 2015. They are making huge losses  This is probably going to hasten that.\n"Although the detour adds to flight time and cost, we have been making the detour for safety, and until the Ukrainian situation is over we will continue to take the detour route for our cargo flight out of Brussels," an Asiana Airlines Inc spokeswoman told Reuters. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.47, 'p': 0.1437308868501529, 'f': 0.22014051522248243}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.027607361963190184, 'f': 0.042352941176470586}, 'rouge-su4': {'r': 0.14383561643835616, 'p': 0.04316546762589928, 'f': 0.06640316205533596}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.5510204081632653, 'p': 0.1651376146788991, 'f': 0.2541176470588235}, 'rouge-2': {'r': 0.16494845360824742, 'p': 0.049079754601226995, 'f': 0.07565011820330969}, 'rouge-su4': {'r': 0.1660839160839161, 'p': 0.04881808838643371, 'f': 0.07545671167593328}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.4642857142857143, 'p': 0.11926605504587157, 'f': 0.1897810218978102}, 'rouge-2': {'r': 0.0963855421686747, 'p': 0.024539877300613498, 'f': 0.039119804400978}, 'rouge-su4': {'r': 0.14754098360655737, 'p': 0.03699897225077081, 'f': 0.05916187345932621}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5, 'p': 0.15902140672782875, 'f': 0.24129930394431556}, 'rouge-2': {'r': 0.08737864077669903, 'p': 0.027607361963190184, 'f': 0.04195804195804197}, 'rouge-su4': {'r': 0.17434210526315788, 'p': 0.05447070914696814, 'f': 0.08300704776820673}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.17434210526315788, 'f': 0.08300704776820673, 'p': 0.05447070914696814}, 'rouge-2': {'r': 0.16494845360824742, 'f': 0.07565011820330969, 'p': 0.049079754601226995}, 'rouge-1': {'r': 0.5510204081632653, 'f': 0.2541176470588235, 'p': 0.1651376146788991}}
+
+
+Anti-redundancy objective value :	0.8871738057217012
+Average Reader attention score objective value :	6.566072192966403e-06
+Average Density based score objective value :	103.5487391538234
+Average Reader attention with tf-idf (RAWT) score objective value :	0.23038531970837842

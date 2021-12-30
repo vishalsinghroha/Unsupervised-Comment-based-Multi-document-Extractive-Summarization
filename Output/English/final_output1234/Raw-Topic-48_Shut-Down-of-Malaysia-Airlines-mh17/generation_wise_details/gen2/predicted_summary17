@@ -1,0 +1,26 @@
+b'\nThe head of the Russian Air Traffic Controllers\' Union, Sergei Kovalyov, told BBC Russian that the airspace over eastern Ukraine had remained open during the conflict because the planes previously shot down had tended to be helicopters or low-flying fast jets.\nIt also must be unashamed to discuss possible mistakes that were made, said Gavin. "What can\'t happen is week-long deliberations where families of crash victims don\'t hear from them or don\'t know anything."\nIn April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft."\nHit by two astonishing tragedies in quick succession, the Malaysia Airlines brand may become the airline industry\'s equivalent of asbestos or News of the World: toxic to the public and, experts say, impossible to redeem.\nAlready losing about $1.6 million a day, there will be "no miracles" for Malaysia Airlines, said Aziz, the Maybank analyst. Before the Ukrainian disaster, his opinion was the airline didn\'t have the capacity to survive beyond a year.\nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.\nJohn Wood, headmaster at Mr Mayne\'s former school, Dixie Grammar in Leicestershire, described him as "a great all-rounder, good academically and also a keen sportsman".\nQuestions were also raised about the airline\'s choice of route, after it emerged that some other carriers had avoided the area for months  though many companies were flying in the same area, rerouting only after Thursday\'s disaster.\nNow the airline\'s previously strong safety record has effectively been erased for passengers by two such losses. According to the International Air Transport Association, there were an average of 517 deaths annually in commercial aviation incidents between 2009 and 2013. Now a single airline appears to have surpassed that death toll in a single year.\nOnly one family member has filed a claim, which could result in compensation of between $450,000 (263,000) and $1m, since the plane disappeared from radar screens. It is presumed to have crashed in the South Indian Ocean.\n"We\'re trying to encourage people to make a claim because they\'ve lost family members who earned money and maybe they have parents who are ill or young children who will go to college, and who will pay for that?" said one of the lawyers, who spoke anonymously because she was not permitted to speak to the media.\nGirkin, whose nom de guerre means shooter in Russian, is the Russian commander who has overseen the uprising of ethnic Russians in eastern Ukraine over roughly the past four months. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.46, 'p': 0.09330628803245436, 'f': 0.1551433389544688}, 'rouge-2': {'r': 0.1111111111111111, 'p': 0.022357723577235773, 'f': 0.03722504230118443}, 'rouge-su4': {'r': 0.14554794520547945, 'p': 0.028891910265125765, 'f': 0.04821327283040272}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.5714285714285714, 'p': 0.11359026369168357, 'f': 0.1895093062605753}, 'rouge-2': {'r': 0.13402061855670103, 'p': 0.026422764227642278, 'f': 0.044142614601018676}, 'rouge-su4': {'r': 0.20279720279720279, 'p': 0.03942895989123046, 'f': 0.06602162777461582}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5119047619047619, 'p': 0.0872210953346856, 'f': 0.14904679376083188}, 'rouge-2': {'r': 0.13253012048192772, 'p': 0.022357723577235773, 'f': 0.03826086956521739}, 'rouge-su4': {'r': 0.17827868852459017, 'p': 0.02957171991842284, 'f': 0.05072886297376094}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5288461538461539, 'p': 0.11156186612576065, 'f': 0.1842546063651591}, 'rouge-2': {'r': 0.11650485436893204, 'p': 0.024390243902439025, 'f': 0.040336134453781515}, 'rouge-su4': {'r': 0.18421052631578946, 'p': 0.038069340584636305, 'f': 0.06309859154929577}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.20279720279720279, 'f': 0.06602162777461582, 'p': 0.03942895989123046}, 'rouge-2': {'r': 0.13402061855670103, 'f': 0.044142614601018676, 'p': 0.026422764227642278}, 'rouge-1': {'r': 0.5714285714285714, 'f': 0.1895093062605753, 'p': 0.11359026369168357}}
+
+
+Anti-redundancy objective value :	0.6966960630120729
+Average Reader attention score objective value :	1.775717164375124e-14
+Average Density based score objective value :	138.1859834093392
+Average Reader attention with tf-idf (RAWT) score objective value :	0.30351457857272096

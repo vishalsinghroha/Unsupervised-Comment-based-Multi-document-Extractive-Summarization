@@ -1,0 +1,26 @@
+b'\nNato spokesmen insist that more and more heavy military equipment has moved from Russian stockpiles to the separatists across the border.\nThe Journal used the words "turn around" and "resuscitate" to describe the strategy.\nMajor: The plane broke into pieces in the air ... we have found the first 200 (dead). It\'s a civilian."\nIn a final segment of the alleged intercepted phone calls, an unidentified militant allegedly speaks with a Russian Cossack, Mykola Kozitsyn.\nThe Duke of Cambridge also spoke of his "deep sadness" over the crash during a speech at a planned event at Australia House in London.\nThe Department for Transport said flights that were already airborne were being routed around the area.\n"We are keeping those services under review, but Kiev is several hundred kilometres from the incident site."\n"If the public is willing to keep them separate and say they really have little to do with each other, and any common link is not Malaysia Airlines, you can probably survive with the brand relatively intact," he said.\nThe airline has also faced additional costs, such as supporting the families of victims and increasing its spending on marketing. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.32, 'p': 0.16753926701570682, 'f': 0.21993127147766325}, 'rouge-2': {'r': 0.04040404040404041, 'p': 0.021052631578947368, 'f': 0.02768166089965398}, 'rouge-su4': {'r': 0.0839041095890411, 'p': 0.04336283185840708, 'f': 0.05717619603267211}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.30612244897959184, 'p': 0.15706806282722513, 'f': 0.20761245674740486}, 'rouge-2': {'r': 0.030927835051546393, 'p': 0.015789473684210527, 'f': 0.020905923344947737}, 'rouge-su4': {'r': 0.06993006993006994, 'p': 0.035398230088495575, 'f': 0.04700352526439483}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.34523809523809523, 'p': 0.1518324607329843, 'f': 0.2109090909090909}, 'rouge-2': {'r': 0.04819277108433735, 'p': 0.021052631578947368, 'f': 0.029304029304029304}, 'rouge-su4': {'r': 0.0942622950819672, 'p': 0.04070796460176991, 'f': 0.05686032138442522}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.3173076923076923, 'p': 0.17277486910994763, 'f': 0.223728813559322}, 'rouge-2': {'r': 0.04854368932038835, 'p': 0.02631578947368421, 'f': 0.0341296928327645}, 'rouge-su4': {'r': 0.09703947368421052, 'p': 0.05221238938053097, 'f': 0.06789413118527042}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.09703947368421052, 'f': 0.06789413118527042, 'p': 0.05221238938053097}, 'rouge-2': {'r': 0.04854368932038835, 'f': 0.0341296928327645, 'p': 0.02631578947368421}, 'rouge-1': {'r': 0.34523809523809523, 'f': 0.223728813559322, 'p': 0.17277486910994763}}
+
+
+Anti-redundancy objective value :	0.8916895515270351
+Average Reader attention score objective value :	3.6951258672727715e-18
+Average Density based score objective value :	53.62457000802571
+Average Reader attention with tf-idf (RAWT) score objective value :	0.14951080235399278

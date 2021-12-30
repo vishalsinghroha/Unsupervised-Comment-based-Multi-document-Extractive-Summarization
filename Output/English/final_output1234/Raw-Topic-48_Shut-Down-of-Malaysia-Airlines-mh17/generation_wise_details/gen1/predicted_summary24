@@ -1,0 +1,26 @@
+b'\nThe head of the Russian Air Traffic Controllers\' Union, Sergei Kovalyov, told BBC Russian that the airspace over eastern Ukraine had remained open during the conflict because the planes previously shot down had tended to be helicopters or low-flying fast jets.\nIn April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft."\nMalaysia Airlines has faced increased competition in recent years from new regional airlines. It tried to boost revenue by selling more tickets, rather than raising prices, while keeping operating costs under control. It has also canceled some longer flight routes.\nUnlike Flight 370, the responsibility for which is pinned with Malaysia Airlines, the second disaster appears largely beyond the airline\'s control. It may, however, face questions about why it continued with flight paths over eastern Ukraine, which is the heart of a violent rebellion against Kiev, when some airlines were circumventing the country. The flight route was declared safe by the International Civil Aviation Organization.\nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.\n"Last time I saw them, the plane was almost empty and so I suspect, probably losing a lot of money," said tourist Ricky Leong as he checked in for a Malaysia Airlines flight from Hong Kong to Kuala Lumpur. "They\'re not going to maintain their fleet and there\'s going to be issues in the future."\n"We\'re trying to encourage people to make a claim because they\'ve lost family members who earned money and maybe they have parents who are ill or young children who will go to college, and who will pay for that?" said one of the lawyers, who spoke anonymously because she was not permitted to speak to the media.\nSecretary of State John Kerry will appear on all five Sunday morning talk shows, including "Fox News Sunday," and is expected to aggressively pin the blame on Russia for the downed airliner. Kerry is also expected to call for investigators to have "unfettered access" to the crash site, restating a message he delivered to Russian Foreign Minister Sergey Lavrov when the two spoke Saturday.  '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.51, 'p': 0.11943793911007025, 'f': 0.1935483870967742}, 'rouge-2': {'r': 0.1414141414141414, 'p': 0.03286384976525822, 'f': 0.05333333333333334}, 'rouge-su4': {'r': 0.1797945205479452, 'p': 0.04124116260801257, 'f': 0.0670926517571885}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.6326530612244898, 'p': 0.1451990632318501, 'f': 0.23619047619047623}, 'rouge-2': {'r': 0.20618556701030927, 'p': 0.046948356807511735, 'f': 0.07648183556405354}, 'rouge-su4': {'r': 0.22727272727272727, 'p': 0.05106048703849175, 'f': 0.08338678640153944}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5, 'p': 0.09836065573770492, 'f': 0.1643835616438356}, 'rouge-2': {'r': 0.07228915662650602, 'p': 0.014084507042253521, 'f': 0.02357563850687623}, 'rouge-su4': {'r': 0.17418032786885246, 'p': 0.03338570306362922, 'f': 0.05603164139749505}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.5288461538461539, 'p': 0.1288056206088993, 'f': 0.2071563088512241}, 'rouge-2': {'r': 0.1262135922330097, 'p': 0.03051643192488263, 'f': 0.04914933837429111}, 'rouge-su4': {'r': 0.19078947368421054, 'p': 0.04556166535742341, 'f': 0.0735573874445149}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.22727272727272727, 'f': 0.08338678640153944, 'p': 0.05106048703849175}, 'rouge-2': {'r': 0.20618556701030927, 'f': 0.07648183556405354, 'p': 0.046948356807511735}, 'rouge-1': {'r': 0.6326530612244898, 'f': 0.23619047619047623, 'p': 0.1451990632318501}}
+
+
+Anti-redundancy objective value :	0.5719472556765378
+Average Reader attention score objective value :	1.305355471453843e-13
+Average Density based score objective value :	175.09399468843523
+Average Reader attention with tf-idf (RAWT) score objective value :	0.39107542883914836
