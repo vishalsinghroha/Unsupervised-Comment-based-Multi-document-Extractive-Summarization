@@ -1,0 +1,4 @@
+Qu’en pensent les joueurs du Stade Français aujourd’hui.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.05263157894736842, 'p': 0.125, 'f': 0.07407407407407407}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.01020408163265306, 'p': 0.03125, 'f': 0.015384615384615384}}

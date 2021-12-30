@@ -1,0 +1,4 @@
+Jacky Lorenzetti et Thomas Savare, respectivement présidents du Racing et du Stade Français, ont donc bien un point commun : ils ne comprennent toujours rien au rugby.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.10526315789473684, 'p': 0.07407407407407407, 'f': 0.08695652173913043}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.02040816326530612, 'p': 0.0136986301369863, 'f': 0.01639344262295082}}

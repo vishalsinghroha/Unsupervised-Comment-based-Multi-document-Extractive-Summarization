@@ -1,0 +1,4 @@
+Mais l’intérêt général n’a pas sa place dans cette histoire.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.05263157894736842, 'p': 0.1, 'f': 0.06896551724137931}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.01020408163265306, 'p': 0.022727272727272728, 'f': 0.01408450704225352}}

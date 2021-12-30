@@ -1,0 +1,5 @@
+Si on peut parler encore de vision car à part sauver le Stade Français du désengagement financier de son président, je n’y vois aucune autre bonne raison. 
+J.S.
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.15789473684210525, 'p': 0.10714285714285714, 'f': 0.1276595744680851}, 'rouge-2': {'r': 0.0, 'p': 0.0, 'f': 0.0}, 'rouge-su4': {'r': 0.04081632653061224, 'p': 0.02631578947368421, 'f': 0.032}}
