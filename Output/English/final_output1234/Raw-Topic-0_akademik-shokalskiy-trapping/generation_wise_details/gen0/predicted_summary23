@@ -1,0 +1,26 @@
+b"\nAustralia's maritime authority said the Aurora Australis, a vessel designed to break through thick blocks of ice, had come close to the MV Akademik Shokalskiy, a Russian ship that remains stranded after two earlier rescue attempts by other icebreakers failed.\nFrench and Chinese icebreakers have already failed to reach the passengers, who are believed to have several weeks of essential supplies left. The Russian ship is trapped in the Australian search-and-rescue zone of Antarctica, putting the Australian maritime body in charge of the rescue operation.\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nAt about 2pm local time on Tuesday, Greg Mortimer, co-leader of the Australasian Antarctic Expedition (AAE), gave notice of an evacuation to everyone on board the Shokalskiy. Expedition leaders then asked for volunteers among the AAE members to help prepare a landing area for the helicopter from the Chinese icebreaker Xue Long on a suitable ice floe next to the Russian-operated ship.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nEarlier Thursday, it appeared likely the rescue would go ahead, with expedition leader Chris Turney posting a video on his Twitter account, blue sky visible behind him.\n  We must be patient and wait until the adverse weather improves, as poor visibility could lead to tragedy under the current conditions of limited navigation,   he said before the first flight.\nEfforts to rescue the passengers began when the Aurora Australis was diverted from a resupply operation at an Australian Antarctic base. But the ship was unable to break through and risked becoming stuck itself, according to Australian maritime authorities. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6105263157894737, 'p': 0.1457286432160804, 'f': 0.23529411764705885}, 'rouge-2': {'r': 0.1276595744680851, 'p': 0.030226700251889168, 'f': 0.048879837067209775}, 'rouge-su4': {'r': 0.2148014440433213, 'p': 0.050168634064080946, 'f': 0.0813397129186603}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.51, 'p': 0.12814070351758794, 'f': 0.20481927710843373}, 'rouge-2': {'r': 0.13131313131313133, 'p': 0.0327455919395466, 'f': 0.05241935483870967}, 'rouge-su4': {'r': 0.1660958904109589, 'p': 0.040893760539629, 'f': 0.06562922868741541}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6262626262626263, 'p': 0.15577889447236182, 'f': 0.24949698189134809}, 'rouge-2': {'r': 0.15306122448979592, 'p': 0.037783375314861464, 'f': 0.06060606060606061}, 'rouge-su4': {'r': 0.21107266435986158, 'p': 0.05143338954468803, 'f': 0.08271186440677966}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.64, 'p': 0.16080402010050251, 'f': 0.2570281124497992}, 'rouge-2': {'r': 0.25252525252525254, 'p': 0.06297229219143577, 'f': 0.1008064516129032}, 'rouge-su4': {'r': 0.2910958904109589, 'p': 0.07166947723440135, 'f': 0.11502029769959406}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2910958904109589, 'f': 0.11502029769959406, 'p': 0.07166947723440135}, 'rouge-2': {'r': 0.25252525252525254, 'f': 0.1008064516129032, 'p': 0.06297229219143577}, 'rouge-1': {'r': 0.64, 'f': 0.2570281124497992, 'p': 0.16080402010050251}}
+
+
+Anti-redundancy objective value :	0.6247296071625499
+Average Reader attention score objective value :	0.0006108750908305723
+Average Density based score objective value :	115.06053574764259
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6034284709132944

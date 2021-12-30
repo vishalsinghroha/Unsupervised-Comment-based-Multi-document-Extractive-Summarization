@@ -1,0 +1,26 @@
+b'\nFifty-seven people spent Christmas aboard a cruise ship that has become stuck in the ice in a remote region off the coast of Antarctica and rescue vessels are at least two days away, Australian maritime officials told ABC News.\nThe Russian-operated Akademik Shokalskiy, an ice-strengthened vessel built in 1984 for oceanographic research, became stuck in the ice about 1,500 nautical miles from Hobart, Tasmania, and issued a satellite distress call early this morning,  Andrea Hayward-Maher of the Australian Maritime Safety Authority said.\nA first rescue attempt by a Chinese icebreaker, the Snow Dragon, had to be halted because the ice was so thick.\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe passengers were then supposed to be flown 7 miles to the Chinese ship, from where they would be transported 2 miles by barge to the Australian icebreaker. They were then expected to travel to the Australian island state of Tasmania, arriving by mid-January.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage.\nSeventy-four people were on board the Akademik Shokalskiy, which has weeks of supplies and is in no danger of sinking. Most of the 22-member Russian crew are expected to stay behind and wait for the ice to break up naturally.\nThe Shokalskiy has been trapped since 24 December. Its 22 crew are expected to remain on board to wait until the vessel becomes free.\nThe vessel was being used by the Australasian Antarctic Expedition to follow the route explorer Douglas Mawson travelled a century ago.\nOur correspondent says the Russian crew staying behind could be on the Akademik Shokalskiy for weeks before the pack ice clears.\nScientists and tourists on a research ship trapped by Antarctic ice since Christmas Eve have been airlifted to safety. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7157894736842105, 'p': 0.13518886679920478, 'f': 0.2274247491638796}, 'rouge-2': {'r': 0.24468085106382978, 'p': 0.045816733067729085, 'f': 0.07718120805369127}, 'rouge-su4': {'r': 0.29783393501805056, 'p': 0.05496335776149234, 'f': 0.09280089988751405}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.69, 'p': 0.13717693836978131, 'f': 0.22885572139303484}, 'rouge-2': {'r': 0.20202020202020202, 'p': 0.0398406374501992, 'f': 0.06655574043261231}, 'rouge-su4': {'r': 0.2962328767123288, 'p': 0.05762824783477682, 'f': 0.09648633575013943}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.7373737373737373, 'p': 0.14512922465208747, 'f': 0.2425249169435216}, 'rouge-2': {'r': 0.23469387755102042, 'p': 0.045816733067729085, 'f': 0.07666666666666667}, 'rouge-su4': {'r': 0.3166089965397924, 'p': 0.06095936042638241, 'f': 0.10223463687150838}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.61, 'p': 0.12127236580516898, 'f': 0.20232172470978438}, 'rouge-2': {'r': 0.2222222222222222, 'p': 0.043824701195219126, 'f': 0.07321131447587353}, 'rouge-su4': {'r': 0.2363013698630137, 'p': 0.04596935376415723, 'f': 0.0769659788064696}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3166089965397924, 'f': 0.10223463687150838, 'p': 0.06095936042638241}, 'rouge-2': {'r': 0.24468085106382978, 'f': 0.07718120805369127, 'p': 0.045816733067729085}, 'rouge-1': {'r': 0.7373737373737373, 'f': 0.2425249169435216, 'p': 0.14512922465208747}}
+
+
+Anti-redundancy objective value :	0.678368088881674
+Average Reader attention score objective value :	3.256785246617521e-07
+Average Density based score objective value :	102.40860548860199
+Average Reader attention with tf-idf (RAWT) score objective value :	0.5310609426328906

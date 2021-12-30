@@ -1,0 +1,26 @@
+b"\nIt became trapped in the ice on December 24, 100 nautical miles east of the French Antarctic station Dumont D'Urville. The 74 people aboard include scientists and tourists, many of them Australian, and 22 Russian crew.\nFrench and Chinese icebreakers have already failed to reach the passengers, who are believed to have several weeks of essential supplies left. The Russian ship is trapped in the Australian search-and-rescue zone of Antarctica, putting the Australian maritime body in charge of the rescue operation.\nThe research team on board, led by Professor Chris Turney from the University of New South Wales, set out Dec. 8 on a mission to update scientific records on Antarctica made around a century ago by Douglas Mawson, an Australian explorer. Pack ice, solid sheets of ice up to several meters thick, is a major hazard for vessels navigating the harsh Antarctic climate, where temperatures can fall to below minus 100 degrees Fahrenheit.\nPassengers aboard the MV Akademik Shokalskiy, the scientific research vessel that has been stuck in sea ice off the coast of Antarctica since Christmas Day, will be evacuated from the ship by helicopter as soon as the weather has cleared.\nAAE members will be picked up on the ice next to the Shokalskiy and dropped off on a similar landing pad next to the Aurora Australis. The Chinese helicopter that will be used is too heavy to land on the Australian vessel's deck. The Aurora Australis will then sail to the nearest Australian Antarctic base, Casey, before heading back to Hobart in Australia in late January.\n  There's no Mertz glacier tongue to hold back the sea ice that broke out in the past weeks,   said Turney.   Because there's ice in Commonwealth Bay, where we're near, that old ice couldn't go anywhere apart from here. It's unfortunate circumstances.  \nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe latest attempt to rescue passengers on board a research ship that has been trapped in Antarctic ice for more than a week was delayed again Thursday after sea ice prevented a barge from reaching one of the rescue vessels.\nThe Akademik Shokalskiy, which left New Zealand on Nov. 28, got stuck Christmas Eve after a blizzard pushed the sea ice around the ship, freezing it in place about 1,700 miles south of Hobart, Tasmania. The ship isn't in danger of sinking and has weeks' worth of supplies on board, but it cannot move.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage.\nBut, several hours later, Dr. Turney sent another message on Twitter saying,   We  ve made it to the Aurora Australis safe and sound.   The Australian Maritime Safety Agency, which coordinated the rescue, said the crew of the Aurora Australis had confirmed that the 52 passengers were on board. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.7894736842105263, 'p': 0.12479201331114809, 'f': 0.21551724137931033}, 'rouge-2': {'r': 0.26595744680851063, 'p': 0.041666666666666664, 'f': 0.07204610951008644}, 'rouge-su4': {'r': 0.33393501805054154, 'p': 0.05153203342618384, 'f': 0.08928571428571429}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.67, 'p': 0.11148086522462562, 'f': 0.1911554921540656}, 'rouge-2': {'r': 0.18181818181818182, 'p': 0.03, 'f': 0.051502145922746774}, 'rouge-su4': {'r': 0.261986301369863, 'p': 0.04261838440111421, 'f': 0.073310972688069}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.7171717171717171, 'p': 0.11813643926788686, 'f': 0.20285714285714287}, 'rouge-2': {'r': 0.23469387755102042, 'p': 0.03833333333333333, 'f': 0.06590257879656158}, 'rouge-su4': {'r': 0.314878892733564, 'p': 0.050696378830083565, 'f': 0.08733205374280231}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.64, 'p': 0.1064891846921797, 'f': 0.1825962910128388}, 'rouge-2': {'r': 0.21212121212121213, 'p': 0.035, 'f': 0.06008583690987125}, 'rouge-su4': {'r': 0.2636986301369863, 'p': 0.04289693593314763, 'f': 0.07379012937230474}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.33393501805054154, 'f': 0.08928571428571429, 'p': 0.05153203342618384}, 'rouge-2': {'r': 0.26595744680851063, 'f': 0.07204610951008644, 'p': 0.041666666666666664}, 'rouge-1': {'r': 0.7894736842105263, 'f': 0.21551724137931033, 'p': 0.12479201331114809}}
+
+
+Anti-redundancy objective value :	0.6055665912662195
+Average Reader attention score objective value :	3.2757311483835252e-06
+Average Density based score objective value :	145.8780563481803
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6657044826858638

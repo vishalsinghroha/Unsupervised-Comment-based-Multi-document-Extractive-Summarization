@@ -1,0 +1,26 @@
+b'\nThe Akademik Shokalskiy left New Zealand on November 28 on a private expedition to commemorate the 100th anniversary of an Antarctic journey led by Australian explorer Douglas Mawson.\nNow another attempt, by the Aurora Australis, has been hampered by the weather.\nIt has had to return to open waters about 18 nautical miles from the Akademik Shokalskiy because of poor visibility, the Australian Maritime Safety Authority (AMSA), which is co-ordinating the rescue, said.\n"The weather condition is not safe for it to proceed, and it\'s gone back to open water," said AMSA spokeswoman Lisa Martin.\nAustralia\'s maritime authority said the Aurora Australis, a vessel designed to break through thick blocks of ice, had come close to the MV Akademik Shokalskiy, a Russian ship that remains stranded after two earlier rescue attempts by other icebreakers failed.\nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nThe Akademik Shokalskiy, which left New Zealand on Nov. 28, got stuck Christmas Eve after a blizzard pushed the sea ice around the ship, freezing it in place about 1,700 miles south of Hobart, Tasmania. The ship isn\'t in danger of sinking and has weeks\' worth of supplies on board, but it cannot move.\nRescuers in Antarctica have safely transferred all 52 passengers stranded on the ice-bound research vessel Akademik Shokalskiy.\nThe Akademik Shokalskiy is not in danger of sinking, and there are supplies for those on board, but the vessel cannot move.\nThe scientific team on board had been recreating Australian explorer Douglas Mawson\'s 1911 to 1913 voyage to Antarctica. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6736842105263158, 'p': 0.17777777777777778, 'f': 0.2813186813186813}, 'rouge-2': {'r': 0.23404255319148937, 'p': 0.06128133704735376, 'f': 0.09713024282560706}, 'rouge-su4': {'r': 0.26714801444043323, 'p': 0.06902985074626866, 'f': 0.10971089696071164}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.54, 'p': 0.15, 'f': 0.23478260869565215}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.04178272980501393, 'f': 0.06550218340611354}, 'rouge-su4': {'r': 0.17465753424657535, 'p': 0.04757462686567164, 'f': 0.07478005865102641}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6262626262626263, 'p': 0.17222222222222222, 'f': 0.2701525054466231}, 'rouge-2': {'r': 0.21428571428571427, 'p': 0.0584958217270195, 'f': 0.09190371991247265}, 'rouge-su4': {'r': 0.2664359861591695, 'p': 0.07182835820895522, 'f': 0.11315209404849375}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.56, 'p': 0.15555555555555556, 'f': 0.24347826086956523}, 'rouge-2': {'r': 0.15151515151515152, 'p': 0.04178272980501393, 'f': 0.06550218340611354}, 'rouge-su4': {'r': 0.1917808219178082, 'p': 0.05223880597014925, 'f': 0.08211143695014664}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.26714801444043323, 'f': 0.11315209404849375, 'p': 0.07182835820895522}, 'rouge-2': {'r': 0.23404255319148937, 'f': 0.09713024282560706, 'p': 0.06128133704735376}, 'rouge-1': {'r': 0.6736842105263158, 'f': 0.2813186813186813, 'p': 0.17777777777777778}}
+
+
+Anti-redundancy objective value :	0.8233029112953004
+Average Reader attention score objective value :	1.0597869420824419e-07
+Average Density based score objective value :	76.05400061061198
+Average Reader attention with tf-idf (RAWT) score objective value :	0.3531306109416

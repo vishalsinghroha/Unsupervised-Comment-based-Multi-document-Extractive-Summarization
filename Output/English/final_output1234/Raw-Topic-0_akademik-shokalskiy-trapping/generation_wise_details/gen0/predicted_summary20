@@ -1,0 +1,26 @@
+b'\nPassengers are believed to have enough provisions to wait out their rescue. One passenger tweeted that all on board were fine and their   spirits high.  \nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nTurney said the expedition team was disappointed that the Shokalskiy had been unable to break free from the ice with help from the icebreakers and get home under its own steam.\nThe latest attempt to rescue passengers on board a research ship that has been trapped in Antarctic ice for more than a week was delayed again Thursday after sea ice prevented a barge from reaching one of the rescue vessels.\nThe ship had set sail from Bluff, New Zealand, on Dec. 8, embarking on a planned monthlong voyage known as the Australasian Antarctic Expedition to study changes to the environment of East Antarctica since an Australian geologist, Douglas Mawson, surveyed the region a century ago.\nThe BBC\'s Andrew Luck-Baker, who was on board the Akademik Shokalskiy, says the 15-minute one-way flight was a "white-knuckle ride".\nAndrew Luck-Baker says the Aurora Australis, although big, was simply not up to the task and there is speculation two larger vessels may be coming to the area in the weeks to come.\nHowever, before the operation could begin, sea ice had blocked the path of the barge that needed to make it to the Snow Dragon. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5473684210526316, 'p': 0.20717131474103587, 'f': 0.30057803468208094}, 'rouge-2': {'r': 0.09574468085106383, 'p': 0.036, 'f': 0.05232558139534883}, 'rouge-su4': {'r': 0.17328519855595667, 'p': 0.06442953020134229, 'f': 0.09393346379647749}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.43, 'p': 0.17131474103585656, 'f': 0.24501424501424496}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.036, 'f': 0.051575931232091685}, 'rouge-su4': {'r': 0.14554794520547945, 'p': 0.05704697986577181, 'f': 0.08196721311475409}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.494949494949495, 'p': 0.1952191235059761, 'f': 0.28}, 'rouge-2': {'r': 0.08163265306122448, 'p': 0.032, 'f': 0.04597701149425287}, 'rouge-su4': {'r': 0.16262975778546712, 'p': 0.06308724832214765, 'f': 0.09090909090909091}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.46, 'p': 0.18326693227091634, 'f': 0.2621082621082621}, 'rouge-2': {'r': 0.08080808080808081, 'p': 0.032, 'f': 0.045845272206303724}, 'rouge-su4': {'r': 0.1678082191780822, 'p': 0.06577181208053691, 'f': 0.09450337512054002}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.17328519855595667, 'f': 0.09450337512054002, 'p': 0.06577181208053691}, 'rouge-2': {'r': 0.09574468085106383, 'f': 0.05232558139534883, 'p': 0.036}, 'rouge-1': {'r': 0.5473684210526316, 'f': 0.30057803468208094, 'p': 0.20717131474103587}}
+
+
+Anti-redundancy objective value :	0.8155320333143846
+Average Reader attention score objective value :	2.4354676018555815e-06
+Average Density based score objective value :	83.19028288338889
+Average Reader attention with tf-idf (RAWT) score objective value :	0.40033893125913184

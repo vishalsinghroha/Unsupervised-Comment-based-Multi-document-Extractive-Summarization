@@ -1,0 +1,26 @@
+b"\nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nThe Chinese vessel will wait for better weather and visibility before launching the evacuation. On Tuesday morning conditions were not yet suitable, with rain, heavy winds and clouds.\nThe Australian icebreaker, the Aurora Australis, arrived at the edge of the sea ice surrounding the Shokalskiy  C about 20 nautical miles away  C in the early hours of 30 December, local time. It made several attempts to cut through the ice over the next day but was thwarted each time. On Tuesday morning its captain confirmed that the vessel would move to join the Xue Long, which itself unsuccessfully tried to break through the ice on Friday last week, to co-ordinate the air evacuation.\nTurney also responded to speculation from climate sceptics who have taken to social media sites in recent days to attack the scientific consensus on climate change, pointing out the apparent incongruity of there being so much sea ice around the Shokalskiy in the middle of the Antarctic summer.\nThe event is likely to be a result of long-term climate change that is happening in this part of the world. When the 120km-long iceberg, B09B, came through the area a few years ago it knocked the tongue off the nearby Mertz glacier, which itself is 120km long. The iceberg grounded on the sea bed in Commonwealth Bay causing the sea around it to lock up with ice attached to the continent.\n  There's no Mertz glacier tongue to hold back the sea ice that broke out in the past weeks,   said Turney.   Because there's ice in Commonwealth Bay, where we're near, that old ice couldn't go anywhere apart from here. It's unfortunate circumstances.  \nWhen it got stuck last week the Shokalskiy was about two weeks into its month-long journey from Bluff in New Zealand to Commonwealth Bay in East Antarctica, following in the footsteps of the great Antarctic explorer and scientist Douglas Mawson. He led the original AAE of 1911 and the modern incarnation intended to repeat his wildlife, ocean and weather observations in order to build a picture of how this part of the world had changed in the past 100 years.\nThe twin-rotor helicopter, based on a Chinese icebreaker, the Xue Long, or Snow Dragon, flew several sorties across miles of packed ice to pluck scientists, tourists and journalists from a landing zone next to the marooned vessel, the Akademik Shokalskiy.\nThe blue-hulled Russian ship was surrounded by such dense and extensive pack ice that it could not move, and vessels designed to break through ice could not get near. Images from the people being rescued showed them smiling as they walked single file across the ice to a landing area that had been cleared by passengers and crew members to enable the helicopter to touch down. Other images on the Internet showed crew members hauling sleds with luggage.\nThe rescue was closely followed around the world by scientists and others, with journalists on board sending progress reports as the passengers were lifted to safety aboard the Australian icebreaker, the Aurora Australis.\nBut, several hours later, Dr. Turney sent another message on Twitter saying,   We  ve made it to the Aurora Australis safe and sound.   The Australian Maritime Safety Agency, which coordinated the rescue, said the crew of the Aurora Australis had confirmed that the 52 passengers were on board. "
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.6526315789473685, 'p': 0.10580204778156997, 'f': 0.18208516886930984}, 'rouge-2': {'r': 0.18085106382978725, 'p': 0.02905982905982906, 'f': 0.050073637702503684}, 'rouge-su4': {'r': 0.2364620938628159, 'p': 0.03742857142857143, 'f': 0.06462752836704488}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.58, 'p': 0.09897610921501707, 'f': 0.16909620991253643}, 'rouge-2': {'r': 0.10101010101010101, 'p': 0.017094017094017096, 'f': 0.029239766081871343}, 'rouge-su4': {'r': 0.19863013698630136, 'p': 0.03314285714285714, 'f': 0.05680705190989226}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.6262626262626263, 'p': 0.10580204778156997, 'f': 0.181021897810219}, 'rouge-2': {'r': 0.1836734693877551, 'p': 0.03076923076923077, 'f': 0.0527086383601757}, 'rouge-su4': {'r': 0.23875432525951557, 'p': 0.03942857142857143, 'f': 0.06768023540951447}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.69, 'p': 0.11774744027303755, 'f': 0.2011661807580175}, 'rouge-2': {'r': 0.31313131313131315, 'p': 0.05299145299145299, 'f': 0.09064327485380116}, 'rouge-su4': {'r': 0.3253424657534247, 'p': 0.054285714285714284, 'f': 0.09304603330068562}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.3253424657534247, 'f': 0.09304603330068562, 'p': 0.054285714285714284}, 'rouge-2': {'r': 0.31313131313131315, 'f': 0.09064327485380116, 'p': 0.05299145299145299}, 'rouge-1': {'r': 0.69, 'f': 0.2011661807580175, 'p': 0.11774744027303755}}
+
+
+Anti-redundancy objective value :	0.621944540948902
+Average Reader attention score objective value :	3.3896327079355338e-06
+Average Density based score objective value :	143.65643550822753
+Average Reader attention with tf-idf (RAWT) score objective value :	0.6902144951704035

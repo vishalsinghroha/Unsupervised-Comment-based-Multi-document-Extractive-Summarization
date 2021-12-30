@@ -1,0 +1,26 @@
+b'\nIn 1985, the Nella Dan, an Australian research vessel, was trapped for 48 days in the Antarctic. A year later, the Southern Quest, carrying a British expedition, was crushed by ice and sank.\nMore recently, in 2010 icebreakers had to be used to free nearly 1,000 people whose ferry was among dozens of vessels trapped by ice in the Baltic Sea off the coast of Sweden.\nThe Australian icebreaker, the Aurora Australis, arrived at the edge of the sea ice surrounding the Shokalskiy  C about 20 nautical miles away  C in the early hours of 30 December, local time. It made several attempts to cut through the ice over the next day but was thwarted each time. On Tuesday morning its captain confirmed that the vessel would move to join the Xue Long, which itself unsuccessfully tried to break through the ice on Friday last week, to co-ordinate the air evacuation.\nThe latest attempt to rescue passengers on board a research ship that has been trapped in Antarctic ice for more than a week was delayed again Thursday after sea ice prevented a barge from reaching one of the rescue vessels.\n"This rescue is a complex operation involving a number of steps. Operations in Antarctica are all weather and ice dependent and conditions can change rapidly," the agency said in a statement.\nThe ship is to take the rescued passengers to the Australian island state of Tasmania, arriving there in mid-January.\nThe Russian ship, which left New Zealand on November 28, was trying to recreate Australian explorer Douglas Mawson\'s century-old voyage to Antarctica.\nThe passengers were taken to an ice floe next to the Aurora Australis and then ferried on to the ice-breaker by a small boat.\nThe passengers are not expected back in Tasmania until mid-January. '
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.5894736842105263, 'p': 0.18855218855218855, 'f': 0.2857142857142857}, 'rouge-2': {'r': 0.1276595744680851, 'p': 0.04054054054054054, 'f': 0.061538461538461535}, 'rouge-su4': {'r': 0.20577617328519857, 'p': 0.06455266138165346, 'f': 0.0982758620689655}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.47, 'p': 0.15824915824915825, 'f': 0.23677581863979846}, 'rouge-2': {'r': 0.12121212121212122, 'p': 0.04054054054054054, 'f': 0.06075949367088608}, 'rouge-su4': {'r': 0.16267123287671234, 'p': 0.05379388448471121, 'f': 0.08085106382978723}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5050505050505051, 'p': 0.16835016835016836, 'f': 0.25252525252525254}, 'rouge-2': {'r': 0.10204081632653061, 'p': 0.033783783783783786, 'f': 0.05076142131979696}, 'rouge-su4': {'r': 0.1695501730103806, 'p': 0.05549263873159683, 'f': 0.08361774744027303}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.55, 'p': 0.18518518518518517, 'f': 0.2770780856423174}, 'rouge-2': {'r': 0.1717171717171717, 'p': 0.057432432432432436, 'f': 0.08607594936708861}, 'rouge-su4': {'r': 0.2226027397260274, 'p': 0.07361268403171008, 'f': 0.11063829787234042}}
+
+
+average Rouge score : 
+{'rouge-su4': {'r': 0.2226027397260274, 'f': 0.11063829787234042, 'p': 0.07361268403171008}, 'rouge-2': {'r': 0.1717171717171717, 'f': 0.08607594936708861, 'p': 0.057432432432432436}, 'rouge-1': {'r': 0.5894736842105263, 'f': 0.2857142857142857, 'p': 0.18855218855218855}}
+
+
+Anti-redundancy objective value :	0.7462877151617273
+Average Reader attention score objective value :	0.0002486373345118776
+Average Density based score objective value :	97.31451909321918
+Average Reader attention with tf-idf (RAWT) score objective value :	0.40803272008400937
