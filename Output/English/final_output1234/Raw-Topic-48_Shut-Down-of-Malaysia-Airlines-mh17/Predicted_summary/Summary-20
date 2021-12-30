@@ -1,0 +1,16 @@
+b'But Russian President Vladimir Putin blamed the Ukraine government for restarting military operations in the area, where it is trying to regain control from pro-Russian rebels. \nA subsequent White House statement said it was "critical that there be a full, credible and unimpeded international investigation as quickly as possible". \nIn April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft." \nThe Malaysian government has helped the largely unprofitable airline before, though its previous efforts seemed only to provide temporary respite.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.38, 'p': 0.33043478260869563, 'f': 0.3534883720930232}, 'rouge-2': {'r': 0.1414141414141414, 'p': 0.12280701754385964, 'f': 0.13145539906103287}, 'rouge-su4': {'r': 0.1660958904109589, 'p': 0.14391691394658754, 'f': 0.15421303656597773}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.30612244897959184, 'p': 0.2608695652173913, 'f': 0.2816901408450705}, 'rouge-2': {'r': 0.061855670103092786, 'p': 0.05263157894736842, 'f': 0.05687203791469194}, 'rouge-su4': {'r': 0.10839160839160839, 'p': 0.09198813056379822, 'f': 0.09951845906902086}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.5, 'p': 0.3652173913043478, 'f': 0.4221105527638191}, 'rouge-2': {'r': 0.25301204819277107, 'p': 0.18421052631578946, 'f': 0.2131979695431472}, 'rouge-su4': {'r': 0.2725409836065574, 'p': 0.19732937685459942, 'f': 0.2289156626506024}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.27884615384615385, 'p': 0.25217391304347825, 'f': 0.2648401826484018}, 'rouge-2': {'r': 0.019417475728155338, 'p': 0.017543859649122806, 'f': 0.018433179723502304}, 'rouge-su4': {'r': 0.0756578947368421, 'p': 0.06824925816023739, 'f': 0.07176287051482058}}

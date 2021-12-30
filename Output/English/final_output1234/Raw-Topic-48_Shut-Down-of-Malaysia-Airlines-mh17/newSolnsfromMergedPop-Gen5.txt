@@ -1,0 +1,1 @@
+b'new and repeated solutions generated in this generation-0  ---- 15 --- 10\nnew and repeated solutions generated in this generation-1  ---- 8 --- 17\nnew and repeated solutions generated in this generation-2  ---- 8 --- 17\nnew and repeated solutions generated in this generation-3  ---- 6 --- 19\nnew and repeated solutions generated in this generation-4  ---- 9 --- 16\n'

@@ -1,0 +1,16 @@
+b'Malaysia Airlines Flight 17 was downed over eastern Ukraine on Thursday with 298 people aboard by what American intelligence authorities believe was a surface-to-air missile. Just four months earlier, a Malaysia Airlines jetliner carrying 239 people disappeared about an hour after taking off from Kuala Lumpur. The jet has still not been found, a source of profound unease for travelers and the aviation industry. \nFor air travelers in Asia, who have a multitude of options thanks to a budget airline boom, the latest incident will make the Malaysian carrier even less attractive. Its brand in the rest of the world, where it became known largely because of the Flight 370 mystery, is now even more closely associated with the worst fears of fliers.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.37, 'p': 0.3008130081300813, 'f': 0.33183856502242154}, 'rouge-2': {'r': 0.09090909090909091, 'p': 0.07377049180327869, 'f': 0.08144796380090498}, 'rouge-su4': {'r': 0.11815068493150685, 'p': 0.09556786703601108, 'f': 0.10566615620214395}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.4897959183673469, 'p': 0.3902439024390244, 'f': 0.4343891402714932}, 'rouge-2': {'r': 0.16494845360824742, 'p': 0.13114754098360656, 'f': 0.14611872146118723}, 'rouge-su4': {'r': 0.18181818181818182, 'p': 0.1440443213296399, 'f': 0.160741885625966}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.22764227642276422, 'f': 0.2705314009661836}, 'rouge-2': {'r': 0.060240963855421686, 'p': 0.040983606557377046, 'f': 0.04878048780487805}, 'rouge-su4': {'r': 0.09836065573770492, 'p': 0.0664819944598338, 'f': 0.0793388429752066}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.38461538461538464, 'p': 0.3252032520325203, 'f': 0.3524229074889868}, 'rouge-2': {'r': 0.07766990291262135, 'p': 0.06557377049180328, 'f': 0.07111111111111111}, 'rouge-su4': {'r': 0.11677631578947369, 'p': 0.09833795013850416, 'f': 0.1067669172932331}}

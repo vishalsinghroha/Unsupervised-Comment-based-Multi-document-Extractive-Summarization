@@ -1,0 +1,16 @@
+b'In April, the Federal Aviation Administration ordered U.S. airlines to avoid airspace over Crimea, the Black Sea and the Sea of Azov. It said the region posed the "potential for conflicting air traffic control instructions from Ukrainian and Russian authorities" and the "misidentification of civil aircraft." \nBoeing\'s twin-engine 777 boasts an excellent safety record and is among the most sophisticated airliners flying today. Its capacity is between 300 and 450 passengers and a range of about 5,700 miles. \nFinancial troubles \nAnalysts said it may take a government rescue to save the company from financial disaster. \nThe Malaysian government has helped the largely unprofitable airline before, though its previous efforts seemed only to provide temporary respite. \n"I was stunned," said 48-year-old shopkeeper Reezal Mohamed. "It\'s unbelievable."'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.28, 'p': 0.224, 'f': 0.24888888888888894}, 'rouge-2': {'r': 0.04040404040404041, 'p': 0.03225806451612903, 'f': 0.0358744394618834}, 'rouge-su4': {'r': 0.0839041095890411, 'p': 0.0667574931880109, 'f': 0.07435508345978756}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.24489795918367346, 'p': 0.192, 'f': 0.21524663677130043}, 'rouge-2': {'r': 0.020618556701030927, 'p': 0.016129032258064516, 'f': 0.01809954751131222}, 'rouge-su4': {'r': 0.05944055944055944, 'p': 0.04632152588555858, 'f': 0.052067381316998465}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3333333333333333, 'p': 0.224, 'f': 0.26794258373205737}, 'rouge-2': {'r': 0.024096385542168676, 'p': 0.016129032258064516, 'f': 0.01932367149758454}, 'rouge-su4': {'r': 0.10655737704918032, 'p': 0.07084468664850137, 'f': 0.0851063829787234}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.25961538461538464, 'p': 0.216, 'f': 0.23580786026200873}, 'rouge-2': {'r': 0.019417475728155338, 'p': 0.016129032258064516, 'f': 0.017621145374449337}, 'rouge-su4': {'r': 0.07072368421052631, 'p': 0.05858310626702997, 'f': 0.06408345752608048}}

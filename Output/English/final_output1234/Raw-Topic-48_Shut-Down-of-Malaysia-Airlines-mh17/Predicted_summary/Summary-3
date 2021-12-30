@@ -1,0 +1,16 @@
+b'It is the second disaster suffered by Malaysia Airlines this year. Flight MH370 disappeared en route from Malaysia to China in March and has still not been found. \n\'Swift justice\' \nUkraine has accused Russia\'s military of supplying advanced missiles to the rebels. \nGrek: "How are things going there?" \nJohn Alder and Liam Sweeney, who were understood to have been travelling to New Zealand to watch Newcastle United\'s pre-season tour of the country \nThere were also passengers from Germany, Belgium, the Philippines and Canada, the airline has said.'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.2, 'p': 0.22988505747126436, 'f': 0.21390374331550802}, 'rouge-2': {'r': 0.010101010101010102, 'p': 0.011627906976744186, 'f': 0.01081081081081081}, 'rouge-su4': {'r': 0.0547945205479452, 'p': 0.06324110671936758, 'f': 0.058715596330275226}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.2653061224489796, 'p': 0.2988505747126437, 'f': 0.28108108108108115}, 'rouge-2': {'r': 0.09278350515463918, 'p': 0.10465116279069768, 'f': 0.09836065573770492}, 'rouge-su4': {'r': 0.11188811188811189, 'p': 0.12648221343873517, 'f': 0.11873840445269017}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.2857142857142857, 'p': 0.27586206896551724, 'f': 0.28070175438596495}, 'rouge-2': {'r': 0.03614457831325301, 'p': 0.03488372093023256, 'f': 0.03550295857988166}, 'rouge-su4': {'r': 0.0860655737704918, 'p': 0.08300395256916997, 'f': 0.08450704225352113}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.2692307692307692, 'p': 0.3218390804597701, 'f': 0.29319371727748694}, 'rouge-2': {'r': 0.04854368932038835, 'p': 0.05813953488372093, 'f': 0.052910052910052914}, 'rouge-su4': {'r': 0.0805921052631579, 'p': 0.09683794466403162, 'f': 0.08797127468581688}}
