@@ -1,0 +1,16 @@
+b'It has had to return to open waters about 18 nautical miles from the Akademik Shokalskiy because of poor visibility, the Australian Maritime Safety Authority (AMSA), which is co-ordinating the rescue, said. \nPassengers aboard the MV Akademik Shokalskiy, the scientific research vessel that has been stuck in sea ice off the coast of Antarctica since Christmas Day, will be evacuated from the ship by helicopter as soon as the weather has cleared. \n"This rescue is a complex operation involving a number of steps. Operations in Antarctica are all weather and ice dependent and conditions can change rapidly," the agency said in a statement. \n"A stunning day," he said on the video. "Hopefully we\'ll hear about the evacuation soon."'
+
+Rouge score with annotator1 : 
+{'rouge-1': {'r': 0.42105263157894735, 'p': 0.3389830508474576, 'f': 0.3755868544600938}, 'rouge-2': {'r': 0.06382978723404255, 'p': 0.05128205128205128, 'f': 0.05687203791469194}, 'rouge-su4': {'r': 0.12815884476534295, 'p': 0.10260115606936417, 'f': 0.11396468699839486}}
+
+
+Rouge score with annotator2 : 
+{'rouge-1': {'r': 0.36, 'p': 0.3050847457627119, 'f': 0.3302752293577982}, 'rouge-2': {'r': 0.050505050505050504, 'p': 0.042735042735042736, 'f': 0.046296296296296294}, 'rouge-su4': {'r': 0.10616438356164383, 'p': 0.08959537572254335, 'f': 0.09717868338557993}}
+
+
+Rouge score with annotator3 : 
+{'rouge-1': {'r': 0.3939393939393939, 'p': 0.3305084745762712, 'f': 0.3594470046082949}, 'rouge-2': {'r': 0.061224489795918366, 'p': 0.05128205128205128, 'f': 0.05581395348837209}, 'rouge-su4': {'r': 0.11245674740484429, 'p': 0.09393063583815028, 'f': 0.10236220472440945}}
+
+
+Rouge score with annotator4 : 
+{'rouge-1': {'r': 0.36, 'p': 0.3050847457627119, 'f': 0.3302752293577982}, 'rouge-2': {'r': 0.04040404040404041, 'p': 0.03418803418803419, 'f': 0.03703703703703704}, 'rouge-su4': {'r': 0.10787671232876712, 'p': 0.09104046242774566, 'f': 0.09874608150470221}}
